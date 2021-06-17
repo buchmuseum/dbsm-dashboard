@@ -1,0 +1,1436 @@
+id;ort;count;location;lat;lon
+0;Berlin;4620;Berlin, 10117, Deutschland;52.5170365;13.3888599
+1;Leipzig;2634;Leipzig, Sachsen, Deutschland;51.3406321;12.3747329
+2;Wien;1274;Wien, Österreich;48.2083537;16.3725042
+3;Hamburg;744;Hamburg, Deutschland;53.550341;10.000654
+4;Stuttgart;657;Stuttgart, Baden-Württemberg, Deutschland;48.7784485;9.1800132
+5;München;490;München, Bayern, Deutschland;48.1371079;11.5753822
+6;Dresden;372;Dresden, Sachsen, Deutschland;51.0493286;13.7381437
+7;Breslau;298;Wrocław, powiat wrocławski, województwo dolnośląskie, Polska;51.1263106;16.97819633051261
+8;Frankfurt am Main;258;Frankfurt am Main, Hessen, Deutschland;50.1106444;8.6820917
+9;Prag;208;Hlavní město Praha, Praha, Česko;50.0874654;14.4212535
+10;Bremen;200;Bremen, Deutschland;53.0758196;8.8071646
+11;Zürich;192;Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra;47.3744489;8.5410422
+12;Köln;183;Köln, Nordrhein-Westfalen, Deutschland;50.938361;6.959974
+13;Paris;174;Paris, Île-de-France, France métropolitaine, France;48.8566969;2.3514616
+14;Halle (Saale);171;Halle (Saale), Sachsen-Anhalt, Deutschland;51.4825041;11.9705452
+15;Nürnberg;164;Nürnberg, Bayern, Deutschland;49.453872;11.077298
+16;Hannover;147;Hannover, Region Hannover, Niedersachsen, Deutschland;52.3744779;9.7385532
+17;Düsseldorf;142;Düsseldorf, Nordrhein-Westfalen, Deutschland;51.2254018;6.7763137
+18;Braunschweig;126;Braunschweig, Niedersachsen, Deutschland;52.2646577;10.5236066
+19;Brüssel;126;Ville de Bruxelles - Stad Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, België / Belgique / Belgien;50.8465573;4.351697
+20;Karlsruhe;123;Karlsruhe, Baden-Württemberg, Deutschland;49.0068705;8.4034195
+21;Basel;120;Basel, Basel-Stadt, Schweiz/Suisse/Svizzera/Svizra;47.5581077;7.5878261
+22;Augsburg;110;Augsburg, Bayern, Deutschland;48.3668041;10.8986971
+23;Wiesbaden;108;Wiesbaden, Hessen, Deutschland;50.0820384;8.2416556
+24;Magdeburg;103;Magdeburg, Sachsen-Anhalt, Deutschland;52.1315889;11.6399609
+25;Bern;102;Bern, Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra;46.9482713;7.4514512
+26;Gotha;92;Gotha, Landkreis Gotha, Thüringen, Deutschland;50.9494849;10.7014435
+27;Königsberg;90;Калининград, городской округ Калининград, Калининградская область, Северо-Западный федеральный округ, Россия;54.710128;20.5105838
+28;Straßburg;90;Strasbourg, Bas-Rhin, Grand Est, France métropolitaine, France;48.584614;7.7507127
+29;Darmstadt;89;Darmstadt, Hessen, Deutschland;49.872775;8.651177
+30;Bonn;86;Bonn, Nordrhein-Westfalen, Deutschland;50.735851;7.10066
+31;Budapest;86;Budapest, Közép-Magyarország, Magyarország;47.4983815;19.0404707
+32;Freiburg im Breisgau;85;Freiburg im Breisgau, Baden-Württemberg, Deutschland;47.9960901;7.8494005
+33;Mainz;83;Mainz, Rheinland-Pfalz, Deutschland;50.0012314;8.2762513
+34;Würzburg;83;Würzburg, Bayern, Deutschland;49.79245;9.932966
+35;London;80;London, Greater London, England, United Kingdom;51.5073219;-0.1276474
+36;Riga;79;Rīga, Vidzeme, Latvija;56.9493977;24.1051846
+37;Sankt Petersburg;79;Санкт-Петербург, Северо-Западный федеральный округ, 190000, Россия;59.938732;30.316229
+38;Kassel;74;Kassel, Niestetal, Hessen, Deutschland;51.3154546;9.4924096
+39;Pest;73;Le Pest, A Borde Grande, Sainte-Anne, Condom, Gers, Occitanie, France métropolitaine, 32430, France;43.7445765;0.979047
+40;Graz;73;Graz, Steiermark, Österreich;47.0708678;15.4382786
+41;Kopenhagen;73;København, Københavns Kommune, Region Hovedstaden, 1357, Danmark;55.6867243;12.5700724
+42;Erfurt;72;Erfurt, Thüringen, Deutschland;50.9777974;11.0287364
+43;Heidelberg;71;Heidelberg, Baden-Württemberg, Deutschland;49.4093582;8.694724
+44;Chemnitz;70;Chemnitz, Sachsen, Deutschland;50.8322608;12.9252977
+45;Stettin;69;Szczecin, województwo zachodniopomorskie, Polska;53.4301818;14.5509623
+46;Elberfeld;67;Elberfeld, Gemarkung Elberfeld, Wuppertal, Nordrhein-Westfalen, 42103, Deutschland;51.2573333;7.1458183
+47;Warschau;65;Warszawa, województwo mazowieckie, Polska;52.2319581;21.0067249
+48;Amsterdam;64;Amsterdam, Noord-Holland, Nederland;52.3727598;4.8936041
+49;Gera;61;Gera, Thüringen, Deutschland;50.8772301;12.0796208
+50;Mannheim;59;Mannheim, Baden-Württemberg, Deutschland;49.4892913;8.4673098
+51;Jena;59;Jena, Thüringen, Deutschland;50.9281717;11.5879359
+52;Görlitz;58;Görlitz, Sachsen, Deutschland;51.1563185;14.991018
+53;Regensburg;56;Regensburg, Bayern, Deutschland;49.0195333;12.0974869
+54;Altona;56;Altona, Hamburg, Deutschland;53.58646755;9.777669726868917
+55;Münster (Westf);55;Münster (Westf) Hauptbahnhof, Hamburger Straße, Bahnhof, Innenstadtring, Münster-Mitte, Münster, Nordrhein-Westfalen, 48143, Deutschland;51.9564055;7.635792
+56;Weimar;54;Weimar, Thüringen, Deutschland;50.9810486;11.3296637
+57;Aachen;53;Aachen, Städteregion Aachen, Nordrhein-Westfalen, Deutschland;50.776351;6.083862
+58;New York, NY;52;New York, United States;40.7127281;-74.0060152
+59;Barmen;51;Barmen, Gemarkung Barmen, Wuppertal, Nordrhein-Westfalen, 42275, Deutschland;51.2716035;7.2003449
+60;Lübeck;51;Lübeck, Markt, Innenstadt, Lübeck, Schleswig-Holstein, 23552, Deutschland;53.866444;10.684738
+61;Kiel;51;Kiel, Schleswig-Holstein, Deutschland;54.3227085;10.135555
+62;Danzig;50;Gdańsk, powiat gdański, województwo pomorskie, Polska;54.36143405;18.62821847557274
+63;Posen;49;Poznań, powiat poznański, województwo wielkopolskie, Polska;52.4006632;16.91973259178088
+64;Göttingen;48;Göttingen, Landkreis Göttingen, Niedersachsen, Deutschland;51.5328328;9.9351811
+65;Potsdam;46;Potsdam, Brandenburg, Deutschland;52.4009309;13.0591397
+66;Zwickau;46;Zwickau, Langenweißbach, Zwickau, Sachsen, 08134, Deutschland;50.7185043;12.4939267
+67;Heilbronn;45;Heilbronn, Baden-Württemberg, Deutschland;49.142291;9.218655
+68;Meißen;44;Meißen, Sachsen, Deutschland;51.1630871;13.4704939
+69;Triest;44;Trieste, UTI Giuliana / Julijska MTU, Friuli Venezia Giulia, Italia;45.6504806;13.7931263
+70;Altenburg;43;Altenburg, Altenburger Land, Thüringen, 04600, Deutschland;50.9852411;12.4340988
+71;Bamberg;43;Bamberg, Bayern, Deutschland;49.8916044;10.8868478
+72;Frankfurt (Oder);43;Frankfurt (Oder), Brandenburg, Deutschland;52.3412273;14.549452
+73;Reutlingen;42;Reutlingen, Landkreis Reutlingen, Baden-Württemberg, Deutschland;48.4919508;9.2114144
+74;Gießen;42;Gießen, Landkreis Gießen, Hessen, Deutschland;50.5862066;8.6742306
+75;Brünn;41;Brno, okres Brno-město, Jihomoravský kraj, Jihovýchod, Česko;49.1922443;16.6113382
+76;Stockholm;41;Stockholm, Stockholms kommun, Stockholms län, 111 29, Sverige;59.3251172;18.0710935
+77;Sankt Gallen;41;St. Gallen, Wahlkreis St. Gallen, Sankt Gallen, Schweiz/Suisse/Svizzera/Svizra;47.4250593;9.3765878
+78;Ulm;41;Ulm, Baden-Württemberg, Deutschland;48.3974003;9.9934336
+79;Tübingen;38;Tübingen, Landkreis Tübingen, Baden-Württemberg, Deutschland;48.5236164;9.0535531
+80;Bukarest;38;Municipiul București, România;44.4361414;26.1027202
+81;Dortmund;38;Dortmund, Nordrhein-Westfalen, Deutschland;51.5142273;7.4652789
+82;Lemberg;38;Львів, Львівська міська громада, Львівський район, Львівська область, Україна;49.841952;24.0315921
+83;Trier;36;Trier, Rheinland-Pfalz, Deutschland;49.7596208;6.6441878
+84;Koblenz;36;Koblenz, Rheinland-Pfalz, Deutschland;50.3533278;7.5943951
+85;Essen;34;Essen, Nordrhein-Westfalen, Deutschland;51.4582235;7.0158171
+86;Salzburg;34;Salzburg, 5020, Österreich;47.7981346;13.0464806
+87;Tartu;34;Tartu linn, Tartu maakond, Eesti;58.3801207;26.72245
+88;Zittau;34;Zittau, Görlitz, Sachsen, Deutschland;50.8959142;14.8064417
+89;Paderborn;34;Paderborn, Kreis Paderborn, Nordrhein-Westfalen, Deutschland;51.71895955;8.764869778177559
+90;Krefeld;33;Krefeld, Nordrhein-Westfalen, Deutschland;51.3331205;6.5623343
+91;Dessau;33;Dessau, Sachsen-Anhalt, 06844, Deutschland;51.8346801;12.2468705
+92;Hildesheim;33;Hildesheim, Landkreis Hildesheim, Niedersachsen, Deutschland;52.1521636;9.9513046
+93;Genf;32;Genève, Grand Genève, Genève, Schweiz/Suisse/Svizzera/Svizra;46.2017559;6.1466014
+94;Rostock;32;Rostock, Mecklenburg-Vorpommern, Deutschland;54.0924445;12.1286127
+95;Freiberg;31;Freiburg im Breisgau, Baden-Württemberg, Deutschland;47.9960901;7.8494005
+96;Schwerin;30;Schwerin, Mecklenburg-Vorpommern, Deutschland;53.6288297;11.4148038
+97;Linz;30;Linz, Oberösterreich, Österreich;48.3059078;14.286198
+98;Halberstadt;30;Halberstadt, Landkreis Harz, Sachsen-Anhalt, Deutschland;51.8953514;11.0520563
+99;Erlangen;29;Erlangen, Bayern, Deutschland;49.5981187;11.003645
+100;Luzern;29;Luzern, Schweiz/Suisse/Svizzera/Svizra;47.0505452;8.3054682
+101;Kristiania;29;Oslo, Norge;59.9133301;10.7389701
+102;Winterthur;29;Winterthur, Bezirk Winterthur, Zürich, Schweiz/Suisse/Svizzera/Svizra;47.4991723;8.7291498
+103;Wesel;28;Wesel, Kreis Wesel, Nordrhein-Westfalen, Deutschland;51.6576909;6.617087
+104;Zagreb;28;Zagreb, Grad Zagreb, 10000, Hrvatska;45.8131847;15.9771774
+105;Dresden-Altstadt;28;Dresden-Altstadt, A 4, Mobschatz, Dresden, Sachsen, 01156, Deutschland;51.0715337;13.6523555
+106;Bromberg;28;Bydgoszcz, powiat bydgoski, województwo kujawsko-pomorskie, Polska;53.12974625;18.029369658534854
+107;Liegnitz;28;Legnica, gmina Kunice, powiat legnicki, województwo dolnośląskie, Polska;51.204768900000005;16.174675034638256
+108;Nordhausen;28;Nordhausen, Landkreis Nordhausen, Thüringen, 99734, Deutschland;51.5051574;10.7925317
+109;Elbing;28;Elbląg, powiat elbląski, województwo warmińsko-mazurskie, 82-300, Polska;54.1988997;19.44108568736702
+110;Schleswig;28;Schleswig, Schleswig-Flensburg, Schleswig-Holstein, 24837, Deutschland;54.51851;9.5653284
+111;Metz;27;Metz, Moselle, Grand Est, France métropolitaine, France;49.1196964;6.1763552
+112;Stralsund;27;Stralsund, Vorpommern-Rügen, Mecklenburg-Vorpommern, Deutschland;54.3096314;13.0820846
+113;Schaffhausen;27;Schaffhausen, Schweiz/Suisse/Svizzera/Svizra;47.6960491;8.634513
+114;Naumburg (Saale);27;Naumburg (Saale), Burgenlandkreis, Sachsen-Anhalt, Deutschland;51.1525648;11.8099186
+115;Plauen;27;Plauen, Vogtlandkreis, Sachsen, Deutschland;50.4950632;12.1346523
+116;Charlottenburg;26;Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland;52.515747;13.3096834
+117;Lausanne;26;Lausanne, District de Lausanne, Vaud, Schweiz/Suisse/Svizzera/Svizra;46.5218269;6.6327025
+118;Bautzen;25;Bautzen - Budyšin, Bautzen, Sachsen, 02625, Deutschland;51.1813907;14.4275735
+119;Schwäbisch Gmünd;25;Schwäbisch Gmünd, Verwaltungsgemeinschaft Schwäbisch Gmünd, Ostalbkreis, Baden-Württemberg, Deutschland;48.7999036;9.7977584
+120;Landshut;25;Landshut, Bayern, Deutschland;48.536217;12.1516551
+121;Pforzheim;25;Pforzheim, Baden-Württemberg, Deutschland;48.8908846;8.7029532
+122;Den Haag;25;Den Haag, Zuid-Holland, Nederland;52.0799838;4.3113461
+123;Kempten (Allgäu);25;Kempten (Allgäu), Bayern, Deutschland;47.7267063;10.3168835
+124;Neisse;25;Nysa, gmina Nysa, powiat nyski, województwo opolskie, Polska;50.4738029;17.3324733
+125;Oldenburg (Oldenburg);25;Öldenberg, Niederthalheim, Bezirk Vöcklabruck, Oberösterreich, 4692, Österreich;48.1090631;13.7146113
+126;Głogów;25;Głogów, gmina Głogów, powiat głogowski, województwo dolnośląskie, 67-200, Polska;51.67019285;16.06140366346836
+127;Mailand;24;Milano, Lombardia, Italia;45.4668;9.1905
+128;Worms;24;Worms, Rheinland-Pfalz, Deutschland;49.6302618;8.3620898
+129;Reval;24;Tallinn, Harju maakond, Eesti;59.4372155;24.7453688
+130;Coburg;24;Coburg, Bayern, 96450, Deutschland;50.258112;10.964463
+131;Olmütz;23;Olomouc, okres Olomouc, Olomoucký kraj, Střední Morava, Česko;49.5940567;17.251143
+132;Turin;23;Torino, Piemonte, Italia;45.0677551;7.6824892
+133;Hildburghausen;23;Hildburghausen, Landkreis Hildburghausen, Thüringen, Deutschland;50.4266785;10.7296992
+134;Osnabrück;22;Osnabrück, Niedersachsen, Deutschland;52.266837;8.049741
+135;Cottbus;22;Cottbus - Chóśebuz, Brandenburg, Deutschland;51.7567447;14.3357307
+136;Neuruppin;22;Neuruppin, Ostprignitz-Ruppin, Brandenburg, Deutschland;52.9243859;12.8092919
+137;Bielefeld;21;Bielefeld, Nordrhein-Westfalen, Deutschland;52.0191005;8.531007
+138;Leipzig-Reudnitz;21;Reudnitz, Reudnitz-Thonberg, Südost, Leipzig, Sachsen, 04317, Deutschland;51.335919;12.3995116
+139;Chur;21;Chur, Plessur, Graubünden/Grischun/Grigioni, Schweiz/Suisse/Svizzera/Svizra;46.855515;9.5254066
+140;Rendsburg;21;Rendsburg, Rendsburg-Eckernförde, Schleswig-Holstein, 24768, Deutschland;54.3046701;9.6645115
+141;Moskau;21;Москва, Центральный федеральный округ, Россия;55.7504461;37.6174943
+142;München-Gladbach;21;;;
+143;Marburg;21;Marburg, Landkreis Marburg-Biedenkopf, Hessen, Deutschland;50.8117327;8.7757742
+144;Utrecht;21;Utrecht, Nederland;52.080985600000005;5.12768396945229
+145;Sondershausen;20;Sondershausen, Kyffhäuserland, Kyffhäuserkreis, Thüringen, 99707, Deutschland;51.3666041;10.8668419
+146;Bernburg (Saale);20;Bernburg, Salzlandkreis, Sachsen-Anhalt, 06406, Deutschland;51.7930788;11.7391606
+147;Brandenburg an der Havel;20;Brandenburg an der Havel, Brandenburg, Deutschland;52.4108261;12.5497933
+148;Hamm (Westf);20;Hamm (Westf) Hbf, Willy-Brandt-Platz, Hamm, Nordrhein-Westfalen, 59065, Deutschland;51.6785747;7.807713
+149;Greifswald;20;Greifswald, Vorpommern-Greifswald, Mecklenburg-Vorpommern, Deutschland;54.095791;13.3815238
+150;Preßburg;20;Bratislava, Bratislavský kraj, Slovensko;48.1516988;17.1093063
+151;Rotterdam;20;Rotterdam, 1207, Weena, CS-Kwartier, Centrum, Rotterdam, Zuid-Holland, Nederland, 3013AL, Nederland;51.9228934;4.4631786
+152;Bochum;20;Bochum, Nordrhein-Westfalen, Deutschland;51.4818111;7.2196635
+153;Hermannstadt;20;Sibiu, România;45.7973912;24.1519202
+154;Passau;20;Passau, Bayern, Deutschland;48.5748229;13.4609744
+155;Bad Langensalza;20;Bad Langensalza, Unstrut-Hainich-Kreis, Thüringen, 99947, Deutschland;51.1082267;10.6464452
+156;Hof (Saale);20;Saale, Blankenstein, Blankenberg, Rosenthal am Rennsteig, Lichtenberg, Saale-Orla-Kreis, Thüringen, 07366, Deutschland;50.40560945;11.706165516733092
+157;Kaiserslautern;19;Kaiserslautern, Rheinland-Pfalz, Deutschland;49.4432174;7.7689951
+158;Goslar;19;Goslar, Landkreis Goslar, Niedersachsen, Deutschland;51.9059936;10.4266284
+159;Ravensburg;19;Ravensburg, Verwaltungsverband Mittleres Schussental, Landkreis Ravensburg, Baden-Württemberg, Deutschland;47.7811014;9.612468
+160;Speyer;19;Speyer, Rheinland-Pfalz, 67346, Deutschland;49.3165553;8.433615
+161;Döbeln;19;Döbeln, Mittelsachsen, Sachsen, 04720, Deutschland;51.1167001;13.1166999
+162;Rom;19;Roma, Roma Capitale, Lazio, Italia;41.8989553;12.4730842
+163;Solothurn;18;Solothurn, Schweiz/Suisse/Svizzera/Svizra;47.31874;7.6698284
+164;Krakau;18;Kraków, województwo małopolskie, Polska;50.0469432;19.997153435836697
+165;Wismar;18;Wismar, Nordwestmecklenburg, Mecklenburg-Vorpommern, Deutschland;53.8909832;11.4647932
+166;Świdnica;18;Świdnica, powiat świdnicki, województwo dolnośląskie, Polska;50.8424835;16.4870549
+167;Tilsit;18;Советск, Советский городской округ, Калининградская область, Северо-Западный федеральный округ, Россия;55.0809688;21.8882673
+168;Duisburg;18;Duisburg, Nordrhein-Westfalen, Deutschland;51.434999;6.759562
+169;Mülheim an der Ruhr;18;Mülheim an der Ruhr, Nordrhein-Westfalen, Deutschland;51.4272925;6.8829192
+170;Flensburg;18;Flensburg, Schleswig-Holstein, Deutschland;54.7833021;9.4333264
+171;Neustadt- Haardt an der Weinstraße;18;Haardt an der Weinstraße, Neustadt an der Weinstraße, Rheinland-Pfalz, Deutschland;49.3662836;8.135344826337546
+172;Köthen (Anhalt);18;Köthen (Anhalt), Anhalt-Bitterfeld, Sachsen-Anhalt, 06366, Deutschland;51.7500048;11.9666985
+173;Quedlinburg;18;Quedlinburg, Landkreis Harz, Sachsen-Anhalt, Deutschland;51.7855428;11.1519933
+174;Żary;17;Żary, gmina Żary, powiat żarski, województwo lubuskie, Polska;51.62443815;15.148724672498012
+175;Aarau;17;Aarau, Bezirk Aarau, Aargau, 5000, Schweiz/Suisse/Svizzera/Svizra;47.3927146;8.0444448
+176;Innsbruck;17;Innsbruck, Tirol, Österreich;47.2654296;11.3927685
+177;Saarbrücken;17;Saarbrücken, Regionalverband Saarbrücken, Saarland, Deutschland;49.234362;6.996379
+178;Jelgava;17;Jelgava, Zemgale, Latvija;56.6514394;23.7339143
+179;Ansbach;17;Ansbach, Bayern, 91522, Deutschland;49.3028611;10.5722288
+180;Temesvár;17;Timișoara, Timiș, România;45.7538355;21.2257474
+181;Konstanz;17;Konstanz, Verwaltungsgemeinschaft Konstanz, Landkreis Konstanz, Baden-Württemberg, Deutschland;47.659216;9.1750718
+182;Lissa;17;Leszno, powiat leszczyński, województwo wielkopolskie, Polska;51.8436068;16.58042182076424
+183;Wittenberg;17;Wittenberg, Sachsen-Anhalt, Deutschland;51.8666527;12.646761
+184;Bad Kreuznach;17;Bad Kreuznach, Landkreis Bad Kreuznach, Rheinland-Pfalz, Deutschland;49.8431642;7.8657658
+185;Gleiwitz;17;Gliwice, powiat gliwicki, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska;50.30113145;18.662347227971978
+186;Fürth;17;Fürth, Bayern, Deutschland;49.477263;10.989616
+187;Eisenach;17;Eisenach, Wutha-Farnroda, Thüringen, 99848, Deutschland;50.9747134;10.3193565
+188;Thorn;17;Toruń, powiat toruński, województwo kujawsko-pomorskie, Polska;53.0145361;18.596583144651557
+189;Oppeln;16;Opole, powiat opolski, województwo opolskie, Polska;50.678792900000005;17.929884436033525
+190;Glauchau;16;Glauchau, Zwickau, Sachsen, 08371, Deutschland;50.8199031;12.5397873
+191;Ljubljana;16;Ljubljana, Upravna Enota Ljubljana, 1000, Slovenija;46.0499803;14.5068602
+192;Hanau;16;Hanau, Main-Kinzig-Kreis, Hessen, Deutschland;50.1335542;8.9168179
+193;Baden-Baden;16;Baden-Baden, Baden-Württemberg, Deutschland;48.7580777;8.2415239
+194;Mühlhausen/Thüringen;16;Mühlhausen/Thüringen, Mühlhausen, Unstrut-Hainich-Kreis, Thüringen, 99974, Deutschland;51.2094255;10.4589044
+195;Siegen;16;Siegen, Kreis Siegen-Wittgenstein, Nordrhein-Westfalen, Deutschland;50.8749804;8.0227233
+196;Marienwerder;16;Kwidzyn, powiat kwidzyński, województwo pomorskie, Polska;53.7204653;18.937464130662192
+197;Neuwied;16;Neuwied, Landkreis Neuwied, Rheinland-Pfalz, Deutschland;50.4302589;7.4663112
+198;Rudolstadt;16;Rudolstadt, Kamsdorf, Landkreis Saalfeld-Rudolstadt, Thüringen, 07407, Deutschland;50.7206063;11.3401985
+199;Schwäbisch Hall;16;Schwäbisch Hall, Verwaltungsgemeinschaft Schwäbisch Hall, Landkreis Schwäbisch Hall, Baden-Württemberg, 74523, Deutschland;49.1123963;9.7369047
+200;Kronštadt;16;Brașov, România;45.6523093;25.6102746
+201;Teschen;16;Cieszyn, powiat cieszyński, województwo śląskie, 43-400, Polska;49.7557676;18.65623134091032
+202;Arnsberg;16;Arnsberg, Hochsauerlandkreis, Nordrhein-Westfalen, Deutschland;51.4002384;8.0605908
+203;Esslingen am Neckar;15;Esslingen am Neckar, Landkreis Esslingen, Baden-Württemberg, Deutschland;48.7427584;9.3071685
+204;Fulda;15;Fulda, Landkreis Fulda, Hessen, Deutschland;50.5521486;9.676511
+205;Glatz;15;Kłodzko, gmina Kłodzko, powiat kłodzki, województwo dolnośląskie, 57-300, Polska;50.43371175;16.642246491692106
+206;Leiden;15;Leiden, Zuid-Holland, Nederland;52.1518157;4.4811088666204295
+207;Hirschberg im Riesengebirge;15;Jelenia Góra, Wincentego Pola, Jelenia Góra, województwo dolnośląskie, 58-500, Polska;50.9025882;15.7559869
+208;Meiningen;15;Meiningen, Ost, Kernstadt Meiningen, Meiningen, Landkreis Schmalkalden-Meiningen, Thüringen, 98617, Deutschland;50.57342505;10.428371137607764
+209;Braunsberg (Ostpreußen);15;;;
+210;Biel;14;Bielle, Oloron-Sainte-Marie, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64260, France;43.0559092;-0.43253
+211;Klausenburg;14;Cluj-Napoca, Zona Metropolitană Cluj, Cluj, România;46.769379;23.5899542
+212;Straubing;14;Straubing, Bayern, 94315, Deutschland;48.8819801;12.569716
+213;Greiz;14;Greiz, Thüringen, Deutschland;50.7783814;12.0763533
+214;Guben;14;Guben, Spree-Neiße, Brandenburg, 03172, Deutschland;51.9503235;14.7153567
+215;Eisleben;14;Lutherstadt Eisleben, Mansfeld-Südharz, Sachsen-Anhalt, 06295, Deutschland;51.5283282;11.5465911
+216;Grimma;14;Grimma, Landkreis Leipzig, Sachsen, 04668, Deutschland;51.2383379;12.7287511
+217;Jauer;14;Jawor, gmina Męcinka, powiat jaworski, województwo dolnośląskie, Polska;51.067702100000005;16.197613635866436
+218;Arnstadt;14;Arnstadt, Ilm-Kreis, Thüringen, Deutschland;50.8349097;10.9461479
+219;Bremerhaven;14;Bremerhaven, Bremen, Deutschland;53.5522264;8.5865509
+220;Karlsbad;14;Karlovy Vary, okres Karlovy Vary, Karlovarský kraj, Severozápad, Česko;50.2304694;12.8710769
+221;Klagenfurt;14;Klagenfurt am Wörthersee, Kärnten, Österreich;46.6228162;14.3079604
+222;Minden (Westf);14;Minden (Westf), Bundesbahnhof, Rechtes Weserufer, Minden, Kreis Minden-Lübbecke, Nordrhein-Westfalen, 32423, Deutschland;52.2905618;8.9344598
+223;Luxemburg;13;Lëtzebuerg;49.8158683;6.1296751
+224;Odessa;13;Одеса, Одеський район, Одеська область, Україна;46.4873195;30.7392776
+225;Reichenberg;13;Liberec, okres Liberec, Liberecký kraj, Severovýchod, Česko;50.7702648;15.0583947
+226;Schleiz;13;Schleiz, Saale-Orla-Kreis, Thüringen, Deutschland;50.5590505;11.8040013
+227;Celle;13;Celle, Landkreis Celle, Niedersachsen, Deutschland;52.624056;10.081052
+228;Lahr/Schwarzwald;13;Lahr/Schwarzwald, Verwaltungsgemeinschaft Lahr/Schwarzwald, Ortenaukreis, Baden-Württemberg, 77933, Deutschland;48.338896;7.8710825
+229;Löbau;13;Löbau, Görlitz, Sachsen, 02708, Deutschland;51.0947288;14.6692423
+230;Sangerhausen;13;Sangerhausen, Mansfeld-Südharz, Sachsen-Anhalt, Deutschland;51.4729797;11.2981851
+231;Einsiedeln;13;Einsiedeln, Schwyz, 8840, Schweiz/Suisse/Svizzera/Svizra;47.1286095;8.7500299
+232;Meerane;13;Meerane, Meerane-Schönberg, Zwickau, Sachsen, 08393, Deutschland;50.8427835;12.4581578
+233;Lüneburg;13;Lüneburg, Niedersachsen, Deutschland;53.248706;10.407855
+234;Soest;13;Soest, Kreis Soest, Nordrhein-Westfalen, 59494, Deutschland;51.5725501;8.1061259
+235;Czernowitz;13;Чернівці, Чернівецька міська громада, Чернівецький район, Чернівецька область, Україна;48.2864702;25.9376532
+236;Beuthen;13;Bytom, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska;50.3657432;18.87153251609449
+237;Graudenz;13;Grudziądz, powiat świecki, województwo kujawsko-pomorskie, Polska;53.47251195;18.761893676880046
+238;Marienburg;12;Malbork, gmina Malbork, powiat malborski, województwo pomorskie, 82-200, Polska;54.0287383;19.039396385383558
+239;Aschersleben;12;Aschersleben, Salzlandkreis, Sachsen-Anhalt, 06449, Deutschland;51.7559549;11.462134
+240;Herisau;12;Herisau, Hinterland, Appenzell Ausserrhoden, Schweiz/Suisse/Svizzera/Svizra;47.38555;9.2787571
+241;Bozen;12;Bolzano - Bozen, Trentino-Alto Adige/Südtirol, Italia;46.65594215;11.229637264169462
+242;Lippstadt;12;Lippstadt, Kreis Soest, Nordrhein-Westfalen, Deutschland;51.6747074;8.347194
+243;Gütersloh;12;Gütersloh, Kreis Gütersloh, Nordrhein-Westfalen, Deutschland;51.9063997;8.3782078
+244;Offenbach am Main;12;Offenbach am Main, Hessen, Deutschland;50.1055002;8.7610698
+245;Wandsbek;12;Wandsbek, Hamburg, Deutschland;53.5760029;10.0755348
+246;Anklam;12;Anklam, Vorpommern-Greifswald, Mecklenburg-Vorpommern, 17389, Deutschland;53.8560526;13.688091
+247;Annaberg;12;Gemeinde Annaberg, Bezirk Lilienfeld, Niederösterreich, Österreich;47.8643157;15.349100740517551
+248;Bayreuth;12;Bayreuth, Bayern, Deutschland;49.9427202;11.5763079
+249;Sagan;12;Żagań, powiat żagański, województwo lubuskie, 68-100, Polska;51.6148068;15.3203721
+250;Emden;12;Emden, Niedersachsen, Deutschland;53.3670541;7.2058304
+251;Neubrandenburg;12;Neubrandenburg, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, Deutschland;53.5574458;13.2602781
+252;Waldenburg;12;Waltembourg, Sarrebourg-Château-Salins, Moselle, Grand Est, France métropolitaine, 57370, France;48.7503918;7.1965445
+253;Einbeck;12;Einbeck, Landkreis Northeim, Niedersachsen, 37574, Deutschland;51.8185067;9.8678465
+254;Troppau;11;Opava, okres Opava, Moravskoslezský kraj, Moravskoslezsko, Česko;49.9389004;17.9024174
+255;Reudnitz;11;Reudnitz, Reudnitz-Thonberg, Südost, Leipzig, Sachsen, 04317, Deutschland;51.335919;12.3995116
+256;Florenz;11;Firenze, Toscana, Italia;43.7698712;11.2555757
+257;Hagen;11;Hagen, Nordrhein-Westfalen, Deutschland;51.3582945;7.473296
+258;Tarnowskie Góry;11;Tarnowskie Góry, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska;50.4445194;18.8554757
+259;Venedig;11;Venezia, Veneto, Italia;45.4371908;12.3345898
+260;Stolp;11;Słupsk, województwo pomorskie, 76-200, Polska;54.4649331;17.028073
+261;Dresden-Neustadt;11;Dresden-Neustadt, 1, Schlesischer Platz, Innere Neustadt, Neustadt, Dresden, Sachsen, 01097, Deutschland;51.0658669;13.7405404
+262;Kolberg;11;Kołobrzeg, gmina Kołobrzeg, powiat kołobrzeski, województwo zachodniopomorskie, Polska;54.176211550000005;15.57640369780165
+263;Harburg, Elbe;11;Elbe-Obst Neuenfelde, Neuenfelde, Harburg, Hamburg, 21129, Deutschland;53.51174965;9.81551137339704
+264;Sopron;11;Sopron, Soproni járás, Győr-Moson-Sopron megye, Nyugat-Dunántúl, Dunántúl, Magyarország;47.6803063;16.5983457
+265;Cannstatt;11;Bad Cannstatt, Stuttgart, Baden-Württemberg, Deutschland;48.8048828;9.2146797
+266;Stendal;11;Stendal, Sachsen-Anhalt, 39576, Deutschland;52.6050782;11.8594279
+267;Amberg;11;Amberg, Bayern, 92224, Deutschland;49.4454211;11.858728
+268;Davos;11;Davos, Prättigau/Davos, Graubünden/Grischun/Grigioni, Schweiz/Suisse/Svizzera/Svizra;46.7961744;9.8237266
+269;Zeitz;11;Zeitz, Burgenlandkreis, Sachsen-Anhalt, Deutschland;51.0491637;12.1349991
+270;Offenburg;11;Offenburg, Verwaltungsgemeinschaft Offenburg, Ortenaukreis, Baden-Württemberg, Deutschland;48.4716556;7.944378
+271;Neuss;11;Neuss, Rhein-Kreis Neuss, Nordrhein-Westfalen, Deutschland;51.1981778;6.6916476
+272;Neuenburg;10;Neuchâtel, Schweiz/Suisse/Svizzera/Svizra;46.9895828;6.9292641
+273;Leer (Ostfriesland);10;Leer (Ostfriesland), Niedersachsen, 26789, Deutschland;53.2502087;7.4563035
+274;Kreuzburg;10;Kreuzberg, Friedrichshain-Kreuzberg, Berlin, Deutschland;52.4976443;13.411914
+275;Neuhaldensleben;10;ehem. Gardelegen-Neuhaldensleben-Weferlinger Eisenbahn / Anschl. Steinwerk Kuckucksberg, Mist-/Bierweg, Bebertal, Hohe Börde, Börde, Sachsen-Anhalt, 39343, Deutschland;52.2555282;11.3437339
+276;Schneeberg;10;Schneeberg, Erzgebirgskreis, Sachsen, 08289, Deutschland;50.5950694;12.6417008
+277;Helsinki;10;Helsinki, Helsingin seutukunta, Uusimaa, Etelä-Suomen aluehallintovirasto, Manner-Suomi, Suomi / Finland;60.1674881;24.9427473
+278;Zerbst/Anhalt;10;Zerbst/Anhalt, Anhalt-Bitterfeld, Sachsen-Anhalt, Deutschland;51.9640308;12.0857291
+279;Pirna;10;Pirna, Sächsische Schweiz-Osterzgebirge, Sachsen, 01796, Deutschland;50.9616923;13.9386643
+280;Wolfenbüttel;10;Wolfenbüttel, Landkreis Wolfenbüttel, Niedersachsen, Deutschland;52.1625283;10.5348215
+281;Meran;10;Meran - Merano, Burggrafenamt - Burgraviato, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39012, Italia;46.6695547;11.1594185
+282;Merseburg;10;Merseburg, Saalekreis, Sachsen-Anhalt, 06217, Deutschland;51.3564413;11.996148
+283;Eichstätt;10;Eichstätt, Landkreis Eichstätt, Bayern, 85072, Deutschland;48.8933417;11.1838965
+284;Eilenburg;10;Eilenburg, Nordsachsen, Sachsen, 04838, Deutschland;51.4586736;12.6344389
+285;Insterburg;10;Черняховск, Черняховский городской округ, Калининградская область, Северо-Западный федеральный округ, Россия;54.635533;21.8099822
+286;Ratibor;10;Racibórz, powiat raciborski, województwo śląskie, 47-400, Polska;50.0904247;18.215141180318078
+287;Neapel;10;Napoli, Campania, Italia;40.8359336;14.2487826
+288;Lund;10;Lund, Lunds kommun, Skåne län, Sverige;55.7029296;13.1929449
+289;Leobschütz;10;Głubczyce, gmina Głubczyce, powiat głubczycki, województwo opolskie, 48-100, Polska;50.2000941;17.8293199
+290;Weißenfels;10;Weißenfels, Burgenlandkreis, Sachsen-Anhalt, Deutschland;51.1999793;11.9667857
+291;Arad;10;Arad, România;46.1753793;21.3196342
+292;Oberhausen (Rheinland);10;Oberhausen, Bad Bergzabern, Landkreis Südliche Weinstraße, Rheinland-Pfalz, Deutschland;49.0982792;8.0567911
+293;Solingen;10;Solingen, Nordrhein-Westfalen, Deutschland;51.1712468;7.0838996
+294;Norden;10;Norden, Landkreis Aurich, Niedersachsen, 26506, Deutschland;53.5942039;7.2067435
+295;Wunsiedel;9;Wunsiedel, Landkreis Wunsiedel im Fichtelgebirge, Bayern, 95632, Deutschland;50.0373241;12.0027278
+296;Sankt Pölten;9;Bezirk St. Pölten, Niederösterreich, Österreich;48.138601449999996;15.817633511871579
+297;Mülhausen;9;Mulhausen, Saverne, Bas-Rhin, Grand Est, France métropolitaine, 67350, France;48.8823608;7.5527146
+298;Litoměřice;9;Litoměřice, okres Litoměřice, Ústecký kraj, Severozápad, 41201, Česko;50.5340795;14.1317985
+299;Iserlohn;9;Iserlohn, Märkischer Kreis, Nordrhein-Westfalen, Deutschland;51.3746778;7.6999713
+300;Kattowitz;9;Katowice, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska;50.2598987;19.0215852
+301;Buenos Aires;9;Buenos Aires, Comuna 6, C1405DCD, Argentina;-34.6075682;-58.4370894
+302;Höxter;9;Höxter, Kreis Höxter, Nordrhein-Westfalen, 37671, Deutschland;51.7747369;9.3816877
+303;Iglau;9;Jihlava, okres Jihlava, Kraj Vysočina, Jihovýchod, Česko;49.396064;15.5903065
+304;Ingolstadt;9;Ingolstadt, Bayern, Deutschland;48.7630165;11.4250395
+305;Calbe (Saale);9;Calbe (Saale), Salzlandkreis, Sachsen-Anhalt, 39240, Deutschland;51.903946899999994;11.791927872789937
+306;Pilsen;9;Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, Česko;49.7477415;13.3775249
+307;Rathenow;9;Rathenow, Havelland, Brandenburg, Deutschland;52.6063876;12.3382608
+308;Debrecen;9;Debrecen, Debreceni járás, Hajdú-Bihar megye, Észak-Alföld, Alföld és Észak, Magyarország;47.531399;21.6259782
+309;Itzehoe;9;Itzehoe, Steinburg, Schleswig-Holstein, 25524, Deutschland;53.9250316;9.5155854
+310;Reichenbach im Vogtland;9;Reichenbach im Vogtland, Vogtlandkreis, Sachsen, Deutschland;50.6219239;12.332118300271976
+311;Prenzlau;9;Prenzlau, Uckermark, Brandenburg, Deutschland;53.3167;13.866575
+312;Znojmo;9;Znojmo, okres Znojmo, Jihomoravský kraj, Jihovýchod, Česko;48.8554341;16.0489457
+313;Chicago, Ill.;9;;;
+314;Kitzingen;9;Kitzingen, Landkreis Kitzingen, Bayern, Deutschland;49.7339751;10.161216
+315;Groningen;9;Groningen, Nederland;53.2190652;6.5680077
+316;Konstantinopel;9;İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34126, Türkiye;41.0096334;28.9651646
+317;Košice;9;Košice, Košický kraj, Východné Slovensko, Slovensko;48.7172272;21.2496774
+318;Crossen (Oder);9;Krosno Odrzańskie, gmina Krosno Odrzańskie, powiat krośnieński, województwo lubuskie, Polska;52.0536361;15.0980258
+319;Köslin;9;Koszalin, powiat koszaliński, województwo zachodniopomorskie, Polska;54.20727105;16.217530768271565
+320;Neusalz, Oder;9;Nowa Sól, powiat nowosolski, województwo lubuskie, Polska;51.8033431;15.706238052443426
+321;Wriezen;9;Wriezen, Märkisch-Oderland, Brandenburg, 16269, Deutschland;52.7167845;14.1365723
+322;Landsberg (Warthe);9;Warta, Stare Polichno, gmina Skwierzyna, powiat międzyrzecki, województwo lubuskie, Polska;52.7015789;15.396330559130806
+323;Aussig;9;Ústí nad Labem, okres Ústí nad Labem, Ústecký kraj, Severozápad, Česko;50.6603327;14.0381357
+324;Melle;8;Melle, Cuneo, Piemonte, Italia;44.5620476;7.32049
+325;Borna;8;Borna, Landkreis Leipzig, Sachsen, 04552, Deutschland;51.1241649;12.4999055
+326;Pößneck;8;Pößneck, Saale-Orla-Kreis, Thüringen, 07381, Deutschland;50.694735;11.5953247
+327;Philadelphia, Pa.;8;Philadelphia, Philadelphia County, Pennsylvania, United States;39.9527237;-75.1635262
+328;Brzeg;8;Brzeg, gmina Skarbimierz, powiat brzeski, województwo opolskie, Polska;50.8588648;17.464124493778538
+329;Rottweil;8;Rottweil, Verwaltungsgemeinschaft Rottweil, Landkreis Rottweil, Baden-Württemberg, 78628, Deutschland;48.165531;8.6251283
+330;Memel;8;Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis, Lietuva;55.7127529;21.1350469
+331;Memmingen;8;Memmingen, Bayern, 87700, Deutschland;47.9867696;10.181319
+332;Oschatz;8;Oschatz, Nordsachsen, Sachsen, 04758, Deutschland;51.297984;13.1082637
+333;Dillingen a.d. Donau;8;Dillingen a.d.Donau, Landkreis Dillingen an der Donau, Bayern, 89407, Deutschland;48.5812458;10.4952243
+334;Oleśnica;8;Oleśnica, gmina Olesno, powiat dąbrowski, województwo małopolskie, Polska;50.1691988;20.9359487
+335;Clausthal;8;Clausthal, Clausthal-Zellerfeld, Landkreis Goslar, Niedersachsen, 38678, Deutschland;51.8043301;10.3338277
+336;České Budějovice;8;České Budějovice, okres České Budějovice, Jihočeský kraj, Jihozápad, Česko;48.9747357;14.474285
+337;Nördlingen;8;Nördlingen, Landkreis Donau-Ries, Bayern, Deutschland;48.8516578;10.4885873
+338;Kaufbeuren;8;Kaufbeuren, Bayern, 87600, Deutschland;47.8803788;10.622246
+339;Spandau;8;Spandau, Berlin, Deutschland;52.535788;13.1977924
+340;Frankenberg/Sa.;8;Frankenberg/Sachsen, Mittelsachsen, Sachsen, 09669, Deutschland;50.9110365;13.0331023
+341;Stade;8;Stade, Niedersachsen, Deutschland;53.599794;9.475438
+342;Schweinfurt;8;Schweinfurt, Bayern, Deutschland;50.0499945;10.233302
+343;Holzminden;8;Holzminden, Landkreis Holzminden, Niedersachsen, 37603, Deutschland;51.828835;9.4466591
+344;Verden (Aller);8;Verden (Aller), Landkreis Verden, Niedersachsen, 27283, Deutschland;52.94106755;9.235471627440539
+345;Forst (Lausitz);8;Forst (Lausitz) - Baršć, Spree-Neiße, Brandenburg, 03149, Deutschland;51.7438586;14.6455395
+346;Lörrach;8;Lörrach, Verwaltungsgemeinschaft Lörrach, Landkreis Lörrach, Baden-Württemberg, Deutschland;47.6120896;7.6607218
+347;Ludwigsburg;8;Ludwigsburg, Landkreis Ludwigsburg, Baden-Württemberg, Deutschland;48.8953937;9.1895147
+348;Glarus;8;Glarus, Schweiz/Suisse/Svizzera/Svizra;46.9796562;9.108812
+349;Freising;8;Freising, Landkreis Freising, Bayern, Deutschland;48.4008273;11.7439565
+350;Torgau;8;Torgau, Nordsachsen, Sachsen, Deutschland;51.5581272;13.0046538
+351;Hameln;8;Hameln, Landkreis Hameln-Pyrmont, Niedersachsen, Deutschland;52.1039941;9.3561569
+352;Bad Hersfeld;8;Bad Hersfeld, Landkreis Hersfeld-Rotenburg, Hessen, 36251, Deutschland;50.8681341;9.7068481
+353;Grodzisk Wielkopolski;8;Grodzisk Wielkopolski, gmina Grodzisk Wielkopolski, powiat grodziski, województwo wielkopolskie, 62-065, Polska;52.2263198;16.3628106
+354;Teplitz;8;Teplice, okres Teplice, Ústecký kraj, Severozápad, Česko;50.6406644;13.8244461
+355;Gumbinnen;8;Гусев, Гусевский городской округ, Калининградская область, Северо-Западный федеральный округ, Россия;54.592144;22.2015209
+356;Züllichau;8;Sulechów, gmina Sulechów, powiat zielonogórski, województwo lubuskie, 66-100, Polska;52.0854782;15.6259091
+357;Kiew;8;Київ, Київська міська громада, Україна;50.4500336;30.5241361
+358;Cincinnati, Ohio;7;Cincinnati, Hamilton County, Ohio, United States;39.1014537;-84.5124602
+359;Berlin-Charlottenburg;7;Berlin-Charlottenburg, Gervinusstraße, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10629, Deutschland;52.5043157;13.3026447
+360;Salzwedel;7;Salzwedel, Altmarkkreis Salzwedel, Sachsen-Anhalt, 29410, Deutschland;52.8528456;11.1539699
+361;Rheydt;7;Rheydt, Mönchengladbach, Nordrhein-Westfalen, 41236, Deutschland;51.1667824;6.4440575
+362;Böhmisch-Leipa;7;Česká Lípa, okres Česká Lípa, Liberecký kraj, Severovýchod, Česko;50.6865452;14.5372974
+363;Düren;7;Düren, Kreis Düren, Nordrhein-Westfalen, Deutschland;50.8031684;6.4820806
+364;Kempen;7;Kempen, Kreis Viersen, Nordrhein-Westfalen, 47906, Deutschland;51.3642126;6.4195011
+365;Stolberg/Harz;7;Stolberg (Harz), Südharz, Mansfeld-Südharz, Sachsen-Anhalt, Deutschland;51.5741058;10.9552383
+366;Bad Mergentheim;7;Bad Mergentheim, Verwaltungsgemeinschaft Bad Mergentheim, Main-Tauber-Kreis, Baden-Württemberg, 97980, Deutschland;49.490532;9.7730692
+367;Reichenbach;7;Reichenbach, Reichenbach im Vogtland, Vogtlandkreis, Sachsen, 08468, Deutschland;50.6219793;12.305088373514671
+368;Athen;7;Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 10667, Ελλάς;37.9839412;23.7283052
+369;Sternberg;7;Sternberg, Rückersbach, Johannesberg, Landkreis Aschaffenburg, Bayern, 63867, Deutschland;50.0340456;9.1103584
+370;Crimmitschau;7;Crimmitschau, Crimmitschau-Dennheritz, Zwickau, Sachsen, 08451, Deutschland;50.8162378;12.3867217
+371;Goldberg;7;Goldberg, Goldberg-Mildenitz, Ludwigslust-Parchim, Mecklenburg-Vorpommern, 19399, Deutschland;53.5902655;12.0883101
+372;Ostrowo;7;Ostrów Wielkopolski, gmina Przygodzice, powiat ostrowski, województwo wielkopolskie, 63-400, Polska;51.6471864;17.80376070395092
+373;Palermo;7;Palermo, Sicilia, Italia;38.1112268;13.3524434
+374;Göteborg;7;Göteborg, Göteborgs Stad, Västra Götalands län, 41106, Sverige;57.7072326;11.9670171
+375;Querfurt;7;Querfurt, Saalekreis, Sachsen-Anhalt, Deutschland;51.3785275;11.5974443
+376;Helmstedt;7;Helmstedt, Landkreis Helmstedt, Niedersachsen, 38350, Deutschland;52.2277037;11.0104702
+377;Brüx;7;Brux, Montmorillon, Vienne, Nouvelle-Aquitaine, France métropolitaine, 86510, France;46.2358418;0.1930383
+378;Komotau;7;Chomutov, okres Chomutov, Ústecký kraj, Severozápad, Česko;50.4606456;13.4178324
+379;Sonneberg;7;Sonneberg, Landkreis Sonneberg, Thüringen, 96515, Deutschland;50.3575412;11.1691714
+380;Eisenberg;7;Eisenberg, Saale-Holzland-Kreis, Thüringen, 07607, Deutschland;50.9691346;11.8961116
+381;Rothenburg ob der Tauber;7;Rothenburg ob der Tauber, Landkreis Ansbach, Bayern, 91541, Deutschland;49.3771899;10.1788809
+382;Grünberg i. Schlesien;7;Zielona Góra, województwo lubuskie, 65-001, Polska;51.9383777;15.5050408
+383;Detmold;7;Detmold, Kreis Lippe, Nordrhein-Westfalen, Deutschland;51.936284;8.8791526
+384;Ludwigshafen am Rhein;7;Ludwigshafen am Rhein, Rheinland-Pfalz, Deutschland;49.4704113;8.4381568
+385;Aschaffenburg;7;Aschaffenburg, Bayern, Deutschland;49.9740542;9.1493636
+386;Lichtenfels;7;Lichtenfels, Landkreis Lichtenfels, Bayern, 96215, Deutschland;50.14568;11.06382
+387;Lüttich;7;Liège, Wallonie, 4000, België / Belgique / Belgien;50.6451381;5.5734203
+388;Lyon;7;Lyon, Métropole de Lyon, Circonscription départementale du Rhône, Auvergne-Rhône-Alpes, France métropolitaine, France;45.7578137;4.8320114
+389;Delitzsch;7;Delitzsch, Nordsachsen, Sachsen, 04509, Deutschland;51.5255661;12.342857
+390;Schönebeck (Elbe);7;Schönebeck (Elbe), Salzlandkreis, Sachsen-Anhalt, Deutschland;52.02417035;11.770594646724
+391;Antwerpen;7;Antwerpen, Vlaanderen, België / Belgique / Belgien;51.2211097;4.3997081
+392;Dillenburg;7;Dillenburg, Lahn-Dill-Kreis, Hessen, Deutschland;50.7404535;8.2874957
+393;Liepaja;7;Liepāja, Kurzeme, Latvija;56.5048435;21.0070903
+394;Neuburg a.d. Donau;7;Neuburg an der Donau, Landkreis Neuburg-Schrobenhausen, Bayern, 86633, Deutschland;48.7371951;11.1795268
+395;Saarlouis;7;Saarlouis, Landkreis Saarlouis, Saarland, 66740, Deutschland;49.3164661;6.749846
+396;Saint Louis, Mo.;7;St. Louis, City of Saint Louis, Madison County, Illinois, United States;38.6529545;-90.24111656024635
+397;Eberswalde;7;Eberswalde, Barnim, Brandenburg, Deutschland;52.8351496;13.7997011
+398;Ellwangen (Jagst);7;Ellwangen (Jagst), Verwaltungsgemeinschaft Ellwangen (Jagst), Ostalbkreis, Baden-Württemberg, 73479, Deutschland;48.9615975;10.131975
+399;Ronneburg;7;Ronneburg, Greiz, Thüringen, Deutschland;50.8630523;12.1809073
+400;Emmerich am Rhein;7;Emmerich am Rhein, Kreis Kleve, Nordrhein-Westfalen, 46446, Deutschland;51.8322137;6.2428283
+401;Landau in der Pfalz;7;Landau in der Pfalz, Rheinland-Pfalz, Deutschland;49.1982825;8.1123441
+402;Písek;6;Písek, okres Písek, Jihočeský kraj, Jihozápad, Česko;49.3089887;14.147769
+403;Bad Dürkheim;6;Bad Dürkheim, Landkreis Bad Dürkheim, Rheinland-Pfalz, 67098, Deutschland;49.4632944;8.1705063
+404;Pasewalk;6;Pasewalk, Vorpommern-Greifswald, Mecklenburg-Vorpommern, 17309, Deutschland;53.5053677;13.9889049
+405;Lüdenscheid;6;Lüdenscheid, Märkischer Kreis, Nordrhein-Westfalen, Deutschland;51.218116;7.6395513
+406;Grimmen;6;Grimmen, Vorpommern-Rügen, Mecklenburg-Vorpommern, 18507, Deutschland;54.1128666;13.0442375
+407;Eger;6;Eger, Egri járás, Heves megye, Észak-Magyarország, Alföld és Észak, Magyarország;47.8989887;20.3743665
+408;Bad Freienwalde (Oder);6;Bad Freienwalde (Oder), Märkisch-Oderland, Brandenburg, 16259, Deutschland;52.787521;14.0300689
+409;Mladá Boleslav;6;Mladá Boleslav, okres Mladá Boleslav, Střední Čechy, Česko;50.4116187;14.9031301
+410;Hamburg- Sankt Pauli;6;St. Pauli, Hamburg-Mitte, Hamburg, Deutschland;53.5539347;9.9594316
+411;Fraustadt;6;Wschowa, gmina Wschowa, powiat wschowski, województwo lubuskie, 67-400, Polska;51.8038354;16.3172771
+412;Lingen (Ems);6;Lingen (Ems), Landkreis Emsland, Niedersachsen, Deutschland;52.5224659;7.316584
+413;Galatz;6;Galați, România;45.4338215;28.0549395
+414;Königshütte;6;Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska;50.288556299999996;18.97044253093511
+415;Alzey;6;Alzey, Landkreis Alzey-Worms, Rheinland-Pfalz, Deutschland;49.7455695;8.1150946
+416;Frauenfeld;6;Frauenfeld, Bezirk Frauenfeld, Thurgau, Schweiz/Suisse/Svizzera/Svizra;47.5561915;8.8963347
+417;Kőszeg;6;Kőszeg, Kőszegi járás, Vas megye, Nyugat-Dunántúl, Dunántúl, Magyarország;47.3894949;16.5406843
+418;Oelsnitz/Vogtl.;6;Oelsnitz/Vogtland, Verwaltungsgemeinschaft Oelsnitz/Vogtl., Vogtlandkreis, Sachsen, 08606, Deutschland;50.4118935;12.1568975
+419;Kleve;6;Kleve, Kreis Kleve, Nordrhein-Westfalen, 47533, Deutschland;51.7854839;6.131367415330141
+420;Ohrdruf;6;Ohrdruf, Landkreis Gotha, Thüringen, 99885, Deutschland;50.8270085;10.7319499
+421;Chełmno;6;Chełmno, gmina Stolno, powiat chełmiński, województwo kujawsko-pomorskie, 86-200, Polska;53.35250284999999;18.440424707276136
+422;Inowrazlaw;6;Inowrocław, gmina Inowrocław, powiat inowrocławski, województwo kujawsko-pomorskie, Polska;52.781464299999996;18.246308553210774
+423;Lemgo;6;Lemgo, Kreis Lippe, Nordrhein-Westfalen, 32657, Deutschland;52.0280674;8.9012894
+424;Kapstadt;6;Cape Town, City of Cape Town, Western Cape, 8001, South Africa;-33.928992;18.417396
+425;Leoben;6;Leoben, Bezirk Leoben, Steiermark, Österreich;47.3805128;15.0947756
+426;Demmin;6;Demmin, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, 17109, Deutschland;53.9070019;13.0327836
+427;Oradea;6;Oradea, Zona Metropolitană Oradea, Bihor, România;47.0549163;21.9285231
+428;Oranienburg;6;Oranienburg, Oberhavel, Brandenburg, 16515, Deutschland;52.7529379;13.2457591
+429;Aurich;6;Aurich, Landkreis Aurich, Niedersachsen, Deutschland;53.4695604;7.4823808
+430;Groß-Lichterfelde;6;Bahnhof Lichterfelde West, Hans-Sachs-Straße, Lichterfelde, Steglitz-Zehlendorf, Berlin, 12205, Deutschland;52.4433134;13.29472231944721
+431;Limburg a. d. Lahn;6;Limburg a. d. Lahn, Landkreis Limburg-Weilburg, Hessen, Deutschland;50.3876305;8.0636197
+432;Varel;6;Varel, Landkreis Friesland, Niedersachsen, 26316, Deutschland;53.395777;8.1372149
+433;Rosenheim;6;Rosenheim, Bayern, Deutschland;47.8539273;12.127262
+434;Wollstein;6;Wöllstein, Landkreis Alzey-Worms, Rheinland-Pfalz, 55597, Deutschland;49.8123086;7.960819
+435;Trautenau;6;Trutnov, okres Trutnov, Královéhradecký kraj, Severovýchod, 54101, Česko;50.5650371;15.916961395515788
+436;Zofingen;6;Zofingen, Bezirk Zofingen, Aargau, Schweiz/Suisse/Svizzera/Svizra;47.288491;7.9458259
+437;Sulzbach;6;Sulzbach, Bad Ems-Nassau, Rhein-Lahn-Kreis, Rheinland-Pfalz, Deutschland;50.302682;7.7518932
+438;Schneidemühl;6;Piła, powiat pilski, województwo wielkopolskie, 64-920, Polska;53.1511324;16.7380343
+439;Stargard in Pommern;6;Stargard, powiat stargardzki, województwo zachodniopomorskie, Polska;53.3379935;15.0350493
+440;Zielenzig;6;Sulęcin, gmina Sulęcin, powiat sulęciński, województwo lubuskie, 69-200, Polska;52.4413768;15.1161501
+441;Verona;6;Verona, Veneto, Italia;45.4384958;10.9924122
+442;Tarnów;6;Tarnów, powiat tarnowski, województwo małopolskie, Polska;50.025988299999995;20.96405842696229
+443;Szeged;6;Szeged, Szegedi járás, Csongrád-Csanád megye, Dél-Alföld, Alföld és Észak, Magyarország;46.2546312;20.1486016
+444;Schwelm;6;Schwelm, Ennepe-Ruhr-Kreis, Nordrhein-Westfalen, 58332, Deutschland;51.2841166;7.2924712
+445;Sankt Johann, Saar;6;Sankt Johann, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, Deutschland;49.2339796;6.9975069
+446;Preußisch Stargard;6;Starogard Gdański, powiat starogardzki, województwo pomorskie, 83-200, Polska;53.9671805;18.532113
+447;Striegau;6;Strzegom, gmina Strzegom, powiat świdnicki, województwo dolnośląskie, 58-150, Polska;50.9601066;16.3462134
+448;Rorschach;6;Rorschach, Wahlkreis Rorschach, Sankt Gallen, 9400, Schweiz/Suisse/Svizzera/Svizra;47.4779686;9.4914025
+449;Herzberg (Elster);5;Herzberg (Elster), Elbe-Elster, Brandenburg, 04916, Deutschland;51.6924078;13.2358585
+450;Livorno;5;Livorno, Toscana, Italia;42.79021905;10.340281392353766
+451;Bleicherode;5;Bleicherode, Landkreis Nordhausen, Thüringen, Deutschland;51.4400566;10.5727462
+452;Traunstein;5;Traunstein, Landkreis Traunstein, Bayern, 83278, Deutschland;47.8701474;12.6423403
+453;Stuhlweißenburg;5;Székesfehérvár, Székesfehérvári járás, Fejér megye, Közép-Dunántúl, Dunántúl, Magyarország;47.1910169;18.410811
+454;Ruhrort;5;Ruhrort, Homberg/Ruhrort/Baerl, Duisburg, Nordrhein-Westfalen, Deutschland;51.4538969;6.733484
+455;Wittstock/Dosse;5;Wittstock/Dosse, Ostprignitz-Ruppin, Brandenburg, 16909, Deutschland;53.1622227;12.4872029
+456;Kulmbach;5;Kulmbach, Landkreis Kulmbach, Bayern, 95326, Deutschland;50.1008448;11.4479149
+457;Linden;5;Linden, Hachenburg, Westerwaldkreis, Rheinland-Pfalz, Deutschland;50.6019526;7.8504832
+458;Warnsdorf;5;Varnsdorf, okres Děčín, Ústecký kraj, Severozápad, Česko;50.9124244;14.6194058
+459;Wels;5;Wels, Oberösterreich, 4600, Österreich;48.1565472;14.0243752
+460;Schwedt/Oder;5;Schwedt/Oder, Uckermark, Brandenburg, Deutschland;53.0684083;14.269432853254127
+461;Oberlahnstein;5;Oberlahnstein, Friedland, Lahnstein, Rhein-Lahn-Kreis, Rheinland-Pfalz, 56112, Deutschland;50.3011686;7.6100803
+462;Thun;5;Thun, Verwaltungskreis Thun, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra;46.7582827;7.628086
+463;Wernigerode;5;Wernigerode, Landkreis Harz, Sachsen-Anhalt, Deutschland;51.8344172;10.7862526
+464;Suhl;5;Suhl, Thüringen, Deutschland;50.6086518;10.6926437
+465;Remscheid;5;Remscheid, Nordrhein-Westfalen, Deutschland;51.1798706;7.1943544
+466;Friedberg (Hessen);5;Friedberg (Hessen), Wetteraukreis, Hessen, 61169, Deutschland;50.3352682;8.7539306
+467;Neutitschein;5;Nový Jičín, okres Nový Jičín, Moravskoslezský kraj, Moravskoslezsko, Česko;49.594881;18.0102584
+468;Auerbach/Vogtl.;5;Auerbach (Vogtl), Richardshöhe, Auerbach/Vogtland, Vogtlandkreis, Sachsen, 08209, Deutschland;50.5069668;12.3792639
+469;Buda;5;Buda, Texas, 78601, United States;30.082475;-97.8417144
+470;Gelsenkirchen;5;Gelsenkirchen, Nordrhein-Westfalen, Deutschland;51.5110321;7.0960124
+471;Rochlitz;5;Rochlitz, Verwaltungsgemeinschaft Rochlitz, Mittelsachsen, Sachsen, Deutschland;51.0456789;12.7990531
+472;Neuhaus, Südböhmen;5;;;
+473;Gnesen;5;Gniezno, gmina Gniezno, powiat gnieźnieński, województwo wielkopolskie, Polska;52.52465015;17.598152438162245
+474;Bad Ems;5;Bad Ems, Bad Ems-Nassau, Rhein-Lahn-Kreis, Rheinland-Pfalz, 56130, Deutschland;50.3352062;7.7128538
+475;Neu-Ulm;5;Neu-Ulm, Landkreis Neu-Ulm, Bayern, Deutschland;48.3954965;10.00589
+476;Lauban;5;Lubań, powiat lubański, województwo dolnośląskie, 58-900, Polska;51.114710450000004;15.281157425448038
+477;Ilmenau;5;Ilmenau, Ilm-Kreis, Thüringen, Deutschland;50.6867695;10.9142385
+478;Oberglogau;5;Głogówek, gmina Głogówek, powiat prudnicki, województwo opolskie, 48-250, Polska;50.3534373;17.8619329
+479;Landeshut;5;Kamienna Góra, powiat kamiennogórski, województwo dolnośląskie, 58-400, Polska;50.78468925;16.022363067768467
+480;Novi Sad;5;Нови Сад, Град Нови Сад, Јужнобачки управни округ, Војводина, 21000, Србија;45.2551338;19.8451756
+481;Werdau;5;Werdau, Zwickau, Sachsen, 08412, Deutschland;50.7361377;12.3763847
+482;Bad Arolsen;5;Bad Arolsen, Twistetal, Landkreis Waldeck-Frankenberg, Hessen, 34454, Deutschland;51.3816043;9.0147661
+483;Göppingen;5;Göppingen, Vereinbarte Verwaltungsgemeinschaft der Stadt Göppingen, Landkreis Göppingen, Baden-Württemberg, Deutschland;48.7031377;9.6541116
+484;Blaubeuren;5;Blaubeuren, Gemeindeverwaltungsverband Blaubeuren, Alb-Donau-Kreis, Baden-Württemberg, 89143, Deutschland;48.4121233;9.7847091
+485;Turku;5;Turku, Turun seutukunta, Varsinais-Suomi, Lounais-Suomen aluehallintovirasto, Manner-Suomi, Suomi / Finland;60.4517531;22.2670522
+486;Bad Homburg v.d. Höhe;5;Bad Homburg vor der Höhe, Hochtaunuskreis, Hessen, Deutschland;50.2227094;8.6287451
+487;Rastenburg;5;Kętrzyn, powiat kętrzyński, województwo warmińsko-mazurskie, Polska;54.08239245;21.365154364692174
+488;Karlovac;5;Karlovac, Grad Karlovac, Karlovačka županija, Hrvatska;45.4892522;15.5486303
+489;Luckenwalde;5;Luckenwalde, Teltow-Fläming, Brandenburg, 14943, Deutschland;52.0902045;13.1741882
+490;Madrid;5;Madrid, Área metropolitana de Madrid y Corredor del Henares, Comunidad de Madrid, 28001, España;40.4167047;-3.7035825
+491;Győr;5;Győr, Győri járás, Győr-Moson-Sopron megye, Nyugat-Dunántúl, Dunántúl, Magyarország;47.687609;17.6346815
+492;Bensheim;5;Bensheim, Kreis Bergstraße, Hessen, 64625, Deutschland;49.6810158;8.6227577
+493;Plön;5;Plön, Schleswig-Holstein, Deutschland;54.24611515;10.413274327272728
+494;Swinemünde;5;Świnoujście, województwo zachodniopomorskie, Polska;53.9097477;14.2510703
+495;Pleß;5;Pleß, Boos, Landkreis Unterallgäu, Bayern, 87773, Deutschland;48.0944386;10.1527135
+496;Bad Urach;5;Bad Urach, Gemeindeverwaltungsverband Bad Urach, Landkreis Reutlingen, Baden-Württemberg, 72574, Deutschland;48.4937953;9.3978845
+497;Feuerbach;5;Feuerbach, Stuttgart, Baden-Württemberg, 70469, Deutschland;48.8123052;9.1590308
+498;Eutin;5;Eutin, Ostholstein, Schleswig-Holstein, 23701, Deutschland;54.1364642;10.6159077
+499;Witten;5;Witten, Ennepe-Ruhr-Kreis, Nordrhein-Westfalen, Deutschland;51.4370171;7.335124
+500;Charkow;5;Харків, Хapківськa міська громада, Харківський район, Харківська область, Україна;49.9902794;36.2303893
+501;Przemyśl;5;Przemyśl, gmina Przemyśl, powiat przemyski, województwo podkarpackie, Polska;49.78355525;22.78851130307014
+502;Vevey;5;Vevey, District de la Riviera-Pays-d’Enhaut, Vaud, 1800, Schweiz/Suisse/Svizzera/Svizra;46.4602978;6.8418655
+503;Baden;5;Baden, Vannes, Morbihan, Bretagne, France métropolitaine, 56870, France;47.6199988;-2.9184744
+504;Coesfeld;5;Coesfeld, Kreis Coesfeld, Nordrhein-Westfalen, 48653, Deutschland;51.9458943;7.1691108
+505;Parchim;5;Parchim, Ludwigslust-Parchim, Mecklenburg-Vorpommern, 19370, Deutschland;53.4258455;11.8475244
+506;Sofia;5;Sofia, Province de Mahajanga, Madagasikara;-15.2538402;48.2562163
+507;Saalfeld/Saale;5;Saalfeld/Saale, Saalfelder Höhe, Landkreis Saalfeld-Rudolstadt, Thüringen, 07318, Deutschland;50.6481277;11.3616652
+508;Kappeln;5;Kappeln, Schleswig-Flensburg, Schleswig-Holstein, 24376, Deutschland;54.6641769;9.9317595
+509;Krems an der Donau;5;Gemeinde Krems an der Donau, Krems an der Donau, Bezirk Krems, Niederösterreich, Österreich;48.409809300000006;15.60631866409324
+510;Zweibrücken;5;Zweibrücken, Rheinland-Pfalz, 66482, Deutschland;49.248655;7.3641981
+511;Herford;5;Herford-Stadt, Herford, Kreis Herford, Nordrhein-Westfalen, Deutschland;52.1152245;8.6711118
+512;Osterode am Harz;5;Osterode am Harz, Landkreis Göttingen, Niedersachsen, 37520, Deutschland;51.72784;10.2508204
+513;Marienbad;5;Mariánské Lázně, okres Cheb, Karlovarský kraj, Severozápad, Česko;49.9739518;12.703319
+514;Prešov;5;Prešov, okres Prešov, Prešovský kraj, Východné Slovensko, Slovensko;48.9975724;21.2401811
+515;Seehausen (Altmark);5;Seehausen, Stendal, Sachsen-Anhalt, 39615, Deutschland;52.8888609;11.7519908
+516;Cilli;5;Celje, Slovenija;46.2293889;15.2616828
+517;Weißensee;5;Weißensee, Pankow, Berlin, Deutschland;52.5546193;13.4630018
+518;Hamburg-Eimsbüttel;5;Hamburg-Eimsbüttel, Hamburg, Deutschland;53.606281949999996;9.922981787526826
+519;Milwaukee, Wis.;5;Milwaukee, Milwaukee County, Wisconsin, United States;43.0349931;-87.922497
+520;Weinheim;4;Weinheim, Rhein-Neckar-Kreis, Baden-Württemberg, 69469, Deutschland;49.5462349;8.6717458
+521;Ballenstedt;4;Ballenstedt, Landkreis Harz, Sachsen-Anhalt, 06493, Deutschland;51.722527;11.2290268
+522;Baltimore, Md.;4;Baltimore, Maryland, United States;39.2908816;-76.610759
+523;Schopfheim;4;Schopfheim, Verwaltungsgemeinschaft Schopfheim, Landkreis Lörrach, Baden-Württemberg, 79650, Deutschland;47.6500525;7.8216997
+524;Mährisch-Ostrau;4;Moravská Ostrava, Ostrava, okres Ostrava-město, Moravskoslezský kraj, Moravskoslezsko, Česko;49.8343765;18.2820797
+525;Weißenburg i. Bay.;4;Weißenburg i. Bay., Landkreis Weißenburg-Gunzenhausen, Bayern, 91781, Deutschland;49.0305748;10.9718974
+526;Burgdorf;4;Burgdorf, Verwaltungskreis Emmental, Verwaltungsregion Emmental-Oberaargau, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra;47.0571316;7.6237466
+527;Neumarkt;4;Neumarkt in der Oberpfalz, Landkreis Neumarkt in der Oberpfalz, Bayern, 92318, Deutschland;49.279624;11.4594662
+528;Bartenstein;4;Bartoszyce, powiat bartoszycki, województwo warmińsko-mazurskie, 11-200, Polska;54.2523695;20.8143766
+529;Bielitz;4;Bělice, Neveklov, okres Benešov, Střední Čechy, 257 44, Česko;49.766195;14.4718011
+530;Rottenburg am Neckar;4;Rottenburg am Neckar, Verwaltungsgemeinschaft Rottenburg am Neckar, Landkreis Tübingen, Baden-Württemberg, 72108, Deutschland;48.47696;8.9336788
+531;Mindelheim;4;Mindelheim, Landkreis Unterallgäu, Bayern, 87719, Deutschland;48.0464164;10.4882504
+532;Ludwigslust;4;Ludwigslust, Ludwigslust-Parchim, Mecklenburg-Vorpommern, 19288, Deutschland;53.3300229;11.4993644
+533;Heidenheim an der Brenz;4;Heidenheim an der Brenz, Verwaltungsgemeinschaft Heidenheim an der Brenz, Landkreis Heidenheim, Baden-Württemberg, Deutschland;48.6767637;10.152923
+534;Treptow;4;Trzebiatów, gmina Trzebiatów, powiat gryficki, województwo zachodniopomorskie, Polska;54.0627026;15.2657157
+535;Mittweida;4;Mittweida, Mittelsachsen, Sachsen, 09648, Deutschland;50.9854597;12.9810458
+536;Neuschönefeld;4;Neuschönefeld, Neustadt-Neuschönefeld, Ost, Leipzig, Sachsen, 04315, Deutschland;51.3449161;12.4028181
+537;Moers;4;Moers, Kreis Wesel, Nordrhein-Westfalen, Deutschland;51.451283;6.62843
+538;Bad Salzungen;4;Bad Salzungen, Wartburgkreis, Thüringen, Deutschland;50.812318;10.2320784
+539;Schkeuditz;4;Schkeuditz, Nordsachsen, Sachsen, 04435, Deutschland;51.3963509;12.2216292
+540;Großenhain;4;Großenhain, Meißen, Sachsen, 01558, Deutschland;51.2911845;13.5317153
+541;Berlin-Steglitz;4;Steglitz, Steglitz-Zehlendorf, Berlin, Deutschland;52.4572569;13.3222865
+542;Mexiko;4;México;22.5000485;-100.0000375
+543;Gräfenhainichen;4;Gräfenhainichen, Wittenberg, Sachsen-Anhalt, Deutschland;51.7309112;12.4588675
+544;Zabrze;4;Zabrze, powiat gliwicki, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska;50.31428055;18.781576310579183
+545;Deggendorf;4;Deggendorf, Landkreis Deggendorf, Bayern, 94469, Deutschland;48.8333535;12.96205
+546;Biberach an der Riß;4;Biberach an der Riß, Verwaltungsgemeinschaft Biberach an der Riß, Landkreis Biberach, Baden-Württemberg, 88400, Deutschland;48.0984413;9.7899938
+547;Saaz;4;Žatec, okres Louny, Ústecký kraj, Severozápad, 43801, Česko;50.3274423;13.545952
+548;Hadamar;4;Hadamar, Landkreis Limburg-Weilburg, Hessen, 65589, Deutschland;50.4494908;8.048833
+549;Bad Reichenhall;4;Bad Reichenhall, Landkreis Berchtesgadener Land, Bayern, 83435, Deutschland;47.7222676;12.8760923
+550;Liestal;4;Liestal, Bezirk Liestal, Basel-Landschaft, 4410, Schweiz/Suisse/Svizzera/Svizra;47.4839723;7.7347783
+551;Görz;4;Gorze, Metz, Moselle, Grand Est, France métropolitaine, 57680, France;49.0516254;5.9988241
+552;Bergisch Gladbach;4;Bergisch Gladbach, Rheinisch-Bergischer Kreis, Nordrhein-Westfalen, Deutschland;50.9929303;7.1277379
+553;Strzelin;4;Strzelin, gmina Strzelin, powiat strzeliński, województwo dolnośląskie, 57-100, Polska;50.78092;17.0683947
+554;Neusalza;4;Neusalza-Spremberg, Görlitz, Sachsen, 02742, Deutschland;51.0386323;14.5219951
+555;Wurzen;4;Wurzen, Landkreis Leipzig, Sachsen, Deutschland;51.3709574;12.7410574
+556;Arnheim;4;Arnhem, Gelderland, Nederland;51.984257;5.9108573
+557;Viersen;4;Viersen, Kreis Viersen, Nordrhein-Westfalen, Deutschland;51.2562118;6.3905476
+558;Osterburg (Altmark);4;Osterburg (Altmark), Stendal, Sachsen-Anhalt, 39606, Deutschland;52.7899044;11.7526038
+559;Rio de Janeiro;4;Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, Brasil;-22.9110137;-43.2093727
+560;Finsterwalde;4;Finsterwalde, Elbe-Elster, Brandenburg, 03238, Deutschland;51.6315282;13.707358
+561;Rijeka;4;Grad Rijeka, Primorsko-goranska županija, Hrvatska;45.3271752;14.4412309
+562;Dresden-Blasewitz;4;Blasewitz, Dresden, Sachsen, Deutschland;51.0521778;13.7990205
+563;Oederan;4;Oederan, Mittelsachsen, Sachsen, 09569, Deutschland;50.8614612;13.1694372
+564;Rastatt;4;Rastatt, Vereinbarte Verwaltungsgemeinschaft Rastatt, Landkreis Rastatt, Baden-Württemberg, 76437, Deutschland;48.8574209;8.2088088
+565;Friedland;4;Friedland, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, Deutschland;53.6716022;13.5487647
+566;Brody;4;Броди, Бродівська міська рада, Золочівський район, Львівська область, 80600-80603, Україна;50.0833041;25.1437921
+567;Ried im Innkreis;4;Ried im Innkreis, Bezirk Ried im Innkreis, Oberösterreich, 4910, Österreich;48.2085868;13.48839
+568;Kuressaare;4;Kuressaare linn, Saaremaa vald, Saare maakond, Eesti;58.2527693;22.4849207
+569;Sigmaringen;4;Sigmaringen, Gemeindeverwaltungsverband Sigmaringen, Landkreis Sigmaringen, Baden-Württemberg, 72488, Deutschland;48.0855844;9.2178879
+570;Ribnitz;4;Rybnice, okres Plzeň-sever, Plzeňský kraj, Jihozápad, Česko;49.9083321;13.3737278
+571;Kölleda;4;Kölleda, Landkreis Sömmerda, Thüringen, 99625, Deutschland;51.1880844;11.2443392
+572;Perleberg;4;Perleberg, Prignitz, Brandenburg, 19348, Deutschland;53.0762716;11.8627933
+573;Drossen;4;Ośno Lubuskie, gmina Ośno Lubuskie, powiat słubicki, województwo lubuskie, 69-220, Polska;52.455132;14.8682003
+574;Zschopau;4;Zschopau, Erzgebirgskreis, Sachsen, Deutschland;50.7469606;13.0695613
+575;Apolda;4;Apolda, Landkreis Weimarer Land, Thüringen, 99510, Deutschland;51.0227878;11.5129742
+576;Freiburg im Üechtland;4;Fribourg - Freiburg, District de la Sarine, Fribourg/Freiburg, Schweiz/Suisse/Svizzera/Svizra;46.8030044;7.1512891
+577;Peine;4;Peine, Landkreis Peine, Niedersachsen, Deutschland;52.3217849;10.2349489
+578;Wetzlar;4;Wetzlar, Lahn-Dill-Kreis, Hessen, Deutschland;50.5525346;8.5074406
+579;Steinamanger;4;Szombathely, Szombathelyi járás, Vas megye, Nyugat-Dunántúl, Dunántúl, Magyarország;47.2291184;16.6187625
+580;Nowy Sącz;4;Nowy Sącz, powiat nowosądecki, województwo małopolskie, Polska;49.61030395;20.71595521113809
+581;Fürstenwalde/Spree;4;Fürstenwalde/Spree, Oder-Spree, Brandenburg, 15517, Deutschland;52.3580209;14.064985
+582;Třeboň;4;Třeboň, okres Jindřichův Hradec, Jihočeský kraj, Jihozápad, 37901, Česko;49.0064356;14.7633295
+583;Wilhelmshaven;4;Wilhelmshaven, Niedersachsen, Deutschland;53.5278793;8.106301
+584;Elmshorn;4;Elmshorn, Pinneberg, Schleswig-Holstein, Deutschland;53.7532486;9.6524559
+585;Bunzlau;4;Bolesławiec, powiat bolesławiecki, województwo dolnośląskie, Polska;51.2630333;15.5651049
+586;Steinfurt-Burgsteinfurt;4;Steinfurt-Burgsteinfurt, Nordbahnstraße, Burgsteinfurt, Steinfurt, Kreis Steinfurt, Nordrhein-Westfalen, 48565, Deutschland;52.147275;7.3295686
+587;Gent;4;Gent, Oost-Vlaanderen, Vlaanderen, België / Belgique / Belgien;51.0538286;3.7250121
+588;Borken (Westf.);4;Borken (Westf), Ladestraße, Foseco - Vesuvius GmbH, Borken, Kreis Borken, Nordrhein-Westfalen, 46325, Deutschland;51.8479254;6.8666835
+589;Klatovy;4;Klatovy, okres Klatovy, Plzeňský kraj, Jihozápad, 33901, Česko;49.3951183;13.2935954
+590;Uppsala;4;Uppsala, Uppsala kommun, Uppsala län, 753 20, Sverige;59.8586126;17.6387436
+591;Öhringen;4;Öhringen, Verwaltungsgemeinschaft Öhringen, Hohenlohekreis, Baden-Württemberg, 74613, Deutschland;49.2005034;9.5024397
+592;Neustrelitz;4;Neustrelitz, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, Deutschland;53.3617163;13.0630004
+593;Geestemünde;4;Geestemünde, Stadtbezirk Bremerhaven-Süd, Bremerhaven, Bremen, 27570, Deutschland;53.5334497;8.592065
+594;Pola;4;Grad Pula, Istarska županija, Hrvatska;44.8702281;13.8455311
+595;Boppard;4;Boppard, Rhein-Hunsrück-Kreis, Rheinland-Pfalz, 56154, Deutschland;50.2312823;7.5885884
+596;Kötzschenbroda;4;Kötzschenbroda, Radebeul, Meißen, Sachsen, Deutschland;51.1052596;13.6309107
+597;Boston, Mass.;4;Boston, Suffolk County, Massachusetts, United States;42.3602534;-71.0582912
+598;Kehl;4;Kehl, Ortenaukreis, Baden-Württemberg, 77694, Deutschland;48.5728929;7.8109768
+599;Lauenburg i. Pom.;4;;;
+600;Proßnitz;4;Prostějov, okres Prostějov, Olomoucký kraj, Střední Morava, Česko;49.4721467;17.1117979
+601;Pittsburgh, Pa.;4;Pittsburgh, Allegheny County, Pennsylvania, United States;40.4416941;-79.9900861
+602;Freiburg in Schlesien;4;Świebodzice, powiat świdnicki, województwo dolnośląskie, 58-160, Polska;50.859573;16.3196056
+603;Königgrätz;3;Hradec Králové, okres Hradec Králové, Královéhradecký kraj, Severovýchod, Česko;50.2092113;15.8327512
+604;Berlin-Friedenau;3;S Friedenau, Baumeisterstraße, Schöneberg, Tempelhof-Schöneberg, Berlin, 12159, Deutschland;52.4707164;13.3415003
+605;Schäßburg;3;Sighișoara, Mureș, România;46.2201975;24.7934573
+606;Leipzig-Lindenau;3;Leipzig-Lindenau, Dürrenberger Straße, Neulindenau, Altwest, Leipzig, Sachsen, 04177, Deutschland;51.3333676;12.3217349
+607;Brake (Unterweser);3;Brake (Unterweser), Palisadenweg, Brake-Nord, Boitwarden, Brake, Landkreis Wesermarsch, Niedersachsen, 26919, Deutschland;53.3286418;8.4811634
+608;Bergedorf;3;Bergedorf, Hamburg, 21029, Deutschland;53.483838399999996;10.210046893663424
+609;Kożuchów;3;Kożuchów, gmina Kożuchów, powiat nowosolski, województwo lubuskie, 67-120, Polska;51.7454592;15.5944597
+610;Südheide-Hermannsburg;3;Hermannsburg, Südheide, Landkreis Celle, Niedersachsen, 29320, Deutschland;52.831696;10.086811
+611;Sommerfeld;3;Lubsko, gmina Lubsko, powiat żarski, województwo lubuskie, 68-300, Polska;51.7881902;14.9721266
+612;Heide;3;Heide, Dithmarschen, Schleswig-Holstein, 25746, Deutschland;54.1948456;9.0929015
+613;Braunau am Inn;3;Braunau am Inn, Bezirk Braunau am Inn, Oberösterreich, 5280, Österreich;48.253136;13.039506
+614;Haßfurt;3;Haßfurt, Landkreis Haßberge, Bayern, 97437, Deutschland;50.0318698;10.5065562
+615;Brilon;3;Brilon, Hochsauerlandkreis, Nordrhein-Westfalen, 59929, Deutschland;51.3955721;8.5677743
+616;Hattingen;3;Hattingen, Ennepe-Ruhr-Kreis, Nordrhein-Westfalen, Deutschland;51.4007175;7.1862486
+617;Belgrad;3;Београд, Град Београд, Централна Србија, 11000, Србија;44.8178131;20.4568974
+618;Wilna;3;Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, Lietuva;54.6870458;25.2829111
+619;Wiesensteig;3;Wiesensteig, Gemeindeverwaltungsverband Oberes Filstal, Landkreis Göppingen, Baden-Württemberg, 73349, Deutschland;48.5622723;9.6271372
+620;Spremberg;3;Spremberg, Spree-Neiße, Brandenburg, 03130, Deutschland;51.5714513;14.3804302
+621;Hannover-Linden;3;Hannover Linden, Fischerhof, Linden-Süd, Linden-Limmer, Hannover, Region Hannover, Niedersachsen, 30449, Deutschland;52.3533451;9.7173774
+622;Lubomierz;3;Lubomierz, gmina Lubomierz, powiat lwówecki, województwo dolnośląskie, Polska;51.0124569;15.51022
+623;Herne;3;Herne, Nordrhein-Westfalen, Deutschland;51.5380394;7.219985
+624;Löwenberg;3;Löwenberg, Braunsbach, Verwaltungsverband Braunsbach-Untermünkheim, Landkreis Schwäbisch Hall, Baden-Württemberg, 74542, Deutschland;49.1636243;9.79025
+625;Biebrich;3;Biebrich, Aar-Einrich, Rhein-Lahn-Kreis, Rheinland-Pfalz, Deutschland;50.3030289;7.9544958
+626;Blasewitz;3;Blasewitz, Dresden, Sachsen, Deutschland;51.0521778;13.7990205
+627;Blankenburg (Harz);3;Blankenburg (Harz), Bahnhofstraße, Blankenburg, Landkreis Harz, Sachsen-Anhalt, 38889, Deutschland;51.7959504;10.9612272
+628;Husum;3;Husum, Nordfriesland, Schleswig-Holstein, 25813, Deutschland;54.4853638;9.0538156
+629;Laupheim;3;Laupheim, Gemeindeverwaltungsverband Laupheim, Landkreis Biberach, Baden-Württemberg, Deutschland;48.2305342;9.8771587
+630;Leutkirch im Allgäu;3;Leutkirch im Allgäu, Verwaltungsgemeinschaft Leutkirch im Allgäu, Landkreis Ravensburg, Baden-Württemberg, 88299, Deutschland;47.8266137;10.0228027
+631;Idar-Oberstein;3;Idar-Oberstein, Landkreis Birkenfeld, Rheinland-Pfalz, 55743, Deutschland;49.7107134;7.3136563
+632;Bistritz;3;Bistrița, Bistrița-Năsăud, România;47.1327012;24.4963949
+633;Bischofswerda;3;Bischofswerda, Bautzen, Sachsen, 01877, Deutschland;51.1277815;14.1795516
+634;Tabor;3;Tábor, okres Tábor, Jihočeský kraj, Jihozápad, Česko;49.4116462;14.671067073598662
+635;Leeuwarden;3;Leeuwarden, Fryslân, Nederland;53.2005936;5.7918548
+636;Jeseník;3;Jeseník, okres Jeseník, Olomoucký kraj, Střední Morava, Česko;50.2296385;17.2046012
+637;Buer;3;Bours, Tarbes, Hautes-Pyrénées, Occitanie, France métropolitaine, 65460, France;43.2768745;0.092596
+638;Strasburg;3;Strasbourg, Bas-Rhin, Grand Est, France métropolitaine, France;48.584614;7.7507127
+639;Leipzig-Plagwitz;3;Leipzig-Plagwitz, Karl-Heine-Straße, Neulindenau, Südwest, Leipzig, Sachsen, 04229, Deutschland;51.3280545;12.3220542
+640;Stolpen;3;Stolpen, Sächsische Schweiz-Osterzgebirge, Sachsen, 01833, Deutschland;51.0492329;14.0830003
+641;Hoyerswerda;3;Hoyerswerda - Wojerecy, Bautzen, Sachsen, 02977, Deutschland;51.4333103;14.250083
+642;Jülich;3;Jülich, Kreis Düren, Nordrhein-Westfalen, 52428, Deutschland;50.9220931;6.3611015
+643;Köpenick;3;Köpenick, Treptow-Köpenick, Berlin, Deutschland;52.4539099;13.5764126
+644;Küstrin;3;Kostrzyn nad Odrą, powiat gorzowski, województwo lubuskie, 66-470, Polska;52.61626975;14.627947699728011
+645;Hemer;3;Hemer, Märkischer Kreis, Nordrhein-Westfalen, 58675, Deutschland;51.3854116;7.7661798
+646;Sebnitz;3;Sebnitz, Sächsische Schweiz-Osterzgebirge, Sachsen, 01855, Deutschland;50.97098;14.2727203
+647;Krásná Lípa;3;Krásná Lípa, okres Děčín, Ústecký kraj, Severozápad, Česko;50.9145647;14.5062621
+648;Bruchsal;3;Bruchsal, Verwaltungsgemeinschaft Bruchsal, Landkreis Karlsruhe, Baden-Württemberg, 76646, Deutschland;49.124118;8.5980244
+649;Lohr a. Main;3;Lohr am Main, Landkreis Main-Spessart, Bayern, 97816, Deutschland;49.9954978;9.5733619
+650;Bologna;3;Bologna, Emilia-Romagna, Italia;44.4937577;11.3430308
+651;Leipzig-Gohlis;3;Leipzig-Gohlis, Blochmannstraße, Gohlis-Süd, Nord, Leipzig, Sachsen, 04155, Deutschland;51.363047;12.3741934
+652;Kamień Pomorski;3;Kamień Pomorski, gmina Kamień Pomorski, powiat kamieński, województwo zachodniopomorskie, Polska;53.9648364;14.7734718
+653;Wertheim;3;Wertheim, Main-Tauber-Kreis, Baden-Württemberg, 97877, Deutschland;49.7614982;9.5155411
+654;Schleusingen;3;Schleusingen, Landkreis Hildburghausen, Thüringen, 98553, Deutschland;50.5416758;10.7669624
+655;Camburg;3;Camburg, Dornburg-Camburg, Saale-Holzland-Kreis, Thüringen, 07774, Deutschland;51.053862;11.7105213
+656;Kairo;3;القاهرة, محافظة القاهرة, مصر;30.0443879;31.2357257
+657;Lindau (Bodensee);3;Lindau (Bodensee), Landkreis Lindau, Bayern, 88131, Deutschland;47.550753;9.6926624
+658;Calw;3;Calw, Verwaltungsgemeinschaft Calw, Landkreis Calw, Baden-Württemberg, 75365, Deutschland;48.7112108;8.7452043
+659;Kutná Hora;3;Kutná Hora, okres Kutná Hora, Střední Čechy, Česko;49.9486561;15.2681123
+660;Jever;3;Jever, Landkreis Friesland, Niedersachsen, 26441, Deutschland;53.5736426;7.9020696
+661;Kirchheimbolanden;3;Kirchheimbolanden, Donnersbergkreis, Rheinland-Pfalz, 67292, Deutschland;49.6644306;8.0107385
+662;Zell-Oberzell;3;Kloster Oberzell, Mainleitenstraße, Zell am Main, Landkreis Würzburg, Bayern, 97299, Deutschland;49.7996031;9.8794395
+663;Papenburg;3;Papenburg, Bahnhofstraße, Papenburg, Landkreis Emsland, Niedersachsen, 26871, Deutschland;53.0898943;7.3869777
+664;Glückstadt;3;Glückstadt, Steinburg, Schleswig-Holstein, 25348, Deutschland;53.7913149;9.4267978
+665;Osterode;3;Ostróda, powiat ostródzki, województwo warmińsko-mazurskie, Polska;53.7028533;19.9623028
+666;Waren (Müritz);3;Waren (Müritz), Lloydstraße, Werdersiedlung, Waren (Müritz), Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, 17192, Deutschland;53.5217959;12.6805557
+667;Neudamm;3;Dębno, gmina Dębno, powiat myśliborski, województwo zachodniopomorskie, 74-400, Polska;52.7396681;14.7014522
+668;Warendorf;3;Warendorf, Kreis Warendorf, Nordrhein-Westfalen, 48231, Deutschland;51.9532449;7.9912335
+669;Ostrava;3;Ostrava, okres Ostrava-město, Moravskoslezský kraj, Moravskoslezsko, Česko;49.8349139;18.2820084
+670;Frankenstein in Schlesien;3;;;
+671;Radeberg;3;Radeberg, Bautzen, Sachsen, 01454, Deutschland;51.1151413;13.9175257
+672;Nagykanizsa;3;Nagykanizsa, Nagykanizsai járás, Zala megye, Nyugat-Dunántúl, Dunántúl, Magyarország;46.4548261;16.9923923
+673;Cuxhaven;3;Cuxhaven, Landkreis Cuxhaven, Niedersachsen, Deutschland;53.86878;8.698286
+674;Münsterberg;3;Ziębice, gmina Ziębice, powiat ząbkowicki, województwo dolnośląskie, 57-220, Polska;50.6007752;17.0405633
+675;Greifenberg;3;Greifenberg, Schondorf a.Ammersee (VGem), Landkreis Landsberg am Lech, Bayern, 86926, Deutschland;48.0707446;11.0835556
+676;Mülheim;3;Mülheim an der Ruhr, Nordrhein-Westfalen, Deutschland;51.4272925;6.8829192
+677;Mühlberg/Elbe;3;Mühlberg/Elbe, Liebenwerda, Elbe-Elster, Brandenburg, 04931, Deutschland;51.4344274;13.2172472
+678;Pyritz;3;Pyrzyce, gmina Pyrzyce, powiat pyrzycki, województwo zachodniopomorskie, 74-200, Polska;53.1457;14.89267
+679;Patschkau;3;Paczków, gmina Paczków, powiat nyski, województwo opolskie, Polska;50.4636773;17.0057683
+680;Česká Kamenice;3;Česká Kamenice, okres Děčín, Ústecký kraj, Severozápad, 40721, Česko;50.7994117;14.4165592
+681;Mosbach;3;Mosbach, Verwaltungsgemeinschaft Mosbach, Neckar-Odenwald-Kreis, Baden-Württemberg, 74821, Deutschland;49.3527796;9.1455235
+682;Deutsch-Brod;3;Dolní Jílovice, Vyšší Brod, okres Český Krumlov, Jihočeský kraj, Jihozápad, 38273, Česko;48.6492127;14.2736423
+683;Gifhorn;3;Gifhorn, Niedersachsen, Deutschland;52.57806125;10.661344801415442
+684;Zülpich;3;Zülpich, Kreis Euskirchen, Nordrhein-Westfalen, 53909, Deutschland;50.6922278;6.6472694
+685;Neurode;3;Nová Pláň, okres Bruntál, Moravskoslezský kraj, Moravskoslezsko, Česko;49.9219107;17.4750953
+686;Nossen;3;Nossen, Meißen, Sachsen, 01683, Deutschland;51.0565934;13.2980726
+687;Dramburg;3;Drawsko Pomorskie, gmina Drawsko Pomorskie, powiat drawski, województwo zachodniopomorskie, 78-500, Polska;53.5310786;15.8134179
+688;Rixdorf;3;Rixdorf, Lebrade, Großer Plöner See, Plön, Schleswig-Holstein, 24306, Deutschland;54.2077602;10.4244773
+689;Friedenau;3;Friedenau, Tempelhof-Schöneberg, Berlin, Deutschland;52.472075;13.3296424
+690;Nimwegen;3;Nijmegen, Gelderland, Nederland;51.842574850000005;5.838960628748229
+691;Ohlau;3;Oława, powiat oławski, województwo dolnośląskie, 55-200, Polska;50.9431901;17.2957066
+692;Gablonz an der Neiße;3;Jablonec nad Nisou, okres Jablonec nad Nisou, Liberecký kraj, Severovýchod, Česko;50.7240899;15.1710958
+693;Niedersedlitz;3;Niedersedlitz, Prohlis, Dresden, Sachsen, 01257, Deutschland;50.9989308;13.814592593226756
+694;Rheine;3;Rheine, Kreis Steinfurt, Nordrhein-Westfalen, Deutschland;52.2797707;7.4373615
+695;Freyburg (Unstrut);3;Freyburg (Unstrut), Unstruttal, Burgenlandkreis, Sachsen-Anhalt, 06632, Deutschland;51.2126192;11.7696956
+696;Neustadt-Eberswalde;3;;;
+697;Rogasen;3;Rogoźno, gmina Rogoźno, powiat obornicki, województwo wielkopolskie, Polska;52.7523023;16.9936288
+698;Dornach;3;Dornach, Bezirk Dorneck, Amtei Dorneck-Thierstein, Solothurn, 4143, Schweiz/Suisse/Svizzera/Svizra;47.4806097;7.6176609
+699;Zemun;3;Београд (Земун), Београд, Град Београд, Централна Србија, 11000, Србија;44.8444;20.4123996
+700;Olten;3;Olten, Bezirk Olten, Amtei Olten-Gösgen, Solothurn, Schweiz/Suisse/Svizzera/Svizra;47.3496571;7.903787
+701;Ratzeburg;3;Ratzeburg, Herzogtum Lauenburg, Schleswig-Holstein, Deutschland;53.7011061;10.774288
+702;Backnang;3;Backnang, Vereinbarte Verwaltungsgemeinschaft der Stadt Backnang, Rems-Murr-Kreis, Baden-Württemberg, 71522, Deutschland;48.9466799;9.4311225
+703;Eschwege;3;Eschwege, Werra-Meißner-Kreis, Hessen, 37269, Deutschland;51.186867;10.0575056
+704;Asch;3;Aš, okres Cheb, Karlovarský kraj, Severozápad, Česko;50.22359205;12.185766532475133
+705;Bad Pyrmont;3;Bad Pyrmont, Landkreis Hameln-Pyrmont, Niedersachsen, 31812, Deutschland;51.9850503;9.2434635
+706;Tetschen;3;Děčín, okres Děčín, Ústecký kraj, Severozápad, Česko;50.7824196;14.2147221
+707;Meisenheim;3;Meisenheim, Nahe-Glan, Landkreis Bad Kreuznach, Rheinland-Pfalz, 55590, Deutschland;49.706647;7.6700779
+708;Yokohama;3;横浜市, 神奈川県, 231-0017, 日本;35.444991;139.636768
+709;Pleschen;3;Pleszew, gmina Pleszew, powiat pleszewski, województwo wielkopolskie, 63-300, Polska;51.8960985;17.7865673
+710;Vejprty;3;Vejprty, okres Chomutov, Ústecký kraj, Severozápad, 43191, Česko;50.4923155;13.0321201
+711;Tauberbischofsheim;3;Tauberbischofsheim, Verwaltungsgemeinschaft Tauberbischofsheim, Main-Tauber-Kreis, Baden-Württemberg, 97941, Deutschland;49.6229682;9.6627138
+712;Meldorf;3;Meldorf, Mitteldithmarschen, Dithmarschen, Schleswig-Holstein, 25704, Deutschland;54.08988;9.070633
+713;Taucha;3;Taucha, Nordsachsen, Sachsen, 04425, Deutschland;51.3799905;12.4936336
+714;Barby;3;Barby, Rethel, Ardennes, Grand Est, France métropolitaine, 08300, France;49.5217295;4.3129272
+715;Allenstein;3;Olsztyn, powiat olsztyński, województwo warmińsko-mazurskie, Polska;53.7767239;20.477781292210345
+716;Ehrenfeld;3;Ehrenfeld, Köln, Nordrhein-Westfalen, Deutschland;50.9679925;6.887914431752257
+717;Ternopil;3;Тернопіль, Тернопільська міська громада, Тернопільський район, Тернопільська область, Україна;49.5557716;25.591886
+718;Weiden i.d. OPf.;3;Weiden in der Oberpfalz, Bayern, 92637, Deutschland;49.6752749;12.1631636
+719;Meseritz;3;Międzyrzecz, gmina Międzyrzecz, powiat międzyrzecki, województwo lubuskie, 66-300, Polska;52.4448261;15.578637
+720;Markneukirchen;3;Markneukirchen, Vogtlandkreis, Sachsen, Deutschland;50.311883;12.3292151
+721;Güstrow;3;Güstrow, Landkreis Rostock, Mecklenburg-Vorpommern, Deutschland;53.7936523;12.1759661
+722;Varaždin;3;Grad Varaždin, Varaždinska županija, Hrvatska;46.3079645;16.3378198
+723;Marburg an der Drau;3;Maribor, Slovenija;46.5576439;15.6455854
+724;Grünstadt;3;Grünstadt, Landkreis Bad Dürkheim, Rheinland-Pfalz, Deutschland;49.5655288;8.163722
+725;Miskolc;3;Miskolc, Miskolci járás, Borsod-Abaúj-Zemplén megye, Észak-Magyarország, Alföld és Észak, Magyarország;48.1030643;20.7900429
+726;Aalborg;3;Aalborg, Aalborg Kommune, Region Nordjylland, 9000, Danmark;57.0462626;9.9215263
+727;Villingen im Schwarzwald;3;Villingen, 5, Bahnhofstraße, Villingen, Villingen-Schwenningen, Verwaltungsgemeinschaft Villingen-Schwenningen, Schwarzwald-Baar-Kreis, Baden-Württemberg, 78048, Deutschland;48.0578147;8.4652872
+728;Guhrau;3;Góra, gmina Góra, powiat górowski, województwo dolnośląskie, 56-200, Polska;51.6681499;16.5393277
+729;Bad Saulgau;3;Bad Saulgau, Verwaltungsgemeinschaft Bad Saulgau, Landkreis Sigmaringen, Baden-Württemberg, 88348, Deutschland;48.0158071;9.5010309
+730;Bad Schandau;3;Bad Schandau, Sächsische Schweiz-Osterzgebirge, Sachsen, 01814, Deutschland;50.918091;14.1534018
+731;Colmar;3;Colmar, Colmar-Ribeauvillé, Haut-Rhin, Grand Est, France métropolitaine, 68000, France;48.0777517;7.3579641
+732;Friedrichshafen;2;Friedrichshafen, Verwaltungsgemeinschaft Friedrichshafen, Bodenseekreis, Baden-Württemberg, Deutschland;47.6505715;9.4797531
+733;Vegesack;2;Vegesack, Stadtbezirk Bremen-Nord, Bremen, 28757, Deutschland;53.1705249;8.6238803
+734;Buchholz;2;Buchholz, Burg-Sankt Michaelisdonn, Dithmarschen, Schleswig-Holstein, Deutschland;53.9882387;9.2264708
+735;Kalisz;2;Kalisz, Nędzerzew, gmina Opatówek, powiat kaliski, województwo wielkopolskie, 62-860, Polska;51.74736505;18.079590087700034
+736;Kevelaer;2;Kevelaer, Kreis Kleve, Nordrhein-Westfalen, Deutschland;51.5802996;6.2456273
+737;Vechta;2;Vechta, Landkreis Vechta, Niedersachsen, 49377, Deutschland;52.7310691;8.2873162
+738;Kirchberg;2;Kirchberg, Thann-Guebwiller, Haut-Rhin, Grand Est, France métropolitaine, 68290, France;47.7979814;6.9537288
+739;Emmishofen;2;Emmishofen, Granegg, Bernrainzelg, Kreuzlingen, Bezirk Kreuzlingen, Thurgau, 8280, Schweiz/Suisse/Svizzera/Svizra;47.6470522;9.1550638
+740;Frýdlant;2;Frýdlant, okres Liberec, Liberecký kraj, Severovýchod, 46401, Česko;50.9216775;15.0794594
+741;Waiblingen;2;Waiblingen, Rems-Murr-Kreis, Baden-Württemberg, Deutschland;48.8425793;9.3305129
+742;Freudenstadt;2;Freudenstadt, Vereinbarte Verwaltungsgemeinschaft Freudenstadt, Landkreis Freudenstadt, Baden-Württemberg, 72250, Deutschland;48.4637727;8.4111727
+743;Brugg;2;Brugg, Bezirk Brugg, Aargau, Schweiz/Suisse/Svizzera/Svizra;47.4824633;8.2085662
+744;Wadowice;2;Wadowice, gmina Wadowice, powiat wadowicki, województwo małopolskie, 34-100, Polska;49.8834484;19.4925345
+745;Kecskemét;2;Kecskemét, Kecskeméti járás, Bács-Kiskun megye, Dél-Alföld, Alföld és Észak, Magyarország;46.9080769;19.6928133
+746;Forchheim (Oberfr.);2;Forchheim (Oberfr.), Bayreuther Straße, Forchheim, Landkreis Forchheim, Bayern, 91301, Deutschland;49.7169143;11.0700855
+747;Esztergom;2;Esztergom, Esztergomi járás, Komárom-Esztergom megye, Közép-Dunántúl, Dunántúl, Magyarország;47.7856977;18.7403349
+748;Wiener Neustadt;2;Gemeinde Wiener Neustadt, Wiener Neustadt, Bezirk Neunkirchen, Niederösterreich, Österreich;47.80708635;16.23325959462936
+749;Fellin;2;Viljandi linn, Viljandi maakond, Eesti;58.3646073;25.5876563
+750;Jüterbog;2;Jüterbog, Teltow-Fläming, Brandenburg, 14913, Deutschland;51.9916493;13.0801128
+751;Ehingen (Donau);2;Ehingen (Donau), Gemeindeverwaltungsverband Ehingen (Donau), Alb-Donau-Kreis, Baden-Württemberg, 89584, Deutschland;48.2828519;9.7262175
+752;Uschhorod;2;Ужгород, Ужгородська міська громада, Ужгородський район, Закарпатська область, Україна;48.6223732;22.3022569
+753;Floridsdorf;2;Floridsdorf, Wien, 1210, Österreich;48.279815049999996;16.412134555336003
+754;Steele;2;Steele County, Minnesota, United States;44.0137336;-93.2203671
+755;Staßfurt;2;Staßfurt, Salzlandkreis, Sachsen-Anhalt, Deutschland;51.8514515;11.5929455
+756;Unna;2;Unna, Kreis Unna, Nordrhein-Westfalen, Deutschland;51.5348835;7.689014
+757;Tuttlingen;2;Tuttlingen, Verwaltungsgemeinschaft Tuttlingen, Landkreis Tuttlingen, Baden-Württemberg, 78532, Deutschland;47.9844315;8.8186606
+758;Frankenthal (Pfalz);2;Frankenthal (Pfalz), Rheinland-Pfalz, 67227, Deutschland;49.5445804;8.3540061
+759;Frankfurt-Rödelheim;2;Frankfurt-Rödelheim, 1, Baruch-Baschwitz-Platz, Rödelheim, Mitte-West, Frankfurt am Main, Hessen, 60489, Deutschland;50.1244113;8.6073066
+760;Kaunas;2;Kaunas, Kauno miesto savivaldybė, Kauno apskritis, Lietuva;54.8982139;23.9044817
+761;Uelzen;2;Uelzen, Niedersachsen, Deutschland;52.9840679;10.538588154650403
+762;Vaasa;2;Vaasa, Vaasan seutukunta, Österbotten, Länsi- ja Sisä-Suomen aluehallintovirasto, Manner-Suomi, Suomi / Finland;63.0957722;21.6159187
+763;Erkelenz;2;Erkelenz, Kreis Heinsberg, Nordrhein-Westfalen, 41812, Deutschland;51.080992;6.3160684
+764;Duderstadt;2;Duderstadt, Landkreis Göttingen, Niedersachsen, 37115, Deutschland;51.5123672;10.2610699
+765;Villach;2;Villach, Kärnten, Österreich;46.6167284;13.8500268
+766;Ka̜ty Wrocławskie;2;Kąty Wrocławskie, gmina Kąty Wrocławskie, powiat wrocławski, województwo dolnośląskie, Polska;51.0302656;16.7702325
+767;Vohwinkel;2;Vohwinkel, Gemarkung Vohwinkel, Wuppertal, Nordrhein-Westfalen, 42329, Deutschland;51.2311401;7.0703608
+768;Weinfelden;2;Weinfelden, Bezirk Weinfelden, Thurgau, 8570, Schweiz/Suisse/Svizzera/Svizra;47.5669187;9.1097539
+769;Waitzen;2;Vác, Váci járás, Pest megye, Közép-Magyarország, Magyarország;47.7782873;19.1278294
+770;Haarlem;2;Haarlem, Noord-Holland, Nederland;52.383705750000004;4.643559696559635
+771;Tiegenhof;2;Nowy Dwór Gdański, gmina Nowy Dwór Gdański, powiat nowodworski, województwo pomorskie, Polska;54.2146299;19.1150846
+772;Washington, DC;2;Washington, District of Columbia, United States;38.8950368;-77.0365427
+773;Caransebeş;2;Caransebeș, Caraș-Severin, România;45.4106108;22.2182232
+774;Hettstedt;2;Hettstedt, Mansfeld-Südharz, Sachsen-Anhalt, Deutschland;51.6500047;11.4999986
+775;Herzogenbusch;2;'s-Hertogenbosch, Noord-Brabant, Nederland;51.6889351;5.3031044
+776;Czarnków;2;Czarnków, gmina Czarnków, powiat czarnkowsko-trzcianecki, województwo wielkopolskie, 64-700, Polska;52.90107245;16.572584219404398
+777;Thale;2;Thale, Landkreis Harz, Sachsen-Anhalt, 06502, Deutschland;51.7527606;11.037722
+778;Herborn;2;Herborn, Lahn-Dill-Kreis, Hessen, 35745, Deutschland;50.6831806;8.3031741
+779;Heppens;2;Heppens, Wilhelmshaven, Niedersachsen, 26384, Deutschland;53.5311372;8.1334831
+780;Craiova;2;Craiova, Zona Metropolitană Craiova, Dolj, România;44.3190159;23.7965614
+781;Coppet;2;Coppet, Grand Genève, District de Nyon, Vaud, 1296, Schweiz/Suisse/Svizzera/Svizra;46.3164464;6.1927752
+782;Kirchheim unter Teck;2;Kirchheim unter Teck, Vereinbarte Verwaltungsgemeinschaft der Stadt Kirchheim unter Teck, Landkreis Esslingen, Baden-Württemberg, 73230, Deutschland;48.6480545;9.4510227
+783;Helgoland;2;Helgoland, Pinneberg, Schleswig-Holstein, 27498, Deutschland;54.18004525;7.885362101180695
+784;Judenburg;2;Judenburg, Bezirk Murtal, Steiermark, 8750, Österreich;47.1694082;14.6601079
+785;Heiligenstadt i. OFr.;2;Wandern um Heiligenstadt i.Ofr., Burggrub, Heiligenstadt, Landkreis Bamberg, Bayern, 91332, Deutschland;49.875773;11.1389635
+786;Hagenau;2;Haguenau, Haguenau-Wissembourg, Bas-Rhin, Grand Est, France métropolitaine, 67500, France;48.8172236;7.7885978
+787;Heilbad Heiligenstadt;2;Heilbad Heiligenstadt, Landkreis Eichsfeld, Thüringen, 37308, Deutschland;51.3756186;10.138224
+788;Śmigiel;2;Śmigiel, gmina Śmigiel, powiat kościański, województwo wielkopolskie, Polska;52.012744;16.5271118
+789;Hainichen;2;Hainichen, Mittelsachsen, Sachsen, 09661, Deutschland;50.9725862;13.1229747
+790;Hechingen;2;Hechingen, Gemeindeverwaltungsverband Hechingen, Zollernalbkreis, Baden-Württemberg, 72379, Deutschland;48.3525529;8.9642047
+791;Weida;2;Weida, Greiz, Thüringen, 07570, Deutschland;50.7581426;12.0470063
+792;Hartenstein;2;Hartenstein, Zwickau, Sachsen, 08118, Deutschland;50.6618358;12.6712469
+793;Weilburg;2;Weilburg, Landkreis Limburg-Weilburg, Hessen, 35781, Deutschland;50.4823062;8.2669053
+794;Tangermünde;2;Tangermünde, Stendal, Sachsen-Anhalt, 39590, Deutschland;52.5431104;11.9722524
+795;Šumperk;2;Šumperk, okres Šumperk, Olomoucký kraj, Střední Morava, Česko;49.9655521;16.9705651
+796;Chrudim;2;Chrudim, okres Chrudim, Pardubický kraj, Severovýchod, Česko;49.9511458;15.7947559
+797;Suceava;2;Suceava, România;47.53265345;25.834593917414125
+798;Greifenhagen;2;Gryfino, gmina Gryfino, powiat gryfiński, województwo zachodniopomorskie, Polska;53.2535889;14.4924243
+799;Hohenstein;2;Hohenstein, Gemeindeverwaltungsverband Engstingen, Landkreis Reutlingen, Baden-Württemberg, 72531, Deutschland;48.3472808;9.3548059
+800;Tondern;2;Tønder, Tønder Kommune, Region Syddanmark, 6270, Danmark;54.9380637;8.8629408
+801;Buchsweiler;2;Bouxwiller, Saverne, Bas-Rhin, Grand Est, France métropolitaine, 67330, France;48.8254997;7.4800291
+802;Jitschin;2;Jičín, okres Jičín, Královéhradecký kraj, Severovýchod, 506 42, Česko;50.4370452;15.3516528
+803;Waldheim;2;Waldheim, Mittelsachsen, Sachsen, 04736, Deutschland;51.0770643;13.0157798
+804;Garding;2;Garding, Eiderstedt, Nordfriesland, Schleswig-Holstein, 25836, Deutschland;54.3294634;8.7795106
+805;Gautzsch;2;Gautzsch, Markkleeberg-West, Markkleeberg, Landkreis Leipzig, Sachsen, 04416, Deutschland;51.2807008;12.3571872
+806;Dornbirn;2;Stadt Dornbirn, Bezirk Dornbirn, Vorarlberg, Österreich;47.413631;9.7423875
+807;Trondhjem;2;Trondheim, Trøndelag, Norge;63.4305658;10.3951929
+808;Stollberg/Erzgeb.;2;Stollberg, Stollberg/Erzgebirge, Stollberg/Erzgeb., Erzgebirgskreis, Sachsen, 09366, Deutschland;50.7087734;12.7762607
+809;Iwano-Frankiwsk;2;Івано-Франківськ, Івано-Франківська міська рада, Івано-Франківський район, Івано-Франківська область, Україна;48.9225224;24.7103188
+810;Trogen;2;Trogen, Mittelland, Appenzell Ausserrhoden, 9043, Schweiz/Suisse/Svizzera/Svizra;47.4080647;9.4650334
+811;Hann. Münden;2;Hann. Münden, Landkreis Göttingen, Niedersachsen, 34346, Deutschland;51.4161908;9.6550096
+812;Donaueschingen;2;Donaueschingen, Verwaltungsverband Donaueschingen, Schwarzwald-Baar-Kreis, Baden-Württemberg, 78166, Deutschland;47.9534194;8.4959257
+813;Burg b. Magdeburg;2;Magdeburg, Sachsen-Anhalt, Deutschland;52.1315889;11.6399609
+814;Deventer;2;Deventer, Overijssel, Nederland;52.2695736;6.236339604766698
+815;Burgstädt;2;Bürgstadt, Verwaltungsgemeinschaft Erftal, Landkreis Miltenberg, Bayern, 63927, Deutschland;49.7158643;9.2713816
+816;Strzelce Opolskie;2;Strzelce Opolskie, gmina Strzelce Opolskie, powiat strzelecki, województwo opolskie, 47-100, Polska;50.5109033;18.3004547
+817;Warburg;2;Warburg, Kreis Höxter, Nordrhein-Westfalen, 34414, Deutschland;51.4886533;9.1488385
+818;Büdingen;2;Buding, Thionville, Moselle, Grand Est, France métropolitaine, 57920, France;49.334193;6.3227721
+819;Gossau;2;Gossau (SG), Wahlkreis St. Gallen, Sankt Gallen, Schweiz/Suisse/Svizzera/Svizra;47.4155906;9.249359
+820;Trentschin;2;Trenčín, okres Trenčín, Trenčiansky kraj, Západné Slovensko, 91250, Slovensko;48.8923583;18.0393715
+821;Hörde;2;Hörde, Dortmund, Nordrhein-Westfalen, 44263, Deutschland;51.4904608;7.5009394
+822;Büren;2;Buren, Gelderland, Nederland;51.92963705;5.420000238944224
+823;Delmenhorst;2;Delmenhorst, 10, Wittekindstraße, Mitte, Delmenhorst, Niedersachsen, 27753, Deutschland;53.0528092;8.6294626
+824;Warmbrunn;2;Cieplice Śląskie-Zdrój, Jelenia Góra, województwo dolnośląskie, 58-560, Polska;50.8652778;15.6775
+825;Horsens;2;Horsens, Horsens Kommune, 8700, Danmark;55.8611696;9.8444774
+826;Głuchołazy;2;Głuchołazy, gmina Głuchołazy, powiat nyski, województwo opolskie, 48-340, Polska;50.3170828;17.3833809
+827;Łódź;2;Łódź, województwo łódzkie, Polska;51.7687323;19.4569911
+828;Kirn;2;Kirn, Kirner Land, Landkreis Bad Kreuznach, Rheinland-Pfalz, Deutschland;49.7861037;7.4584035
+829;Bad Lobenstein;2;Bad Lobenstein, Saale-Orla-Kreis, Thüringen, 07356, Deutschland;50.449292;11.6380757
+830;Bad Tölz;2;Bad Tölz, Landkreis Bad Tölz-Wolfratshausen, Bayern, 83646, Deutschland;47.7610641;11.5582933
+831;Rzeszów;2;Rzeszów, powiat rzeszowski, województwo podkarpackie, Polska;50.013064;22.016143457294312
+832;Bad Segeberg;2;Bad Segeberg, Segeberg, Schleswig-Holstein, 23795, Deutschland;53.9368198;10.30415
+833;Bad Säckingen;2;Bad Säckingen, Verwaltungsgemeinschaft Bad Säckingen, Landkreis Waldshut, Baden-Württemberg, 79713, Deutschland;47.5525538;7.9495387
+834;Miltenberg;2;Miltenberg, Landkreis Miltenberg, Bayern, 63897, Deutschland;49.7017584;9.2559718
+835;Bad Oldesloe;2;Bad Oldesloe, Stormarn, Schleswig-Holstein, 23843, Deutschland;53.8096562;10.3733692
+836;Bad Oeynhausen;2;Bad Oeynhausen, Kreis Minden-Lübbecke, Nordrhein-Westfalen, Deutschland;52.2014399;8.7981244
+837;Bad Nauheim;2;Bad Nauheim, Wetteraukreis, Hessen, 61231, Deutschland;50.3681107;8.7473608
+838;Rummelsburg;2;Rummelsburg, Lichtenberg, Berlin, Deutschland;52.5013696;13.4835143
+839;Berlin-Wilmersdorf;2;Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland;52.4871152;13.3203298
+840;Rumburg;2;Rumburk, okres Děčín, Ústecký kraj, Severozápad, 40801, Česko;50.9517739;14.5569317
+841;Zabern;2;Saverne, Bas-Rhin, Grand Est, France métropolitaine, 67700, France;48.7419909;7.3625953
+842;Roßwein;2;Roßwein, Mittelsachsen, Sachsen, 04741, Deutschland;51.0651211;13.1845301
+843;Mylau;2;Mylau, Obermylau, Reichenbach, Reichenbach im Vogtland, Vogtlandkreis, Sachsen, 08499, Deutschland;50.61839705;12.270593932803752
+844;Bad Kissingen;2;Bad Kissingen, Landkreis Bad Kissingen, Bayern, 97688, Deutschland;50.1983954;10.0750993
+845;Nakło nad Notecia̜;2;Nakło nad Notecią, gmina Nakło nad Notecią, powiat nakielski, województwo kujawsko-pomorskie, Polska;53.1386896;17.5998891
+846;Namslau;2;Namysłów, gmina Namysłów, powiat namysłowski, województwo opolskie, Polska;51.0766258;17.7185619
+847;Bad Godesberg;2;Bad Godesberg, Bonn, Nordrhein-Westfalen, Deutschland;50.685109;7.1536622
+848;Menton;2;Menton, Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur, France métropolitaine, 06500, France;43.7753495;7.5029213
+849;Menden (Sauerland);2;Menden (Sauerland), Westtangente, Menden, Märkischer Kreis, Nordrhein-Westfalen, 58706, Deutschland;51.4353047;7.7919706
+850;Saargemünd;2;Sarreguemines, Moselle, Grand Est, France métropolitaine, 57200, France;49.1094836;7.0708865
+851;Bad Wimpfen;2;Bad Wimpfen, Landkreis Heilbronn, Baden-Württemberg, 74206, Deutschland;49.2302875;9.1621599
+852;Berlin-Lichterfelde;2;Lichterfelde, Steglitz-Zehlendorf, Berlin, Deutschland;52.437293;13.3138645
+853;Bergen auf Rügen;2;Bergen auf Rügen, Vorpommern-Rügen, Mecklenburg-Vorpommern, 18528, Deutschland;54.4172673;13.4305634
+854;Bergen;2;Bergen, Vestland, Norge;60.3943055;5.3259192
+855;Lüben;2;Lubin, powiat lubiński, województwo dolnośląskie, Polska;51.3974465;16.2051275
+856;Lüchow (Wendland);2;Lüchow, Samtgemeinde Lüchow (Wendland), Lüchow-Dannenberg, Niedersachsen, 29439, Deutschland;52.968667;11.156763
+857;São Paulo;2;São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, Brasil;-23.5506507;-46.6333824
+858;Sátoraljaújhely;2;Sátoraljaújhely, Sátoraljaújhelyi járás, Borsod-Abaúj-Zemplén megye, Észak-Magyarország, Alföld és Észak, Magyarország;48.3960978;21.6561497
+859;Belgard (Persante);2;Białogard, powiat białogardzki, województwo zachodniopomorskie, 78-200, Polska;54.0064367;15.9870974
+860;Magdeburg-Sudenburg;2;Magdeburg-Sudenburg, Am Sudenburger Bahnhof, MAW zuvor Polte Armaturenwerke, Stadtfeld West, Magdeburg, Sachsen-Anhalt, 39110, Deutschland;52.1204575;11.5970294
+861;Września;2;Września, gmina Września, powiat wrzesiński, województwo wielkopolskie, 62-300, Polska;52.3250694;17.5652282
+862;Manchester;2;Manchester, Greater Manchester, North West England, England, United Kingdom;53.4794892;-2.2451148
+863;Batavia;2;Daerah Khusus Ibukota Jakarta, Gambir, Jakarta Pusat, Indonesia;-6.1753942;106.827183
+864;Sankt Joachimsthal;2;Jáchymov, okres Karlovy Vary, Karlovarský kraj, Severozápad, 36251, Česko;50.3629787;12.9299257
+865;Barth;2;Barth, Vorpommern-Rügen, Mecklenburg-Vorpommern, 18356, Deutschland;54.3690547;12.7258585
+866;Sankt Ingbert;2;Sankt Ingbert, Saarpfalz-Kreis, Saarland, 66386, Deutschland;49.2788378;7.1156707
+867;Mediasch;2;Mediaș, Sibiu, România;46.1625212;24.3473855
+868;Meiderich;2;Meiderich/Beeck, Duisburg, Nordrhein-Westfalen, Deutschland;51.471698;6.754003442321973
+869;Zehlendorf;2;Zehlendorf, Steglitz-Zehlendorf, Berlin, Deutschland;52.4343217;13.2589298
+870;Rostow am Don;2;Ростов-на-Дону, городской округ Ростов-на-Дону, Ростовская область, Южный федеральный округ, Россия;47.2213858;39.7114196
+871;Neugersdorf;2;Neugersdorf, Ebersbach-Neugersdorf, Görlitz, Sachsen, 02727, Deutschland;50.973617149999995;14.609193011539087
+872;Osijek;2;Osijek, Grad Osijek, Osječko-baranjska županija, Hrvatska;45.5548719;18.6953719
+873;Amersfoort;2;Amersfoort, Utrecht, Nederland;52.163773899999995;5.3965879493517015
+874;Oxford;2;Oxford, Chester County, Pennsylvania, 19363, United States;39.7852062;-75.9790215
+875;Pardubitz;2;Pardubice, okres Pardubice, Pardubický kraj, Severovýchod, Česko;50.0385812;15.7791356
+876;Radautz;2;Rădăuți, Suceava, 725400, România;47.8461055;25.9181822
+877;Quakenbrück;2;Quakenbrück, Artland, Landkreis Osnabrück, Niedersachsen, 49610, Deutschland;52.6757127;7.9567402
+878;Pärnu;2;Pärnu, Valga linn, Valga vald, Valga maakond, 68203, Eesti;57.7718612;26.0298512
+879;Pegau;2;Pegau, Landkreis Leipzig, Sachsen, 04523, Deutschland;51.1667169;12.255453
+880;Altena (Westf.);2;Altena (Westfalen), Bahnhofstraße, Mühlendorf, Altena, Märkischer Kreis, Nordrhein-Westfalen, 58762, Deutschland;51.3018435;7.6689744
+881;Pelplin;2;Pelplin, gmina Pelplin, powiat tczewski, województwo pomorskie, 83-130, Polska;53.9278352;18.6985388
+882;Pécs;2;Pécs, Pécsi járás, Baranya megye, Dél-Dunántúl, Dunántúl, Magyarország;46.0763222;18.2280746
+883;Přibram;2;Příbram, okres Příbram, Středočeský kraj, Střední Čechy, Česko;49.6901444;14.0103663
+884;Podbořany;2;Podbořany, okres Louny, Ústecký kraj, Severozápad, 44101, Česko;50.2296341;13.4118542
+885;Zwolle;2;Zwolle, Overijssel, Nederland;52.5089759;6.0943765
+886;Aalen;2;Aalen, Verwaltungsgemeinschaft Aalen, Ostalbkreis, Baden-Württemberg, Deutschland;48.8362705;10.0931765
+887;Potschappel;2;Potschappel, Freital, Sächsische Schweiz-Osterzgebirge, Sachsen, Deutschland;51.0131482;13.662626
+888;Pritzwalk;2;Pritzwalk, Prignitz, Brandenburg, 16928, Deutschland;53.1492896;12.1761903
+889;Pôrto Alegre;2;Porto Alegre, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, Região Geográfica Intermediária de Porto Alegre, Rio Grande do Sul, Região Sul, Brasil;-30.0324999;-51.2303767
+890;Zülz;2;Biała, gmina Biała, powiat prudnicki, województwo opolskie, 48-210, Polska;50.3853609;17.6599107
+891;Zutphen;2;Zutphen, Gelderland, Nederland;52.143222;6.2044441
+892;Bad Düben;2;Bad Düben, Nordsachsen, Sachsen, 04849, Deutschland;51.5911653;12.5856428
+893;Recklinghausen;2;Recklinghausen, Kreis Recklinghausen, Nordrhein-Westfalen, Deutschland;51.6143815;7.1978546
+894;Neumark;2;Neumark, Am Ettersberg, Landkreis Weimarer Land, Thüringen, Deutschland;51.079026;11.2441904
+895;Neumünster;2;Neumünster, Schleswig-Holstein, Deutschland;54.0757442;9.9815377
+896;Neustadt an der Orla;2;Neustadt an der Orla, Saale-Orla-Kreis, Thüringen, 07806, Deutschland;50.7364311;11.7458512
+897;Zeulenroda;2;Zeulenroda, Zeulenroda-Triebes, Greiz, Thüringen, 07937, Deutschland;50.6488803;11.9794326
+898;Neustettin;2;Szczecinek, gmina Szczecinek, powiat szczecinecki, województwo zachodniopomorskie, 78-400, Polska;53.70234205;16.70713424642978
+899;Neustrelitz-Alt-Strelitz;2;Strelitz-Alt, Neustrelitz, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, 17235, Deutschland;53.3323629;13.0949986
+900;Neutra;2;Nitra, okres Nitra, Nitriansky kraj, Západné Slovensko, Slovensko;48.31295;18.0894593
+901;Nienburg / Weser;2;Landkreis Nienburg/Weser, Niedersachsen, Deutschland;52.6487602;9.257810517418042
+902;Nikolsburg;2;Mikulov, okres Břeclav, Jihomoravský kraj, Jihovýchod, 69201, Česko;48.8068577;16.6383914
+903;Novo Mesto;2;Novo mesto, Slovenija;45.8040475;15.1696684
+904;Arosa;2;Arosa, Plessur, Graubünden/Grischun/Grigioni, Schweiz/Suisse/Svizzera/Svizra;46.7797248;9.6781356
+905;Zrenjanin;2;Зрењанин, Град Зрењанин, Средњобанатски управни округ, Војводина, 20, Србија;45.3802683;20.3907614
+906;Riesa;2;Riesa, Meißen, Sachsen, Deutschland;51.3038241;13.308828
+907;Arco;2;Arco, Comunità Alto Garda e Ledro, Provincia di Trento, Trentino-Alto Adige/Südtirol, 38062, Italia;45.9181327;10.8860953
+908;Oldenburg in Holstein;2;Oldenburg in Holstein, Ostholstein, Schleswig-Holstein, 23758, Deutschland;54.2922574;10.8809805
+909;Arbon;2;Arbon, Saint-Gaudens, Haute-Garonne, Occitanie, France métropolitaine, 31160, France;43.0007;0.747026
+910;Reuß-Gera;2;Reuß-Park, Ostviertel, Gera, Thüringen, 07546, Deutschland;50.8876548;12.0971361
+911;Lommatzsch;2;Lommatzsch, Meißen, Sachsen, 01623, Deutschland;51.1952586;13.3111561
+912;Saarburg;2;Saarburg, Saarburg-Kell, Landkreis Trier-Saarburg, Rheinland-Pfalz, 54439, Deutschland;49.6082527;6.548746
+913;Lehe;2;Lee County, Texas, United States;30.3031353;-96.9588587
+914;Schmalkalden;2;Schmalkalden, Landkreis Schmalkalden-Meiningen, Thüringen, 98574, Deutschland;50.7213643;10.4510467
+915;Lichtenstein;2;Liechtenstein;47.1594125;9.546911556940856
+916;Levoča;2;Levoča, okres Levoča, Prešovský kraj, Východné Slovensko, Slovensko;49.0251116;20.587999
+917;Leverkusen-Opladen;2;Leverkusen-Opladen, A 3, Küppersteg, Stadtbezirk II, Leverkusen, Nordrhein-Westfalen, 51373, Deutschland;51.0531353;6.9946219
+918;Letmathe;2;Letmathe, Iserlohn, Märkischer Kreis, Nordrhein-Westfalen, 58642, Deutschland;51.3666444;7.610424
+919;Wolbeck;2;Wolbeck, Münster-Südost, Münster, Nordrhein-Westfalen, Deutschland;51.920586;7.727183
+920;Wohlau;2;Wołów, gmina Wołów, powiat wołowski, województwo dolnośląskie, 56-100, Polska;51.3363841;16.6486903
+921;Leisnig;2;Leisnig, Mittelsachsen, Sachsen, 04703, Deutschland;51.16005;12.9265979
+922;Schöneberg;2;Schöneberg, Tempelhof-Schöneberg, Berlin, Deutschland;52.482157;13.3551901
+923;Leipzig-Neustadt;2;Neustadt, Neustadt-Neuschönefeld, Ost, Leipzig, Sachsen, 04315, Deutschland;51.3477434;12.4036979
+924;Leipzig-Eutritzsch;2;Eutritzsch, Nord, Leipzig, Sachsen, 04129, Deutschland;51.3707642;12.3873287
+925;Schönlanke;2;Trzcianka, gmina Trzcianka, powiat czarnkowsko-trzcianecki, województwo wielkopolskie, 64-980, Polska;53.0417582;16.4610993
+926;Bitterfeld;2;Bitterfeld, Bitterfeld-Wolfen, Anhalt-Bitterfeld, Sachsen-Anhalt, 06749, Deutschland;51.6239124;12.3301466
+927;Blankenhain;2;Blankenhain, Landkreis Weimarer Land, Thüringen, 99444, Deutschland;50.8577093;11.3429605
+928;Lage;2;Lage, Kreis Lippe, Nordrhein-Westfalen, 32791, Deutschland;51.9914084;8.7919583
+929;Elbogen;2;Loket, okres Sokolov, Karlovarský kraj, Severozápad, 35733, Česko;50.1860008;12.7540466
+930;Bochnia;2;Bochnia, powiat bocheński, województwo małopolskie, 32-700, Polska;49.974684249999996;20.425329198706468
+931;Bocholt;2;Bocholt, Kreis Borken, Nordrhein-Westfalen, Deutschland;51.8382715;6.6148669
+932;Witzenhausen;2;Witzenhausen, Werra-Meißner-Kreis, Hessen, Deutschland;51.3424772;9.8578217
+933;Bodenbach;2;Bodenbach, Kelberg, Landkreis Vulkaneifel, Rheinland-Pfalz, Deutschland;50.3114741;6.8481486
+934;Kristianstad;2;Kristianstad, Kristianstads kommun, Skåne län, SE-291 31, Sverige;56.0293778;14.1566859
+935;Kremsier;2;Kroměříž, okres Kroměříž, Zlínský kraj, Střední Morava, Česko;49.2984191;17.3929804
+936;Köln-Mülheim;2;Köln-Mülheim, Gleis 4 + 5, Steinkopfstraße, Mülheim, Köln, Nordrhein-Westfalen, 51065, Deutschland;50.9581466;7.0135261
+937;Sisak;2;Sisak, Grad Sisak, Sisačko-moslavačka županija, Hrvatska;45.488809;16.3754052
+938;Koronowo;2;Koronowo, gmina Koronowo, powiat bydgoski, województwo kujawsko-pomorskie, Polska;53.3140636;17.9369813
+939;Braunau;2;Braunau am Inn, Bezirk Braunau am Inn, Oberösterreich, 5280, Österreich;48.253136;13.039506
+940;Kolin;2;Kolín, okres Kolín, Střední Čechy, Česko;50.0288894;15.2011571
+941;Sonderburg;2;Sønderborg, Sønderborg Kommune, Region Syddanmark, 6400, Danmark;54.9089186;9.7897999
+942;Spaichingen;2;Spaichingen, Verwaltungsgemeinschaft Spaichingen, Landkreis Tuttlingen, Baden-Württemberg, 78549, Deutschland;48.0730713;8.7391941
+943;Spišská Nová Ves;2;Spišská Nová Ves, okres Spišská Nová Ves, Košický kraj, Východné Slovensko, Slovensko;48.9435344;20.562964
+944;Liebau;2;Liepāja, Kurzeme, Latvija;56.5048435;21.0070903
+945;Kyritz;2;Kyritz, Ostprignitz-Ruppin, Brandenburg, 16866, Deutschland;52.9430648;12.3966896
+946;Linz-Urfahr;2;Linz Urfahr, Kaarstraße, Alt-Urfahr, Urfahr, Linz, Oberösterreich, 4040, Österreich;48.3119791;14.2796016
+947;Wolgast;2;Wolgast, Am Peenestrom, Vorpommern-Greifswald, Mecklenburg-Vorpommern, 17438, Deutschland;54.0536473;13.7757809
+948;Schlüchtern;2;Schlüchtern, Main-Kinzig-Kreis, Hessen, 36381, Deutschland;50.3485112;9.5253904
+949;Bernstadt;2;Bernstadt, GVV Langenau, Alb-Donau-Kreis, Baden-Württemberg, 89182, Deutschland;48.4986058;10.0246274
+950;Biała;2;Белый, городское поселение Белый, Бельский район, Тверская область, Центральный федеральный округ, 172530, Россия;55.833073;32.939487
+951;Schlettstadt;2;Sélestat, Sélestat-Erstein, Bas-Rhin, Grand Est, France métropolitaine, 67600, France;48.2594396;7.454217
+952;Bruck an der Leitha;1;Gemeinde Bruck an der Leitha, Bezirk Bruck an der Leitha, Niederösterreich, 2460, Österreich;48.030394799999996;16.75801830741043
+953;Chamonix-Mont-Blanc;1;Chamonix-Mont-Blanc, Bonneville, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74400, France;45.9246705;6.8727506
+954;Ducherow;1;Ducherow, Anklam-Land, Vorpommern-Greifswald, Mecklenburg-Vorpommern, 17398, Deutschland;53.7646667;13.7848469
+955;Apenrade;1;Aabenraa, Aabenraa Kommune, Region Syddanmark, 6200, Danmark;55.0446228;9.4209667
+956;Zug;1;Zug, Schweiz/Suisse/Svizzera/Svizra;47.1486137;8.5539378
+957;Borbeck;1;Borbeck, Alt-Oberhausen, Oberhausen, Nordrhein-Westfalen, 45357, Deutschland;51.4907744;6.9110935
+958;Bordeaux;1;Bordeaux, Nouvelle-Aquitaine, France métropolitaine, France;44.841225;-0.5800364
+959;Boizenburg/Elbe;1;Boizenburg/Elbe, Ludwigslust-Parchim, Mecklenburg-Vorpommern, 19258, Deutschland;53.375079;10.7232364
+960;Wittlich;1;Wittlich, Landkreis Bernkastel-Wittlich, Rheinland-Pfalz, 54516, Deutschland;49.9850353;6.88844
+961;Ancona;1;Ancona, Marche, Italia;43.480120400000004;13.218790609151764
+962;Duisburg-Ruhrort;1;Duisburg-Ruhrort, Friedrich-Ebert-Straße, Ruhrort, Homberg/Ruhrort/Baerl, Duisburg, Nordrhein-Westfalen, 47119, Deutschland;51.4572505;6.7359687
+963;Zürich-Neumünster;1;Neumünster, 10, Hammerstrasse, Weinegg, Riesbach, Zürich, Bezirk Zürich, Zürich, 8008, Schweiz/Suisse/Svizzera/Svizra;47.3596206;8.5585046
+964;Dülken;1;Dülken, Viersen, Kreis Viersen, Nordrhein-Westfalen, 41751, Deutschland;51.2515622;6.3348434
+965;Dülmen;1;Dülmen, Kreis Coesfeld, Nordrhein-Westfalen, 48249, Deutschland;51.8283677;7.2791406
+966;Berlin-Dahlem;1;Berlin-Dahlem, Albrecht-Thaer-Weg, Dahlem, Steglitz-Zehlendorf, Berlin, 14195, Deutschland;52.4662332;13.2982478
+967;Wongrowitz;1;Wągrowiec, gmina Wągrowiec, powiat wągrowiecki, województwo wielkopolskie, 62-100, Polska;52.81220655;17.201913487483125
+968;Arendsee (Altmark);1;Arendsee (Altmark), Altmarkkreis Salzwedel, Sachsen-Anhalt, 39619, Deutschland;52.83863315;11.397528628077042
+969;Dresden-Plauen;1;Dresden-Plauen, S-Bahnhof Plauen, Plauen, Dresden, Sachsen, 01187, Deutschland;51.0296216;13.7031788
+970;Wien-Hernals;1;Wien Hernals, Heigerleinstraße, Frauenfeld, KG Dornbach, Hernals, Wien, 1170, Österreich;48.2232527;16.3148455
+971;Aue-Bad Schlema- Aue;1;Aue, Aue-Bad Schlema, Erzgebirgskreis, Sachsen, 08280, Deutschland;50.586993;12.6992687
+972;Blumenau;1;Blumenau, Região Geográfica Imediata de Blumenau, Região Geográfica Intermediária de Blumenau, Santa Catarina, Região Sul, Brasil;-26.9195567;-49.0658025
+973;Waldsassen;1;Waldsassen, Landkreis Tirschenreuth, Bayern, 95652, Deutschland;50.0053222;12.3041123
+974;Attendorn;1;Attendorn, Kreis Olpe, Nordrhein-Westfalen, 57439, Deutschland;51.1250541;7.9010992
+975;Astrachan;1;Астрахань, городской округ Астрахань, Астраханская область, Южный федеральный округ, 414000, Россия;46.3498308;48.0326203
+976;Assen;1;Assen, Drenthe, Nederland;52.99037165;6.553377770642328
+977;Berne;1;Bern, Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra;46.9482713;7.4514512
+978;Zoppot;1;Sopot, województwo pomorskie, Polska;54.44190905;18.54309444570447
+979;Waidhofen an der Thaya;1;Gemeinde Waidhofen an der Thaya, Bezirk Waidhofen an der Thaya, Niederösterreich, 3830, Österreich;48.8146165;15.284518
+980;Artern;1;Artern, Kyffhäuserkreis, Thüringen, 06556, Deutschland;51.3627798;11.2935249
+981;Bergisch Gladbach- Bensberg;1;Bergisch Gladbach-Bensberg, A 4, Steinhaus, Moitzfeld, Bergisch Gladbach, Rheinisch-Bergischer Kreis, Nordrhein-Westfalen, 51429, Deutschland;50.9570903;7.1833936
+982;Zörbig;1;Zörbig, Anhalt-Bitterfeld, Sachsen-Anhalt, 06780, Deutschland;51.6291126;12.1175042
+983;Bockenheim;1;Bockenheim, Innenstadt 2, Frankfurt am Main, Hessen, Deutschland;50.1233115;8.6460563
+984;Wrzeszcz;1;Gdańsk Wrzeszcz, Romana Dmowskiego, Strzyża Dolna, Wrzeszcz Górny, Gdańsk, województwo pomorskie, 80-243, Polska;54.3817696;18.6055111
+985;Wachenheim an der Weinstraße;1;Wachenheim an der Weinstraße, Landkreis Bad Dürkheim, Rheinland-Pfalz, 67157, Deutschland;49.42960195;8.14221059297832
+986;Zürich-Oerlikon;1;Zürich Oerlikon, 369, Hofwiesenstrasse, Oerlikon, Kreis 11, Zürich, Bezirk Zürich, Zürich, 8050, Schweiz/Suisse/Svizzera/Svizra;47.4114986;8.5441507
+987;Wyborg;1;город Выборг, Выборгский район, Ленинградская область, Северо-Западный федеральный округ, Россия;60.709217;28.744051
+988;Brotterode;1;Brotterode, Brotterode-Trusetal, Landkreis Schmalkalden-Meiningen, Thüringen, 98596, Deutschland;50.8256742;10.442226
+989;Adorf/Vogtl.;1;Adorf (Vogtl), Bahnhofstraße, Adorf/Vogtland, Vogtlandkreis, Sachsen, 08626, Deutschland;50.3238585;12.2609582
+990;Alsfeld;1;Alsfeld, Vogelsbergkreis, Hessen, 36304, Deutschland;50.7523545;9.268355
+991;Allentown, Pa.;1;Allentown, Lehigh County, Pennsylvania, United States;40.6022059;-75.4712794
+992;Aichach;1;Aichach, Landkreis Aichach-Friedberg, Bayern, 86551, Deutschland;48.4585555;11.1283627
+993;Eibenstock;1;Eibenstock, Erzgebirgskreis, Sachsen, 08309, Deutschland;50.47258105;12.588258899456243
+994;Cetinje;1;Cetinje, Prijestolnica Cetinje, Crna Gora / Црна Гора;42.389633;18.9246085
+995;Ahlen;1;Ahlen, Kreis Warendorf, Nordrhein-Westfalen, Deutschland;51.7627633;7.8909086
+996;Viechtach;1;Viechtach, Landkreis Regen, Bayern, 94234, Deutschland;49.0800743;12.8862723
+997;Achern;1;Achern, Verwaltungsgemeinschaft Achern, Ortenaukreis, Baden-Württemberg, 77855, Deutschland;48.6300161;8.0735581
+998;Altdöbern;1;Altdöbern, Oberspreewald-Lausitz, Brandenburg, 03229, Deutschland;51.6511561;14.0342532
+999;Ventspils;1;Ventspils, Kurzeme, Latvija;57.3903918;21.5635991
+1000;Berlin-Treptow;1;Vitanas Seniorencentrum, 4-14, Parrisiusstraße, Dammvorstadt, Köpenick, Treptow-Köpenick, Berlin, 12555, Deutschland;52.4567544;13.579214789909031
+1001;Brieg;1;Briec, Quimper, Finistère, Bretagne, France métropolitaine, 29510, France;48.1019452;-3.999718
+1002;Willisau;1;Willisau, Luzern, 6130, Schweiz/Suisse/Svizzera/Svizra;47.1215184;7.99659
+1003;Bregenz;1;Stadt Bregenz, Bezirk Bregenz, Vorarlberg, Österreich;47.5025779;9.7472924
+1004;Bremervörde;1;Bremervörde, Landkreis Rotenburg (Wümme), Niedersachsen, 27432, Deutschland;53.4850249;9.1362085
+1005;Breklum;1;Breklum, Mittleres Nordfriesland, Nordfriesland, Schleswig-Holstein, 25821, Deutschland;54.605797;8.9821282
+1006;Berlin-Tempelhof;1;Berlin-Tempelhof, Boelckestraße, Güterbahnhof Tempelhof, Tempelhof, Tempelhof-Schöneberg, Berlin, 12103, Deutschland;52.4711794;13.3774625
+1007;Edinburgh;1;City of Edinburgh, Scotland, United Kingdom;55.9533456;-3.1883749
+1008;Dorsten;1;Dorsten, Kreis Recklinghausen, Nordrhein-Westfalen, Deutschland;51.6604071;6.9647431
+1009;Cham;1;Cham, Landkreis Cham, Bayern, 93413, Deutschland;49.2178194;12.6663832
+1010;Altstätten;1;Altstätten, Wahlkreis Rheintal, Sankt Gallen, Schweiz/Suisse/Svizzera/Svizra;47.3783471;9.5412765
+1011;Altona-Ottensen;1;Ottensen, Altona, Hamburg, Deutschland;53.5550658;9.9198188
+1012;Düsseldorf-Oberkassel;1;Oberkassel, Stadtbezirk 4, Düsseldorf, Nordrhein-Westfalen, 40545, Deutschland;51.2295816;6.7554498
+1013;Dvinsk;1;Двинск, Тарангульский сельский округ, Есильский район, Северо-Казахстанская область, Қазақстан;54.145901;68.403328
+1014;Zwettl-Niederösterreich;1;Zwettl, Bezirk Zwettl, Niederösterreich, 3910, Österreich;48.6196156;15.0601913
+1015;Wittenberge;1;Wittenberge, Prignitz, Brandenburg, 19322, Deutschland;52.9983723;11.7507204
+1016;Ebersbach;1;Ebersbach, Meißen, Sachsen, 01561, Deutschland;51.2394975;13.6611979
+1017;Zwittau;1;Svitavy, okres Svitavy, Pardubický kraj, Severovýchod, Česko;49.7562053;16.4688995
+1018;Edenkoben;1;Edenkoben, Landkreis Südliche Weinstraße, Rheinland-Pfalz, 67480, Deutschland;49.282236;8.1284357
+1019;Ebingen;1;Ebingen, Albstadt, Gemeindeverwaltungsverband Albstadt, Zollernalbkreis, Baden-Württemberg, 72458, Deutschland;48.2123702;9.0271181
+1020;Brakel;1;Brakel, Kreis Höxter, Nordrhein-Westfalen, 33034, Deutschland;51.7168889;9.1841762
+1021;Eckartsberga;1;Eckartsberga, An der Finne, Burgenlandkreis, Sachsen-Anhalt, 06648, Deutschland;51.1231891;11.5604073
+1022;Eckernförde;1;Eckernförde, Rendsburg-Eckernförde, Schleswig-Holstein, 24340, Deutschland;54.4716456;9.8374947
+1023;Winterberg;1;Winterberg, Hochsauerlandkreis, Nordrhein-Westfalen, 59955, Deutschland;51.1930723;8.5338466
+1024;Berlin-Moabit;1;Berlin-Moabit, Erna-Samuel-Straße, Moabit, Mitte, Berlin, 10551, Deutschland;52.5346789;13.3344781
+1025;Berlin-Neukölln;1;Berlin-Neukölln, Berlin, Deutschland;52.4454318;13.44345982737298
+1026;Vukovar;1;Vukovar, Grad Vukovar, Vukovarsko-srijemska županija, 32000, Hrvatska;45.3444116;19.0023817
+1027;Berum;1;Berum, Biu, Borno, Nigeria;10.7053;11.8993
+1028;Berezhany;1;Бережани, Бережанська міська громада, Тернопільський район, Тернопільська область, Україна;49.4450296;24.938854
+1029;Wädenswil;1;Wädenswil, Bezirk Horgen, Zürich, 8820, Schweiz/Suisse/Svizzera/Svizra;47.2278988;8.6701365
+1030;Wehlau;1;Знаменск, Гвардейский городской округ, Калининградская область, Северо-Западный федеральный округ, 238200, Россия;54.6155775;21.227367
+1031;Beerfelden;1;Beerfelden, Gammelsbach, Oberzent, Odenwaldkreis, Baden-Württemberg, 64760, Deutschland;49.5566247;8.952778747669921
+1032;Békéscsaba;1;Békéscsaba, Békéscsabai járás, Békés megye, Dél-Alföld, Alföld és Észak, Magyarország;46.6798003;21.0985425
+1033;Beeskow;1;Beeskow, Oder-Spree, Brandenburg, Deutschland;52.1721569;14.2471058
+1034;Bückeburg;1;Bückeburg, Landkreis Schaumburg, Niedersachsen, 31675, Deutschland;52.2611037;9.0488959
+1035;Bad Ragaz;1;Bad Ragaz, Wahlkreis Sarganserland, Sankt Gallen, 7310, Schweiz/Suisse/Svizzera/Svizra;47.0025282;9.5016438
+1036;Weener;1;Weener, Landkreis Leer, Niedersachsen, 26826, Deutschland;53.1645939;7.3536239
+1037;Bielefeld-Bethel;1;Bethel, Gadderbaum, Bielefeld, Nordrhein-Westfalen, 33617, Deutschland;52.006976;8.5252971
+1038;Zaandam;1;Zaandam, Zaanstad, Noord-Holland, Nederland;52.4424926;4.8298607
+1039;Butschatsch;1;Бучач, Бучацька міська громада, Чортківський район, Тернопільська область, 48400-48405, Україна;49.0630503;25.389969
+1040;Bad Neustadt a. d. Saale;1;Bad Neustadt an der Saale, Landkreis Rhön-Grabfeld, Bayern, Deutschland;50.322637;10.2164873
+1041;Wałcz;1;Wałcz, gmina Wałcz, powiat wałecki, województwo zachodniopomorskie, 78-600, Polska;53.27285375;16.476817657727903
+1042;Bielefeld-Gadderbaum;1;Gadderbaum, Bielefeld, Nordrhein-Westfalen, 33617, Deutschland;52.0031035;8.5216345
+1043;Wasserburg a. Inn;1;Wasserburg am Inn, Landkreis Rosenheim, Bayern, 83512, Deutschland;48.0615171;12.220026
+1044;Daaden;1;Daaden, Daaden-Herdorf, Landkreis Altenkirchen, Rheinland-Pfalz, Deutschland;50.7391746;7.96766
+1045;Bad Münstereifel;1;Bad Münstereifel, Kreis Euskirchen, Nordrhein-Westfalen, 53902, Deutschland;50.5545674;6.7636511
+1046;Bad Sobernheim;1;Bad Sobernheim, Nahe-Glan, Landkreis Bad Kreuznach, Rheinland-Pfalz, 55566, Deutschland;49.7843963;7.6520457
+1047;Wilkau;1;Wilków, gmina Biała, powiat prudnicki, województwo opolskie, 48-210, Polska;50.3780645;17.765594
+1048;Bärenstein;1;Bärenstein, Erzgebirgskreis, Sachsen, Deutschland;50.498968;13.0282091
+1049;Bühl (Baden);1;Bühl (Baden), Güterstraße, Kappelwindeck, Bühl, Vereinbarte Verwaltungsgemeinschaft Bühl, Landkreis Rastatt, Baden-Württemberg, 77815, Deutschland;48.6965319;8.1293766
+1050;Bystrzyca Kłodzka;1;Bystrzyca Kłodzka, gmina Bystrzyca Kłodzka, powiat kłodzki, województwo dolnośląskie, 57-500, Polska;50.2968684;16.652017
+1051;Bützow;1;Bützow, Bützow-Land, Landkreis Rostock, Mecklenburg-Vorpommern, Deutschland;53.8500047;11.9832952
+1052;Wyk auf Föhr;1;Wyk auf Föhr, Föhr-Amrum, Nordfriesland, Schleswig-Holstein, Deutschland;54.6892888;8.5561518
+1053;Cleveland, Ohio;1;Cleveland, Cuyahoga County, Ohio, United States;41.5051613;-81.6934446
+1054;Cloppenburg;1;Cloppenburg, Landkreis Cloppenburg, Niedersachsen, 49661, Deutschland;52.8461339;8.0438783
+1055;Barmbek;1;Barmbek, Krüsistraße, Barmbek-Nord, Hamburg-Nord, Hamburg, 22305, Deutschland;53.5873864;10.0449416
+1056;Bant;1;Bant, Bhadrak, Odisha, India;21.10284835;86.34425428777675
+1057;Xanten;1;Xanten, Kreis Wesel, Nordrhein-Westfalen, 46509, Deutschland;51.661519;6.4543203
+1058;Bytów;1;Bytów, gmina Bytów, powiat bytowski, województwo pomorskie, Polska;54.168855;17.4922953
+1059;Bad Windsheim;1;Bad Windsheim, Landkreis Neustadt an der Aisch-Bad Windsheim, Bayern, 91438, Deutschland;49.5020006;10.4175301
+1060;Biedenkopf;1;Biedenkopf, Landkreis Marburg-Biedenkopf, Hessen, 35216, Deutschland;50.9158122;8.5270214
+1061;Bad Wildungen;1;Bad Wildungen, Landkreis Waldeck-Frankenberg, Hessen, 34537, Deutschland;51.1202493;9.1252933
+1062;Bad Wildbad;1;Bad Wildbad, Verwaltungsgemeinschaft Bad Wildbad, Landkreis Calw, Baden-Württemberg, 75323, Deutschland;48.7502439;8.550301
+1063;Béziers;1;Béziers, Hérault, Occitanie, France métropolitaine, 34500, France;43.3426562;3.2131307
+1064;Wendorf;1;Wendorf, Niepars, Vorpommern-Rügen, Mecklenburg-Vorpommern, Deutschland;54.2506148;13.0723757
+1065;Wartenburg;1;Wartenberg, Lichtenberg, Berlin, 13059, Deutschland;52.5753945;13.5175821
+1066;Bingen am Rhein;1;Bingen am Rhein, Landkreis Mainz-Bingen, Rheinland-Pfalz, 55411, Deutschland;49.9667;7.9
+1067;Weilheim i. OB.;1;Weilheim in Oberbayern, Landkreis Weilheim-Schongau, Bayern, 82362, Deutschland;47.8395072;11.1416355
+1068;Wangen im Allgäu;1;Wangen im Allgäu, Verwaltungsgemeinschaft Wangen im Allgäu, Landkreis Ravensburg, Baden-Württemberg, 88239, Deutschland;47.6856552;9.8342247
+1069;Werdohl;1;Werdohl, Märkischer Kreis, Nordrhein-Westfalen, 58791, Deutschland;51.257732;7.7642148
+1070;Wannsee;1;Wannsee, Steglitz-Zehlendorf, Berlin, 14109, Deutschland;52.4211482;13.1589374
+1071;Wolpertswende-Mochenwangen;1;Wolpertswende, Verwaltungsverband Fronreute-Wolpertswende, Landkreis Ravensburg, Baden-Württemberg, 88284, Deutschland;47.8760016;9.6359092
+1072;Bad Doberan;1;Bad Doberan, Landkreis Rostock, Mecklenburg-Vorpommern, 18209, Deutschland;54.105858;11.9026057
+1073;Dieppe;1;Dieppe, Seine-Maritime, Normandie, France métropolitaine, 76200, France;49.9246182;1.0791444
+1074;Dierdorf;1;Dierdorf, Landkreis Neuwied, Rheinland-Pfalz, 56269, Deutschland;50.5478886;7.6564407
+1075;Diez;1;Diez, Rhein-Lahn-Kreis, Rheinland-Pfalz, 65582, Deutschland;50.3694175;8.0174521
+1076;Waldshut;1;Waldshut, Waldshut-Tiengen, Verwaltungsgemeinschaft Waldshut-Tiengen, Landkreis Waldshut, Baden-Württemberg, 79761, Deutschland;47.6246179;8.2120605
+1077;Bad Liebenwerda;1;Bad Liebenwerda, Liebenwerda, Elbe-Elster, Brandenburg, 04924, Deutschland;51.5158115;13.39272
+1078;Dinkelsbühl;1;Dinkelsbühl, Landkreis Ansbach, Bayern, 91550, Deutschland;49.0692306;10.3223475
+1079;Bad Blankenburg;1;Bad Blankenburg, Landkreis Saalfeld-Rudolstadt, Thüringen, 07422, Deutschland;50.6829946;11.2726327
+1080;Donauwörth;1;Donauwörth, Landkreis Donau-Ries, Bayern, 86609, Deutschland;48.7180364;10.7807299
+1081;Aurillac;1;Aurillac, Cantal, Auvergne-Rhône-Alpes, France métropolitaine, 15000, France;44.9285441;2.4433101
+1082;Bílina;1;Bílina, okres Teplice, Ústecký kraj, Severozápad, Česko;50.5484048;13.7747641
+1083;Augustenborg;1;Augustenborg, Sønderborg Kommune, Region Syddanmark, Danmark;54.95098855;9.879848068506133
+1084;Blankenberg;1;Blâmont, Lunéville, Meurthe-et-Moselle, Grand Est, France métropolitaine, 54450, France;48.5912734;6.8435322
+1085;Zell (Mosel);1;Zell (Mosel), Landkreis Cochem-Zell, Rheinland-Pfalz, 56856, Deutschland;50.0275681;7.1813233
+1086;Werden;1;Werden, Stadtbezirk IX, Essen, Nordrhein-Westfalen, Deutschland;51.38853655;6.999544096512574
+1087;Bad Frankenhausen (Kyffhäuser);1;Bad Frankenhausen/Kyffhäuser, Kyffhäuserland, Kyffhäuserkreis, Thüringen, 99707, Deutschland;51.3560142;11.1005235
+1088;Bischheim;1;Bischheim, Strasbourg, Bas-Rhin, Grand Est, France métropolitaine, 67800, France;48.6148396;7.7523716
+1089;Warnow;1;Warnow, Bützow-Land, Landkreis Rostock, Mecklenburg-Vorpommern, Deutschland;53.7852296;11.8820169
+1090;Cambrai;1;Cambrai, Nord, Hauts-de-France, France métropolitaine, 59400, France;50.1759602;3.2356613
+1091;Bingen-Bingerbrück;1;Bingen (Rhein) Hauptbahnhof, Am Rupertsberg, Bingerbrück, Bingenerbrück, Bingen am Rhein, Landkreis Mainz-Bingen, Rheinland-Pfalz, 55411, Deutschland;49.9688103;7.8834854
+1092;Bad Lauterberg im Harz;1;Bad Lauterberg im Harz, Landkreis Göttingen, Niedersachsen, 37431, Deutschland;51.6313633;10.4706667
+1093;Burg auf Fehmarn;1;Burg auf Fehmarn, Fehmarn, Ostholstein, Schleswig-Holstein, 23769, Deutschland;54.4404862;11.199611
+1094;Deezbüll Burg;1;Deezbüll Burg, Niebüll, Südtondern, Nordfriesland, Schleswig-Holstein, 25899, Deutschland;54.7754533;8.8149859
+1095;Benrath;1;Benrath, Stadtbezirk 9, Düsseldorf, Nordrhein-Westfalen, 40597, Deutschland;51.163479;6.8727345
+1096;Weißenburg;1;Wissembourg, Haguenau-Wissembourg, Bas-Rhin, Grand Est, France métropolitaine, 67160, France;49.0365935;7.9445109
+1097;Berchtesgaden;1;Berchtesgaden, Landkreis Berchtesgadener Land, Bayern, Deutschland;47.63108;13.0021634
+1098;Binningen;1;Binningen, Bezirk Arlesheim, Basel-Landschaft, 4102, Schweiz/Suisse/Svizzera/Svizra;47.53656;7.570077
+1099;Birmingham;1;Birmingham, West Midlands Combined Authority, West Midlands, England, United Kingdom;52.4796992;-1.9026911
+1100;Zarów;1;Żary, powiat żarski, województwo lubuskie, Polska;51.6385162;15.1422487
+1101;Bad Harzburg;1;Bad Harzburg (Innenstadt), Bad Harzburg, Landkreis Goslar, Niedersachsen, Deutschland;51.8802577;10.5642634
+1102;Birnbaum;1;Hrušky, okres Vyškov, Jihomoravský kraj, Jihovýchod, Česko;49.1292013;16.833477
+1103;Bad Gastein;1;Bad Gastein, Bezirk St. Johann im Pongau, Salzburg, 5640, Österreich;47.1144954;13.1352653
+1104;Berlin-Zehlendorf;1;S Zehlendorf, Teltower Damm, Zehlendorf, Steglitz-Zehlendorf, Berlin, 14169, Deutschland;52.4310735;13.2585888
+1105;Preetz;1;Preetz, Plön, Schleswig-Holstein, 24211, Deutschland;54.2359233;10.2818352
+1106;Elgava;1;;;
+1107;Marienberg;1;Malbork, gmina Malbork, powiat malborski, województwo pomorskie, 82-200, Polska;54.0287383;19.039396385383558
+1108;Mansfeld;1;Mansfeld, Mansfeld-Südharz, Sachsen-Anhalt, 06343, Deutschland;51.5929057;11.4529104
+1109;Sankt Johann im Pongau;1;Sankt Johann im Pongau, Bezirk St. Johann im Pongau, Salzburg, 5600, Österreich;47.3475782;13.2026049
+1110;Malchin;1;Malchin, Malchin am Kummerower See, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, 17139, Deutschland;53.7382631;12.7644198
+1111;Makó;1;Makó, Makói járás, Csongrád-Csanád megye, Dél-Alföld, Alföld és Észak, Magyarország;46.2150438;20.4751022
+1112;Santiago de Chile;1;Santiago, Provincia de Santiago, Región Metropolitana de Santiago, Chile;-33.4377756;-70.6504502
+1113;Saratow;1;городской округ Саратов, Саратовская область, Приволжский федеральный округ, 410000, Россия;51.530018;46.034683
+1114;Sathmar;1;Satu Mare, România;47.7891763;22.8725598
+1115;Lützen;1;Lützen, Burgenlandkreis, Sachsen-Anhalt, 06686, Deutschland;51.2585623;12.1459521
+1116;Satrup;1;Satrup, Mittelangeln, Schleswig-Flensburg, Schleswig-Holstein, 24986, Deutschland;54.68612265;9.58964328533105
+1117;Lütjenburg;1;Lütjenburg, Plön, Schleswig-Holstein, Deutschland;54.2928257;10.5905485
+1118;Lünen;1;Lünen, Kreis Unna, Nordrhein-Westfalen, Deutschland;51.6142482;7.5228088
+1119;Lübz;1;Lübz, Eldenburg Lübz, Ludwigslust-Parchim, Mecklenburg-Vorpommern, 19386, Deutschland;53.4615326;12.0293514
+1120;Sächsisch-Reen;1;Reghin, Mureș, România;46.7796886;24.7000238
+1121;Lübbecke;1;Lübbecke, Kreis Minden-Lübbecke, Nordrhein-Westfalen, 32312, Deutschland;52.3027209;8.6183054
+1122;Schanghai;1;上海市, 黄浦区, 中国;31.2322758;121.4692071
+1123;Schäftlarn-Ebenhausen;1;Ebenhausen, Schäftlarn, Landkreis München, Bayern, 82067, Deutschland;47.9788079;11.4534323
+1124;Lundenburg;1;Břeclav, okres Břeclav, Jihomoravský kraj, Jihovýchod, Česko;48.7594008;16.8813137
+1125;Marggrabowa;1;Olecko, gmina Olecko, powiat olecki, województwo warmińsko-mazurskie, 19-401, Polska;54.0398024;22.4934246
+1126;Sankt Goar;1;Sankt Goar, Hunsrück-Mittelrhein, Rhein-Hunsrück-Kreis, Rheinland-Pfalz, Deutschland;50.15;7.71667
+1127;Schrozberg-Bartenstein;1;Bartenstein, Schrozberg, Landkreis Schwäbisch Hall, Baden-Württemberg, Deutschland;49.3561573;9.8820152
+1128;Markranstädt;1;Markranstädt, Landkreis Leipzig, Sachsen, 04420, Deutschland;51.3026177;12.2204644
+1129;Mies;1;Misiones, Argentina;-26.737224;-54.4315257
+1130;Michelstadt;1;Michelstadt, Odenwaldkreis, Hessen, 64720, Deutschland;49.682390049999995;9.034072902224182
+1131;Mettmann;1;Mettmann, Kreis Mettmann, Nordrhein-Westfalen, 40822, Deutschland;51.2527778;6.9777778
+1132;Meppen;1;Meppen, Bahnhofstraße, Neustadt, Meppen, Landkreis Emsland, Niedersachsen, 49716, Deutschland;52.6959802;7.2980648
+1133;Melnik;1;Mělník, okres Mělník, Střední Čechy, Česko;50.3520785;14.4748281
+1134;Salzkotten;1;Salzkotten, Kreis Paderborn, Nordrhein-Westfalen, 33154, Deutschland;51.6624739;8.617459219365298
+1135;Melk;1;Melk, Bezirk Melk, Niederösterreich, 3281, Österreich;48.1472806;15.2642089
+1136;San Francisco, Calif.;1;San Francisco, San Francisco City and County, California, United States;37.7790262;-122.4199061
+1137;Meiringen;1;Meiringen, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, Schweiz/Suisse/Svizzera/Svizra;46.7285518;8.1870934
+1138;San José;1;San Jose, Santa Clara County, California, United States;37.3361905;-121.890583
+1139;San Remo;1;San Remo, Municipio de Saldán, Departamento Colón, Córdoba, X5111, Argentina;-31.3088429;-64.3128487
+1140;Meckenheim;1;Meckenheim, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53340, Deutschland;50.6256627;7.0215612
+1141;Mährisch-Trübau;1;Moravská Třebová, okres Svitavy, Pardubický kraj, Severovýchod, 56921, Česko;49.7581546;16.6641472
+1142;Málaga;1;Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España;36.7213028;-4.4216366
+1143;Mayen;1;Mayen, Landkreis Mayen-Koblenz, Rheinland-Pfalz, 56727, Deutschland;50.3283544;7.2215134
+1144;Marxloh;1;Marxloh, Hamborn, Duisburg, Nordrhein-Westfalen, 47169, Deutschland;51.5039265;6.7589638
+1145;Marseille;1;Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13000, France;43.2961743;5.3699525
+1146;Schärding;1;Schärding, Bezirk Schärding, Oberösterreich, 4780, Österreich;48.4569975;13.4318
+1147;Lugano;1;Lugano, Circolo di Lugano ovest, Distretto di Lugano, Ticino, Schweiz/Suisse/Svizzera/Svizra;46.0050102;8.9520281
+1148;Schemnitz;1;Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko;48.4580926;18.8988414
+1149;Lučenec;1;Lučenec, okres Lučenec, Banskobystrický kraj, Stredné Slovensko, Slovensko;48.3300774;19.6637435
+1150;Schongau;1;Schongau, Landkreis Weilheim-Schongau, Bayern, 86956, Deutschland;47.8134583;10.8967857
+1151;Lenzburg;1;Lenzburg, Bezirk Lenzburg, Aargau, Schweiz/Suisse/Svizzera/Svizra;47.3873136;8.1821873
+1152;Lennep;1;Lennep, Remscheid, Nordrhein-Westfalen, 42897, Deutschland;51.1774492;7.2707841699703515
+1153;Lengefeld;1;Lengefeld, Pockau-Lengefeld, Erzgebirgskreis, Sachsen, 09514, Deutschland;50.7192961;13.1927938
+1154;Schorndorf;1;Schorndorf, Vereinbarte Verwaltungsgemeinschaft der Stadt Schorndorf, Rems-Murr-Kreis, Baden-Württemberg, 73614, Deutschland;48.8055169;9.5272665
+1155;Schönberg;1;Schönberg, Kölbingen, Westerburg, Westerwaldkreis, Rheinland-Pfalz, 56459, Deutschland;50.5443674;7.9348028
+1156;Leipzig-Stötteritz;1;Leipzig-Stötteritz, Güntzstraße, Stötteritz, Südost, Leipzig, Sachsen, 04299, Deutschland;51.3237401;12.4107603
+1157;Leipzig-Connewitz;1;Leipzig-Connewitz, Klemmstraße, Connewitz, Süd, Leipzig, Sachsen, 04277, Deutschland;51.3009323;12.3865233
+1158;Schönfließ, Neumark;1;;;
+1159;Schöningen;1;Schöningen, Landkreis Helmstedt, Niedersachsen, 38364, Deutschland;52.1388507;10.9671073
+1160;Leicester;1;Leicester, Leicestershire, East Midlands, England, LE1 5YA, United Kingdom;52.6361398;-1.1330789
+1161;Lauterecken;1;Lauterecken, Lauterecken-Wolfstein, Landkreis Kusel, Rheinland-Pfalz, 67742, Deutschland;49.6500361;7.5920007
+1162;Schöppenstedt;1;Schöppenstedt, Samtgemeinde Elm-Asse, Landkreis Wolfenbüttel, Niedersachsen, 38170, Deutschland;52.1439998;10.7751914
+1163;Laubach;1;Laubach, Simmern-Rheinböllen, Rhein-Hunsrück-Kreis, Rheinland-Pfalz, Deutschland;50.0557179;7.5099389
+1164;Langenthal;1;Langenthal, Nahe-Glan, Landkreis Bad Kreuznach, Rheinland-Pfalz, Deutschland;49.8309059;7.5737063
+1165;Langenbielau;1;Bielawa, powiat dzierżoniowski, województwo dolnośląskie, 58-260, Polska;50.6871117;16.6160879
+1166;Schrimm;1;Śrem, gmina Śrem, powiat śremski, województwo wielkopolskie, 63-100, Polska;52.0893322;17.0156809
+1167;Lidzbark;1;Lidzbark, gmina Lidzbark, powiat działdowski, województwo warmińsko-mazurskie, 13-230, Polska;53.2628043;19.8231836
+1168;Schmiedeberg;1;Kowary, gmina Mysłakowice, powiat karkonoski, województwo dolnośląskie, 58-530, Polska;50.778678;15.836050856544123
+1169;Lille;1;Lille, Nord, Hauts-de-France, France métropolitaine, France;50.6365654;3.0635282
+1170;Schlackenwerth;1;Ostrov nad Ohří, Ostrov, okres Karlovy Vary, Karlovarský kraj, Severozápad, 36301, Česko;50.30169275;12.943446922047695
+1171;Lößnitz;1;Lößnitz, Erzgebirgskreis, Sachsen, 08294, Deutschland;50.6210947;12.730753
+1172;Schillingsfürst;1;Schillingsfürst, Schillingsfürst (VGem), Landkreis Ansbach, Bayern, Deutschland;49.2865282;10.2622902
+1173;Löningen;1;Löningen, Landkreis Cloppenburg, Niedersachsen, 49624, Deutschland;52.7363493;7.7570655
+1174;Schivelbein;1;Świdwin, gmina Świdwin, powiat świdwiński, województwo zachodniopomorskie, 78-300, Polska;53.7743624;15.782515872730308
+1175;Louny;1;Louny, okres Louny, Ústecký kraj, Severozápad, Česko;50.3572914;13.7969195
+1176;Loschwitz;1;Loschwitz, Dresden, Sachsen, 01324, Deutschland;51.0573618;13.8189567
+1177;Lobositz;1;Lovosice, okres Litoměřice, Ústecký kraj, Severozápad, Česko;50.5153052;14.0509704
+1178;Liverpool;1;Liverpool, North West England, England, United Kingdom;53.407154;-2.991665
+1179;Lima;1;Lima, Perú;-12.0621065;-77.0365256
+1180;Lissabon;1;Lisboa, Grande Lisboa, Área Metropolitana de Lisboa, Portugal;38.7077507;-9.1365919
+1181;Schliersee-Fischhausen;1;Fischhausen, Neuhaus, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland;47.7103725;11.8666015
+1182;Lipine;1;Lipsk, gmina Lipsk, powiat augustowski, województwo podlaskie, Polska;53.7335414;23.4037394
+1183;Schlochau;1;Człuchów, powiat człuchowski, województwo pomorskie, 77-300, Polska;53.6634472;17.358074774000176
+1184;Linnich;1;Linnich, Kreis Düren, Nordrhein-Westfalen, 52441, Deutschland;50.9806294;6.2676208
+1185;Żmigród;1;Żmigród, gmina Żmigród, powiat trzebnicki, województwo dolnośląskie, Polska;51.4717386;16.9082719
+1186;Limbach;1;Limbach, Hachenburg, Westerwaldkreis, Rheinland-Pfalz, Deutschland;50.7012045;7.7999792
+1187;Mie̜dzylesie;1;Międzylesie, gmina Międzylesie, powiat kłodzki, województwo dolnośląskie, Polska;50.1480131;16.6669348
+1188;Mikołów;1;Mikołów, powiat mikołowski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska;50.19600335;18.853851637416344
+1189;Militsch;1;Milicz, gmina Milicz, powiat milicki, województwo dolnośląskie, 56-300, Polska;51.5319957;17.2752485
+1190;Rinteln;1;Rinteln, Landkreis Schaumburg, Niedersachsen, 31737, Deutschland;52.1912143;9.0779862
+1191;Osterburken;1;Osterburken, Verwaltungsverband Osterburken, Neckar-Odenwald-Kreis, Baden-Württemberg, 74706, Deutschland;49.4305787;9.4273773
+1192;Ostende;1;Oostende, West-Vlaanderen, Vlaanderen, 8400, België / Belgique / Belgien;51.2258565;2.919496
+1193;Oschersleben (Bode);1;Oschersleben (Bode), Lüneburger Straße, Oschersleben, Börde, Sachsen-Anhalt, 39387, Deutschland;52.0307021;11.2273593
+1194;Orăştie;1;Orăștie, Hunedoara, 335700, România;45.8367637;23.1958453
+1195;Oravita;1;Oravița, Caraș-Severin, România;45.0381333;21.6860595
+1196;Oranienbaum;1;Ломоносов, Санкт-Петербург, Северо-Западный федеральный округ, 190000, Россия;59.91032;29.776194
+1197;Olpe;1;Olpe, Kreis Olpe, Nordrhein-Westfalen, 57462, Deutschland;51.0297603;7.8424193
+1198;Rheinberg;1;Rheinberg, Kreis Wesel, Nordrhein-Westfalen, 47495, Deutschland;51.5458979;6.6014097
+1199;Oldenburg-Osternburg;1;Oldenburg-Osternburg, Ladestraße, Ottosiedlung, Osternburg, Oldenburg, Niedersachsen, 26135, Deutschland;53.1279814;8.2373428
+1200;Ohligs;1;Ohligs, Ohligs/Aufderhöhe/Merscheid, Solingen, Nordrhein-Westfalen, 42697, Deutschland;51.1615606;7.0004698
+1201;Riedlingen;1;Riedlingen, Gemeindeverwaltungsverband Riedlingen, Landkreis Biberach, Baden-Württemberg, 88499, Deutschland;48.1534412;9.4748796
+1202;Oelsnitz/Erzgeb.;1;Oelsnitz/Erzgeb., Erzgebirgskreis, Sachsen, 09376, Deutschland;50.7144724;12.7048401
+1203;Riesenburg;1;Prabuty, gmina Prabuty, powiat kwidzyński, województwo pomorskie, 82-550, Polska;53.755995;19.2044449
+1204;Ochsenhausen;1;Ochsenhausen, Verwaltungsgemeinschaft Ochsenhausen, Landkreis Biberach, Baden-Württemberg, 88416, Deutschland;48.0711222;9.9512104
+1205;Oberhof;1;Oberhof, Landkreis Schmalkalden-Meiningen, Thüringen, 98559, Deutschland;50.7069793;10.7250321
+1206;Oberammergau;1;Oberammergau, Landkreis Garmisch-Partenkirchen, Bayern, 82487, Deutschland;47.5966949;11.0673611
+1207;Nyíregyháza;1;Nyíregyháza, Nyíregyházi járás, Szabolcs-Szatmár-Bereg megye, Észak-Alföld, Alföld és Észak, Magyarország;47.9557802;21.7167982
+1208;Ostrau;1;Ostrava, okres Ostrava-město, Moravskoslezský kraj, Moravskoslezsko, Česko;49.8349139;18.2820084
+1209;Rappoltsweiler;1;Ribeauvillé, Colmar-Ribeauvillé, Haut-Rhin, Grand Est, France métropolitaine, 68150, France;48.1924602;7.3248871
+1210;Ottakring;1;Ottakring, Wien, 1160, Österreich;48.2149546;16.302153494876826
+1211;Ptuj;1;Ptuj, Slovenija;46.4198096;15.8717378
+1212;Prag-Karolinenthal;1;Karlín, Hlavní město Praha, Praha, Česko;50.0920871;14.4476672
+1213;Proskau;1;Prószków, gmina Prószków, powiat opolski, województwo opolskie, 46-060, Polska;50.5786696;17.8699852
+1214;Pont-de-Claix;1;Le Pont-de-Claix, Grenoble, Isère, Auvergne-Rhône-Alpes, France métropolitaine, 38800, France;45.1236837;5.6978136
+1215;Prudnik;1;Prudnik, gmina Prudnik, powiat prudnicki, województwo opolskie, 48-200, Polska;50.3217212;17.5801041
+1216;Pirmasens;1;Pirmasens, Rheinland-Pfalz, Deutschland;49.1996961;7.6087847
+1217;Pinneberg;1;Pinneberg, Schleswig-Holstein, Deutschland;53.7278939;9.6979598
+1218;Pieschen;1;Pieschen, Dresden, Sachsen, 01127, Deutschland;51.0831018;13.7225624
+1219;Pfullingen;1;Pfullingen, Landkreis Reutlingen, Baden-Württemberg, 72793, Deutschland;48.4656748;9.2254982
+1220;Randers;1;Randers NØ, Randers, Randers Kommune, 8930, Danmark;56.4800019;10.0891444
+1221;Pulsnitz;1;Pulsnitz, Bautzen, Sachsen, 01896, Deutschland;51.1825771;14.0139733
+1222;Putbus;1;Putbus, Vorpommern-Rügen, Mecklenburg-Vorpommern, 18581, Deutschland;54.3534787;13.4749375
+1223;Pelotas;1;Pelotas, Região Geográfica Imediata de Pelotas, Aglomeração Urbana do Sul, Região Geográfica Intermediária de Pelotas, Rio Grande do Sul, Região Sul, Brasil;-31.7699736;-52.3410161
+1224;Pausa/Vogtl.;1;;;
+1225;Pappenheim;1;Pappenheim, Landkreis Weißenburg-Gunzenhausen, Bayern, 91788, Deutschland;48.934784;10.9744929
+1226;Pančevo;1;Панчево, Град Панчево, Јужнобанатски управни округ, Војводина, 26000, Србија;44.8705686;20.6399643
+1227;Padua;1;Padova, Veneto, Italia;45.4077172;11.8734455
+1228;Nürtingen;1;Nürtingen, Vereinbarte Verwaltungsgemeinschaft der Stadt Nürtingen, Landkreis Esslingen, Baden-Württemberg, 72622, Deutschland;48.6265854;9.3365463
+1229;Nové Mesto nad Váhom;1;Nové Mesto nad Váhom, okres Nové Mesto nad Váhom, Trenčiansky kraj, Západné Slovensko, Slovensko;48.7633248;17.8303857
+1230;Rzepin;1;Rzepin, gmina Rzepin, powiat słubicki, województwo lubuskie, Polska;52.34432;14.8382902
+1231;Nordkirchen;1;Nordkirchen, Kreis Coesfeld, Nordrhein-Westfalen, 59394, Deutschland;51.7380176;7.5251792
+1232;Nauen;1;Nauen, Havelland, Brandenburg, Deutschland;52.6061065;12.8772599
+1233;Nancy;1;Nancy, Meurthe-et-Moselle, Grand Est, France métropolitaine, France;48.6937223;6.1834097
+1234;Nagyenyed;1;Aiud, Alba, România;46.3108893;23.7188181
+1235;Myslowitz;1;Mysłowice, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, Polska;50.2096211;19.132165997410812
+1236;Münnerstadt;1;Münnerstadt, Landkreis Bad Kissingen, Bayern, 97702, Deutschland;50.2490439;10.1942632
+1237;Rödelheim;1;Rödelheim, Mitte-West, Frankfurt am Main, Hessen, 60489, Deutschland;50.1249843;8.6125536
+1238;Müllheim;1;Müllheim, GVV Müllheim-Badenweiler, Landkreis Breisgau-Hochschwarzwald, Baden-Württemberg, 79379, Deutschland;47.8099613;7.6257276
+1239;Rüsselsheim;1;Rüsselsheim, Rüsselsheim am Main, Kreis Groß-Gerau, Hessen, 65428, Deutschland;49.991701;8.4138251
+1240;Mühlbach;1;Mühlbach - Rio di Pusteria, Eisacktal - Valle Isarco, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39037, Italia;46.7959461;11.6668266
+1241;Müglitztal-Weesenstein;1;Weesenstein, Müglitztal, Dohna-Müglitztal, Sächsische Schweiz-Osterzgebirge, Sachsen, 01809, Deutschland;50.9333517;13.8615934
+1242;Mölln;1;Mölln, Herzogtum Lauenburg, Schleswig-Holstein, 23879, Deutschland;53.62892;10.6880174
+1243;Mödling;1;Gemeinde Mödling, Bezirk Mödling, Niederösterreich, 2340, Österreich;48.0855922;16.2833526
+1244;Rybnik;1;Rybnik, województwo śląskie, Polska;50.0955793;18.5419933
+1245;Montabaur;1;Montabaur, Westerwaldkreis, Rheinland-Pfalz, Deutschland;50.4362219;7.8302494
+1246;Mohrungen;1;Morąg, gmina Morąg, powiat ostródzki, województwo warmińsko-mazurskie, 14-300, Polska;53.9119982;19.9279895
+1247;Rychnov;1;Bogatynia, gmina Bogatynia, powiat zgorzelecki, województwo dolnośląskie, Polska;50.9077147;14.9539185
+1248;Mistek;1;Místek, Frýdek-Místek, okres Frýdek-Místek, Moravskoslezský kraj, Moravskoslezsko, 73802, Česko;49.676205;18.3355026
+1249;Naugard;1;Nowogard, gmina Nowogard, powiat goleniowski, województwo zachodniopomorskie, 72-200, Polska;53.6687698;15.1225889
+1250;Roßlau (Elbe);1;Roßlau (Elbe), Dessauer Straße, Roßlau, Dessau-Roßlau, Sachsen-Anhalt, 06862, Deutschland;51.883838;12.2370501
+1251;Roztoky u Prahy;1;Roztoky u Prahy, Roztoky, okres Praha-západ, Střední Čechy, 25263, Česko;50.1568889;14.389469481444557
+1252;Romanshorn;1;Romanshorn, Bezirk Arbon, Thurgau, 8590, Schweiz/Suisse/Svizzera/Svizra;47.5654452;9.3776036
+1253;Riva del Garda;1;Riva del Garda, Comunità Alto Garda e Ledro, Provincia di Trento, Trentino-Alto Adige/Südtirol, 38066, Italia;45.8847708;10.8396942
+1254;Niesky;1;Niesky, Görlitz, Sachsen, 02906, Deutschland;51.2921267;14.8250955
+1255;Neviges;1;Neviges, Velbert, Kreis Mettmann, Nordrhein-Westfalen, 42553, Deutschland;51.3098033;7.0878942
+1256;Roermond;1;Roermond, Limburg, Nederland;51.1933903;5.9882649
+1257;Neustadt-Glewe-Neuhof;1;Neuhof, Neustadt-Glewe, Ludwigslust-Parchim, Mecklenburg-Vorpommern, 19306, Deutschland;53.3976199;11.6047952
+1258;Neustadt in Holstein;1;Neustadt in Holstein, Ostholstein, Schleswig-Holstein, 23730, Deutschland;54.1029898;10.8186738
+1259;Neustadt a. d. Aisch;1;Neustadt an der Aisch, Landkreis Neustadt an der Aisch-Bad Windsheim, Bayern, 91413, Deutschland;49.5819105;10.6077372
+1260;Neusohl;1;Banská Bystrica, okres Banská Bystrica, Banskobystrický kraj, Stredné Slovensko, Slovensko;48.7384028;19.1573494
+1261;Rothenburg/O.L.;1;Rothenburg/Oberlausitz, Görlitz, Sachsen, 02929, Deutschland;51.3333094;14.9666932
+1262;Rosenberg;1;Rosenberg, Fort Bend County, Texas, 77471, United States;29.5571825;-95.8085623
+1263;Neuötting;1;Neuötting, Landkreis Altötting, Bayern, 84524, Deutschland;48.2402896;12.685745
+1264;Neunkirchen;1;Neunkirchen-lès-Bouzonville, Forbach-Boulay-Moselle, Moselle, Grand Est, France métropolitaine, 57320, France;49.3533493;6.5564888
+1265;Neumarkt i.d. OPf.;1;Neumarkt in der Oberpfalz, Landkreis Neumarkt in der Oberpfalz, Bayern, 92318, Deutschland;49.279624;11.4594662
+1266;Neukirchen-Vluyn;1;Neukirchen-Vluyn, Kreis Wesel, Nordrhein-Westfalen, 47506, Deutschland;51.4413742;6.5467641
+1267;Neuerkerode;1;Neuerkerode, Sickte, Samtgemeinde Sickte, Landkreis Wolfenbüttel, Niedersachsen, 38173, Deutschland;52.212895;10.6590377
+1268;Rotenburg a. d. Fulda;1;Rotenburg an der Fulda, Landkreis Hersfeld-Rotenburg, Hessen, 36199, Deutschland;50.9948584;9.7269936
+1269;Schrobenhausen;1;Schrobenhausen, Landkreis Neuburg-Schrobenhausen, Bayern, 86529, Deutschland;48.5613407;11.2654488
+1270;Schwabach;1;Schwabach, Bayern, 91126, Deutschland;49.3295535;11.0195132
+1271;Elsterberg;1;Elsterberg, Vogtlandkreis, Sachsen, 07985, Deutschland;50.6036333;12.176645
+1272;Tokio;1;東京都, 日本;35.6828387;139.7594549
+1273;Grabow;1;Grabow, Ludwigslust-Parchim, Mecklenburg-Vorpommern, 19300, Deutschland;53.2789153;11.5625238
+1274;Tremessen;1;Trzemeszno, gmina Trzemeszno, powiat gnieźnieński, województwo wielkopolskie, 62-240, Polska;52.5600669;17.8208936
+1275;Gouda;1;Gouda, Krimpenerwaard, Zuid-Holland, Nederland;52.018119350000006;4.711122134697802
+1276;Golzern;1;Golzern, Grimma, Landkreis Leipzig, Sachsen, 04668, Deutschland;51.2475643;12.7822716
+1277;Treuchtlingen;1;Treuchtlingen, Landkreis Weißenburg-Gunzenhausen, Bayern, 91757, Deutschland;48.9554435;10.9089888
+1278;Gnadau;1;Gnadau, Barby, Salzlandkreis, Sachsen-Anhalt, Deutschland;51.9700396;11.775193638985705
+1279;Gmunden;1;Gmunden, Bezirk Gmunden, Oberösterreich, 4810, Österreich;47.9185855;13.8003048
+1280;Treuen;1;Treuen, Treuen/Neuensalz, Vogtlandkreis, Sachsen, 08233, Deutschland;50.5389413;12.3069937
+1281;Treuenbrietzen;1;Treuenbrietzen, Potsdam-Mittelmark, Brandenburg, 14929, Deutschland;52.0966552;12.8734896
+1282;Tribsees;1;Tribsees, Recknitz-Trebeltal, Vorpommern-Rügen, Mecklenburg-Vorpommern, 18465, Deutschland;54.0946272;12.7584066
+1283;Glashütte;1;Glashütte, Sächsische Schweiz-Osterzgebirge, Sachsen, 01768, Deutschland;50.8502095;13.7766767
+1284;Glasgow;1;Glasgow, Glasgow City, Scotland, G2 9SN, United Kingdom;55.8609825;-4.2488787
+1285;Trient;1;Trento, Territorio Val d'Adige, Provincia di Trento, Trentino-Alto Adige/Südtirol, Italia;46.0664228;11.1257601
+1286;Trnava;1;Trnava, okres Trnava, Trnavský kraj, Západné Slovensko, Slovensko;48.3767652;17.5858175
+1287;Giebichenstein;1;Giebichenstein, Halle (Saale), Sachsen-Anhalt, Deutschland;51.5004473;11.9577577
+1288;Germersheim;1;Germersheim, Landkreis Germersheim, Rheinland-Pfalz, 76726, Deutschland;49.2222749;8.36659
+1289;Geratal-Gräfenroda;1;Gräfenroda, Geratal, Ilm-Kreis, Thüringen, Deutschland;50.722075399999994;10.789811558349658
+1290;Trarbach;1;Trarbach, Traben-Trarbach, Landkreis Bernkastel-Wittlich, Rheinland-Pfalz, Deutschland;49.933586000000005;7.123839400162456
+1291;Tilburg;1;Tilburg, Noord-Brabant, Nederland;51.585618749999995;5.066061908648313
+1292;Kühlungsborn;1;Kühlungsborn, Landkreis Rostock, Mecklenburg-Vorpommern, 18225, Deutschland;54.1483764;11.7441876
+1293;Thonberg;1;Thonberg, Zentrum-Südost, Mitte, Leipzig, Sachsen, 04103, Deutschland;51.3208015;12.402368
+1294;Hallein;1;Hallein, Bezirk Hallein, Salzburg, 5400, Österreich;47.6821521;13.0956313
+1295;Halle-Trotha;1;Halle-Trotha, Hans-Dittmar-Straße, Industriegebiet Nord, Halle (Saale), Sachsen-Anhalt, 06118, Deutschland;51.523533;11.9623629
+1296;Halle-Giebichenstein;1;Giebichenstein, Halle (Saale), Sachsen-Anhalt, Deutschland;51.5004473;11.9577577
+1297;Haimhausen;1;Haimhausen, Landkreis Dachau, Bayern, 85778, Deutschland;48.315762;11.554494
+1298;Hagenow;1;Hagenow, Ludwigslust-Parchim, Mecklenburg-Vorpommern, 19230, Deutschland;53.4305796;11.1904828
+1299;Tczew;1;Tczew, gmina Tczew, powiat tczewski, województwo pomorskie, 83-110, Polska;54.09087675;18.777948614635996
+1300;Günzburg;1;Günzburg, Landkreis Günzburg, Bayern, 89312, Deutschland;48.4539028;10.2785509
+1301;Gummersbach;1;Gummersbach, Oberbergischer Kreis, Nordrhein-Westfalen, 51643, Deutschland;51.0277658;7.5630545
+1302;Thalwil;1;Thalwil, Bezirk Horgen, Zürich, 8800, Schweiz/Suisse/Svizzera/Svizra;47.2944325;8.5635762
+1303;Grunewald;1;Grunewald, Charlottenburg-Wilmersdorf, Berlin, Deutschland;52.4873475;13.2637538
+1304;Gröningen;1;Groningen, Nederland;53.2190652;6.5680077
+1305;Großröhrsdorf;1;Großröhrsdorf, Bautzen, Sachsen, 01900, Deutschland;51.1456848;14.0199103
+1306;Groß-Strehlitz;1;Strzelce Opolskie, gmina Strzelce Opolskie, powiat strzelecki, województwo opolskie, 47-100, Polska;50.5109033;18.3004547
+1307;Groß-Salze;1;Wieliczka, gmina Wieliczka, powiat wielicki, województwo małopolskie, 32-020, Polska;49.9823773;20.0602114
+1308;Theresienstadt;1;Terezín, Finské domky, Terezín, okres Litoměřice, Ústecký kraj, Severozápad, 41155, Česko;50.51067195;14.14827165080251
+1309;Groß-Gerau;1;Groß-Gerau, Kreis Groß-Gerau, Hessen, 64521, Deutschland;49.9194456;8.4852426
+1310;Thionville;1;Thionville, Moselle, Grand Est, France métropolitaine, 57100, France;49.3579272;6.1675872
+1311;Genua;1;Genova, Liguria, Italia;44.40726;8.9338624
+1312;Gemünden a. Main;1;Gemünden am Main, Landkreis Main-Spessart, Bayern, 97737, Deutschland;50.0557181;9.6910162
+1313;Geilenkirchen;1;Geilenkirchen, Kreis Heinsberg, Nordrhein-Westfalen, 52511, Deutschland;50.963605;6.1199802
+1314;Gardelegen;1;Gardelegen, Altmarkkreis Salzwedel, Sachsen-Anhalt, Deutschland;52.526556;11.3929784
+1315;Feodossija;1;Феодосия, городской округ Феодосия, Республика Крым, 298100-298175, Україна;45.033669;35.3753628
+1316;Fellheim;1;Fellheim, Boos, Landkreis Unterallgäu, Bayern, 87748, Deutschland;48.0732097;10.1527079
+1317;Eutritzsch;1;Eutritzsch, Nord, Leipzig, Sachsen, 04129, Deutschland;51.3707642;12.3873287
+1318;Vacha;1;Vacha, Wartburgkreis, Thüringen, 36404, Deutschland;50.8272621;10.0213868
+1319;Eschweiler;1;Eschweiler, Städteregion Aachen, Nordrhein-Westfalen, 52249, Deutschland;50.81753;6.2629956
+1320;Esch an der Alzette;1;Esch-sur-Alzette, Canton Esch-sur-Alzette, Lëtzebuerg;49.4959628;5.9850306
+1321;Erlenbach;1;Albé, Sélestat-Erstein, Bas-Rhin, Grand Est, France métropolitaine, 67220, France;48.3565749;7.3194249
+1322;Valdivia;1;Valdivia, Provincia de Valdivia, Región de Los Ríos, Chile;-39.8141262;-73.2459859
+1323;Valencia;1;València, Comarca de València, València / Valencia, Comunitat Valenciana, España;39.4697065;-0.3763353
+1324;Eppstein-Vockenhausen;1;Vockenhausen, Eppstein, Main-Taunus-Kreis, Hessen, 65817, Deutschland;50.1479714;8.3780284
+1325;Eppendorf;1;Eppendorf, Hamburg-Nord, Hamburg, Deutschland;53.5903912;9.9868771
+1326;Epinal;1;Épinal, Vosges, Grand Est, France métropolitaine, 88000, France;48.1747684;6.4503643
+1327;Enns;1;Enns, Bezirk Linz-Land, Oberösterreich, 4470, Österreich;48.2141482;14.4793948
+1328;Enger;1;Enger, Kreis Herford, Nordrhein-Westfalen, 32130, Deutschland;52.1394015;8.5588818
+1329;Engen;1;Engen, Verwaltungsgemeinschaft Engen, Landkreis Konstanz, Baden-Württemberg, 78234, Deutschland;47.8532383;8.7704457
+1330;Valparaíso;1;Valparaíso, Provincia de Valparaíso, Región de Valparaíso, Chile;-33.0458456;-71.6196749
+1331;Emmendingen;1;Emmendingen (Kernstadt), Emmendingen, VVG der Stadt Emmendingen, Landkreis Emmendingen, Baden-Württemberg, 79312, Deutschland;48.1206565;7.850993
+1332;Flawil;1;Flawil, Wahlkreis Wil, Sankt Gallen, Schweiz/Suisse/Svizzera/Svizra;47.414613;9.1861489
+1333;Usingen;1;Usingen, Hochtaunuskreis, Hessen, 61250, Deutschland;50.3342403;8.5369972
+1334;Flöha;1;Flöha, Mittelsachsen, Sachsen, 09557, Deutschland;50.8503529;13.0772325
+1335;Friedeberg;1;Strzelce Krajeńskie, gmina Strzelce Krajeńskie, powiat strzelecko-drezdenecki, województwo lubuskie, 66-500, Polska;52.8785255;15.5325925
+1336;Třebíč;1;Třebíč, okres Třebíč, Kraj Vysočina, Jihovýchod, Česko;49.2151907;15.8816091
+1337;Füssen;1;Füssen, Landkreis Ostallgäu, Bayern, 87629, Deutschland;47.5709212;10.6977089
+1338;Fürstenberg/Havel;1;Fürstenberg/Havel, Oberhavel, Brandenburg, Deutschland;53.1844661;13.1482276
+1339;Furtwangen im Schwarzwald;1;Furtwangen im Schwarzwald, Verwaltungsgemeinschaft Furtwangen im Schwarzwald, Schwarzwald-Baar-Kreis, Baden-Württemberg, 78120, Deutschland;48.0529805;8.2163467
+1340;Friedrichroda;1;Friedrichroda, Landkreis Gotha, Thüringen, Deutschland;50.861175;10.5639143
+1341;Friedek;1;Frýdek, Frýdek-Místek, okres Frýdek-Místek, Moravskoslezský kraj, Moravskoslezsko, 73801, Česko;49.6856259;18.3476076
+1342;Friedeberg, Neumark;1;;;
+1343;Turn;1;تونس;33.994952999999995;9.367097748325554
+1344;Fogaras;1;Făgăraș, Brașov, 505200, România;45.8449433;24.9703224
+1345;Tuzla;1;Tuzla, Grad Tuzla, Tuzlanski kanton, Federacija Bosne i Hercegovine, 75000, Bosna i Hercegovina / Босна и Херцеговина;44.5391105;18.675193
+1346;Ueckermünde;1;Ueckermünde, Vorpommern-Greifswald, Mecklenburg-Vorpommern, Deutschland;53.7371069;14.0458887
+1347;Franzburg;1;Franzburg, Franzburg-Richtenberg, Vorpommern-Rügen, Mecklenburg-Vorpommern, Deutschland;54.1833;12.8833
+1348;Ungarisch-Hradisch;1;Uherské Hradiště, okres Uherské Hradiště, Zlínský kraj, Střední Morava, Česko;49.0681018;17.4663899
+1349;Uničov;1;Uničov, okres Olomouc, Olomoucký kraj, Střední Morava, 78391, Česko;49.7711837;17.1213944
+1350;Frankeneck;1;Frankeneck, Lambrecht (Pfalz), Landkreis Bad Dürkheim, Rheinland-Pfalz, Deutschland;49.3758516;8.0487441
+1351;Frankenberg (Eder);1;Frankenberg (Eder), Frankenberg, Landkreis Waldeck-Frankenberg, Hessen, 35066, Deutschland;51.0605483;8.7948361
+1352;Halver;1;Halver, Märkischer Kreis, Nordrhein-Westfalen, 58553, Deutschland;51.1874423;7.4987312
+1353;Hamborn;1;Hamborn, Duisburg, Nordrhein-Westfalen, Deutschland;51.5041215;6.772532547024161
+1354;Tannwald;1;Tanvald, okres Jablonec nad Nisou, Liberecký kraj, Severovýchod, 46841, Česko;50.7379436;15.3037997
+1355;Kamenz;1;Kamenz - Kamjenc, Bautzen, Sachsen, Deutschland;51.270139;14.0948628
+1356;Konitz;1;Chojnice, gmina Chojnice, powiat chojnicki, województwo pomorskie, Polska;53.6999165;17.570344138115953
+1357;Kolomyja;1;Коломия, Коломийська міська громада, Коломийський район, Івано-Франківська область, Україна;48.5259211;25.0380538
+1358;Kleinandelfingen;1;Kleinandelfingen, Bezirk Andelfingen, Zürich, Schweiz/Suisse/Svizzera/Svizra;47.5998043;8.6860581
+1359;Split;1;Split, Grad Split, Splitsko-dalmatinska županija, Hrvatska;43.5116383;16.4399659
+1360;St. Wendel;1;Sankt Wendel, Landkreis St. Wendel, Saarland, 66606, Deutschland;49.4669906;7.1696192
+1361;Kiskunfélegyháza;1;Kiskunfélegyháza, Kiskunfélegyházi járás, Bács-Kiskun megye, Dél-Alföld, Alföld és Észak, Magyarország;46.7113263;19.8502905
+1362;Stadtamhof;1;Stadtamhof, Regensburg, Bayern, 93059, Deutschland;49.0248847;12.0956166
+1363;Kietrz;1;Kietrz, gmina Kietrz, powiat głubczycki, województwo opolskie, Polska;50.0796271;18.0021082
+1364;Stadthagen;1;Stadthagen, Landkreis Schaumburg, Niedersachsen, 31655, Deutschland;52.3289688;9.2053496
+1365;Stadtroda;1;Stadtroda, Saale-Holzland-Kreis, Thüringen, Deutschland;50.8582666;11.7263639
+1366;Stadtsulza;1;;;
+1367;Kellinghusen;1;Kellinghusen, Steinburg, Schleswig-Holstein, 25548, Deutschland;53.949549;9.7188996
+1368;Kasan;1;городской округ Казань, Татарстан, Приволжский федеральный округ, Россия;55.7823547;49.1242266
+1369;Steglitz;1;Steglitz, Steglitz-Zehlendorf, Berlin, Deutschland;52.4572569;13.3222865
+1370;Karlsburg;1;Karlsburg, Züssow, Vorpommern-Greifswald, Mecklenburg-Vorpommern, Deutschland;53.9728817;13.632929820346675
+1371;Kaposvár;1;Kaposvár, Kaposvári járás, Somogy megye, Dél-Dunántúl, Dunántúl, Magyarország;46.3564692;17.7886886
+1372;Kandern;1;Kandern, Verwaltungsgemeinschaft Kandern, Landkreis Lörrach, Baden-Württemberg, 79400, Deutschland;47.714697;7.6610865
+1373;Sodingen;1;Sodingen, Herne, Nordrhein-Westfalen, 44627, Deutschland;51.53503695;7.249128293567907
+1374;Sobótka;1;Sobotka, okres Jičín, Královéhradecký kraj, Severovýchod, 50743, Česko;50.46708565;15.172159342763022
+1375;Simmern/Hunsrück;1;Simmern/Hunsrück, Simmern-Rheinböllen, Rhein-Hunsrück-Kreis, Rheinland-Pfalz, 55469, Deutschland;49.9834956;7.5260197
+1376;Schweich;1;Schweich, Schweich an der Römischen Weinstraße, Landkreis Trier-Saarburg, Rheinland-Pfalz, 54338, Deutschland;49.8174463;6.7504206
+1377;Kupferdreh;1;Kupferdreh, Stadtbezirk VIII, Essen, Nordrhein-Westfalen, 45257, Deutschland;51.3915323;7.0833962
+1378;Kufstein;1;Stadt Kufstein, Bezirk Kufstein, Tirol, 6330, Österreich;47.582996;12.1692134
+1379;Krumbach (Schwaben);1;Krumbach (Schwaben), Landkreis Günzburg, Bayern, 86381, Deutschland;48.2433959;10.3634009
+1380;Krotoschin;1;Krotoszyn, gmina Krotoszyn, powiat krotoszyński, województwo wielkopolskie, 63-700, Polska;51.695926;17.4374158
+1381;Kropp;1;Kropp, Kropp-Stapelholm, Schleswig-Flensburg, Schleswig-Holstein, 24848, Deutschland;54.4115609;9.5093382
+1382;Schwarzenbek;1;Schwarzenbek, Herzogtum Lauenburg, Schleswig-Holstein, 21493, Deutschland;53.503122;10.4785643
+1383;Kronach;1;Kronach, Landkreis Kronach, Bayern, 96317, Deutschland;50.2397846;11.3277669
+1384;Kreuz (Ostbahn);1;Krzyż Wielkopolski, gmina Krzyż Wielkopolski, powiat czarnkowsko-trzcianecki, województwo wielkopolskie, 64-761, Polska;52.8796439;16.0141705
+1385;Köln-Deutz;1;Deutz, Innenstadt, Köln, Nordrhein-Westfalen, 50679, Deutschland;50.9367586;6.9730461
+1386;Seesen;1;Seesen, Landkreis Goslar, Niedersachsen, 38723, Deutschland;51.8905566;10.1703902
+1387;Seifhennersdorf;1;Seifhennersdorf, Görlitz, Sachsen, 02782, Deutschland;50.9346533;14.6092022
+1388;Königswinter;1;Königswinter, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53639, Deutschland;50.6739719;7.1930989
+1389;Siegburg;1;Siegburg, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53721, Deutschland;50.7928332;7.2070774
+1390;Königsberg, Neumark;1;Chojna, gmina Chojna, powiat gryfiński, województwo zachodniopomorskie, 74-500, Polska;52.9629793;14.4314113
+1391;Königsberg i. Bay.;1;1, Königsberg, Groß Elbe, Elbe, Samtgemeinde Baddeckenstedt, Landkreis Wolfenbüttel, Niedersachsen, 38274, Deutschland;52.09214575;10.267825038836357
+1392;Köln-Lindenthal;1;Lindenthal, Köln, Nordrhein-Westfalen, Deutschland;50.9359354;6.871246459161802
+1393;Kamjanez-Podilskyj;1;Кам’янець-Подільський, Кам'янець-Подільська міська громада, Кам’янець-Подільський район, Хмельницька область, Україна;48.6784597;26.5852225
+1394;Kalkar;1;Kalkar, Kreis Kleve, Nordrhein-Westfalen, 47546, Deutschland;51.7388793;6.2927546
+1395;Hamburg- Sankt Georg;1;St. Georg, Hamburg-Mitte, Hamburg, 20099, Deutschland;53.5571491;10.0142558
+1396;Kalisz Pomorski;1;Kalisz Pomorski, gmina Kalisz Pomorski, powiat drawski, województwo zachodniopomorskie, 78-540, Polska;53.2981616;15.9059903
+1397;Hohnstein;1;Hohnstein, Sächsische Schweiz-Osterzgebirge, Sachsen, 01848, Deutschland;50.9797836;14.1111221
+1398;Hohenmölsen;1;Hohenmölsen, Burgenlandkreis, Sachsen-Anhalt, 06679, Deutschland;51.1573976;12.0981844
+1399;Hohenlimburg;1;Hohenlimburg, Hagen, Nordrhein-Westfalen, 58119, Deutschland;51.347413849999995;7.569084715363729
+1400;Hofgeismar;1;Hofgeismar, Landkreis Kassel, Hessen, 34369, Deutschland;51.4997017;9.379913531820963
+1401;Subotica;1;Суботица, Град Суботица, Севернобачки управни округ, Војводина, 24000, Србија;46.1000129;19.6640974
+1402;Hilpoltstein;1;Hilpoltstein, Landkreis Roth, Bayern, 91161, Deutschland;49.188964;11.1892243
+1403;Sulików;1;Sulików, gmina Sulików, powiat zgorzelecki, województwo dolnośląskie, 59-975, Polska;51.0769746;15.0649842
+1404;Sundern (Sauerland);1;Hagen (Sauerland), Sundern, Hochsauerlandkreis, Nordrhein-Westfalen, Deutschland;51.2611136;7.9596971
+1405;Herdecke;1;Herdecke, Ennepe-Ruhr-Kreis, Nordrhein-Westfalen, 58313, Deutschland;51.4001119;7.4330062
+1406;Helsingborg;1;Helsingborg, Helsingborgs kommun, Skåne län, 252 68, Sverige;56.0441984;12.7040684
+1407;Hellerau;1;Hellerau, Klotzsche, Dresden, Sachsen, 01109, Deutschland;51.1126122;13.7595615
+1408;Hellenthal;1;Hellenthal, Kreis Euskirchen, Nordrhein-Westfalen, 53940, Deutschland;50.490997;6.435434
+1409;Prag-Žižkov;1;Žižkov, Hlavní město Praha, Praha, Česko;50.0810541;14.4549172
+1410;Haynau;1;Chojnów, powiat legnicki, województwo dolnośląskie, 59-225, Polska;51.2722138;15.939385448695303
+1411;Šabac;1;Шабац, Град Шабац, Мачвански управни округ, Централна Србија, 15000, Србија;44.7571535;19.6953972
+1412;Tachau;1;Tachov, okres Tachov, Plzeňský kraj, Jihozápad, 34701, Česko;49.7955449;12.6329861
+1413;Taganrog;1;городской округ Таганрог, Ростовская область, Южный федеральный округ, Россия;47.2153657;38.9285216
+1414;Horb am Neckar;1;Horb am Neckar, Verwaltungsgemeinschaft Horb am Neckar, Landkreis Freudenstadt, Baden-Württemberg, Deutschland;48.4447943;8.6914794
+1415;Horn;1;Hoorn, Noord-Holland, Nederland;52.622545450000004;5.067726588147824
+1416;Höchst;1;Höchst, West, Frankfurt am Main, Hessen, 65926, Deutschland;50.0995118;8.5452956
+1417;Jekaterinoslaw;1;;;
+1418;Stellenbosch;1;Stellenbosch, Cape Winelands District Municipality, Western Cape, South Africa;-33.934444;18.869167
+1419;Kahla (Thür);1;Kahla (Thür), Ölwiesenweg, Kahla, Saale-Holzland-Kreis, Thüringen, 07768, Deutschland;50.8088861;11.5891683
+1420;Jönköping;1;Jönköping, Jönköpings kommun, Jönköpings län, 55186, Sverige;57.7825634;14.165719
+1421;Johannisberg;1;Pisz, gmina Pisz, powiat piski, województwo warmińsko-mazurskie, 12-200, Polska;53.6294943;21.8098191
+1422;Jerusalem;1;ירושלים, נפת ירושלים, מחוז ירושלים, ישראל;31.79592425;35.21198075969497
+1423;Sterkrade;1;Sterkrade, Oberhausen, Nordrhein-Westfalen, Deutschland;51.532677899999996;6.827714841847671
+1424;Steyr;1;Steyr, Oberösterreich, 4400, Österreich;48.0390046;14.4191276
+1425;Jägerndorf;1;Krnov, okres Bruntál, Moravskoslezský kraj, Moravskoslezsko, 79401, Česko;50.089894;17.7040842
+1426;Hranice;1;Hranice, okres Přerov, Olomoucký kraj, Střední Morava, Česko;49.5481764;17.7347407
+1427;Interlaken;1;Interlaken, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, 3800, Schweiz/Suisse/Svizzera/Svizra;46.6855231;7.8585139
+1428;Strausberg;1;Strausberg, Märkisch-Oderland, Brandenburg, Deutschland;52.5814009;13.8833952
+1429;Stráž;1;Stráž, okres Domažlice, Plzeňský kraj, Jihozápad, Česko;49.4148482;12.9125155
+1430;Stryy;1;;;
+1431;Immenstadt i. Allgäu;1;Immenstadt im Allgäu, Landkreis Oberallgäu, Bayern, 87509, Deutschland;47.561006;10.2201663
+1432;Ilfeld;1;Ilfeld, Harztor, Landkreis Nordhausen, Thüringen, Deutschland;51.60673775;10.809163231699248
+1433;Hückeswagen;1;Hückeswagen, Oberbergischer Kreis, Nordrhein-Westfalen, Deutschland;51.1504872;7.3413999
+1434;Hämeenlinna;1;Hämeenlinna, Hämeenlinnan seutukunta, Kanta-Häme, Etelä-Suomen aluehallintovirasto, Manner-Suomi, Suomi / Finland;60.9948584;24.46654
