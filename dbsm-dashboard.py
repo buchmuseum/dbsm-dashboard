@@ -1,3 +1,4 @@
+from altair.vegalite.v4.api import value
 import streamlit as st
 import streamlit_analytics
 import pandas as pd
@@ -9,21 +10,28 @@ path = os.path.dirname(__file__)
 
 streamlit_analytics.start_tracking()
 
+@st.cache
+def rundschreiben_data():
+    df = pd.read_csv(f'{path}/rundschreiben_geo_neu.csv', sep=';', usecols=['idn','year', 'ort_name', 'ort_idn', 'lat', 'lon'])
+    df.set_index(['year', 'ort_name'], inplace=True)
+    df.sort_index(inplace=True)
+    return df
+    
+
 def rundschreiben():
-    df = pd.read_csv(f'{path}/orte_geo.csv', sep=';')
-    df.dropna(
-        axis=0,
-        how='any',
-        thresh=None,
-        subset=None,
-        inplace=True
-    )
+    st.subheader('Buchhändlerische Geschäftsrundschreiben')
+    with st.beta_expander("Informationen zum Bestand"):
+        st.markdown('''
+Bli bla blubb
+        ''')
+    df = rundschreiben_data()
 
-    df['norm']=(df['count']-df['count'].min())/(df['count'].max()-df['count'].min())
-
+    filter = st.slider('Zeitraum', min_value=df.index.min()[0], max_value=df.index.max()[0], value=(1850,1900))
+    
+    filt_frame = df.loc[filter[0]:filter[1]].drop_duplicates(subset=['ort_idn']).dropna(how='any').reset_index()
     scatter_layer = pdk.Layer(
         'ScatterplotLayer',
-        df,
+        filt_frame.reset_index(),
         pickable=True,
         filled=True,
         opacity=0.8,
@@ -41,14 +49,27 @@ def rundschreiben():
 
     st.pydeck_chart(pdk.Deck(
         scatter_layer,
-        initial_view_state=pdk.data_utils.compute_view(df[["lon", "lat"]], view_proportion=0.92),
+        initial_view_state=pdk.data_utils.compute_view(filt_frame[["lon", "lat"]], view_proportion=0.92),
         map_style=pdk.map_styles.LIGHT,
-        tooltip={"html": "<b>{ort}</b><br \>{count} Rundschreiben"}
+        tooltip={"html": "<b>{ort_name}</b>"}
     ))
-
-    #st.dataframe(df)
+    st.caption('Die Karte zeigt 92% aller Datenpunkte. Zoomen Sie weiter heraus, um alle Daten zu sehen.')
     #top diagramm
     #zeiten
+
+    rundschreiben_zeit = alt.Chart(filt_frame.reset_index()).mark_bar().encode(
+        alt.X('year:O', title='Jahr'),
+        alt.Y('count(year):Q', title='Anzahl'),
+        tooltip=[alt.Tooltip('year:O', title='Jahr'), alt.Tooltip('count(year):Q', title='Anzahl')]
+    )
+    st.altair_chart(rundschreiben_zeit, use_container_width=True)
+
+    rundschreiben_orte = alt.Chart(df.reset_index()).mark_bar().encode(
+        alt.X('ort_name:O', title='Ort'),
+        alt.Y('count(ort_name):Q', title='Anzahl Rundschreiben'),
+        color='ort_name:O'
+    )
+    st.altair_chart(rundschreiben_orte, use_container_width=True)
 
 def zeitverteilung():
     st.subheader('Entstehungszeit der Objekte in der Sammlung')
