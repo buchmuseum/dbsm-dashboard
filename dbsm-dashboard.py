@@ -80,7 +80,7 @@ def zeitverteilung():
     count.index.rename('year', inplace=True)
     
     zeit = alt.Chart(count.reset_index()).mark_bar().transform_bin("year_binned", "year", bin=alt.Bin(maxbins=32, extent=[1400,2021])).encode(
-        alt.X('year_binned:O', title='Entstehungsjahr', scale=alt.Scale(zero=False)),
+        alt.X('year_binned:N', title='Entstehungsjahr', scale=alt.Scale(zero=False)),
         alt.Y('count:Q', title='Anzahl'),
         tooltip=[alt.Tooltip('year', title='Jahr'), alt.Tooltip('count', title='Anzahl')],
         color='count:Q'
@@ -90,7 +90,7 @@ def zeitverteilung():
 def neueste():
     st.subheader('Neueste Datensätze')
     st.markdown('Derzeit sind hier viele Titel mit Bezug zur Zeit des Nationalsozialismus zu sehen. Diese Titel stammen aus der Plakatsammlung des DBSM, wo in einem Projekte Plakate aus den vom nationalsozialistischen Deutschland besetzten Ländern während des 2. Weltkriegs erschlossen werden.')
-    df = pd.read_csv('erfassung.csv', index_col='idn')
+    df = pd.read_csv(f'{path}/erfassung.csv', index_col='idn')
     df.erfassungsdatum = pd.to_datetime(df.erfassungsdatum.str.slice(5), dayfirst=True)
 
     col1, col2 = st.beta_columns(2)
@@ -107,7 +107,7 @@ def neueste():
 
 def inkunabeln():
     st.subheader('Inkunabeldruckorte im DBSM')
-    df = pd.read_csv('inkunabel_count.csv')
+    df = pd.read_csv(f'{path}/inkunabel_count.csv')
     ink_all = pdk.Layer(
         'ScatterplotLayer',
         df.dropna(axis=1, how='any'),
@@ -119,8 +119,8 @@ def inkunabeln():
         get_radius=6,
         auto_highlight=True,
         radius_units='pixels',
-        get_fill_color=[33, 61, 219],
-        get_line_color=[33, 61, 219],
+        get_fill_color=[230, 171, 53],
+        get_line_color=[230, 171, 53],
         line_width_min_pixels=1,
         radius_min_pixels=3,
         radius_max_pixels=10,
@@ -137,8 +137,8 @@ def inkunabeln():
         get_radius=3,
         auto_highlight=True,
         radius_units='pixels',
-        get_fill_color=[33, 219, 45],
-        get_line_color=[33, 219, 45],
+        get_fill_color=[168, 240, 113],
+        get_line_color=[168, 240, 113],
         line_width_min_pixels=1,
         radius_min_pixels=3,
         radius_max_pixels=10,
@@ -147,15 +147,85 @@ def inkunabeln():
         [ink_all, ink_dbsm],
         initial_view_state=pdk.data_utils.compute_view(df[["lon", "lat"]], view_proportion=1),
         map_style=pdk.map_styles.LIGHT,
-        tooltip={"html": "<b>{druckort}</b>, {dbsm_count} Exemplare"}
+        tooltip={"html": "<b>{druckort}</b>, {dbsm_count} Exemplar(e)"}
     ))
     st.caption('Blau sind alle bekannten Inkunabeldruckorte dargestellt, grün die Orte, aus denen sich Exemplare im DBSM befinden.')
 
+def objektgattungen():
+    st.subheader('Objektgattungen')
+    df_gattungen = pd.read_csv(f'{path}/objektgattung.csv')
+    
+    gattungen = alt.Chart(df_gattungen[:20]).mark_bar().encode(
+        alt.X('gattung:N', title='Gattungen', sort='-y'),
+        alt.Y('n:Q', title='Anzahl'),
+        alt.Color('gattung:N', legend=alt.Legend(columns=2), sort='-y', title='Objektgattungen'),
+        tooltip=[alt.Tooltip('gattung:N', title='Gattung'), alt.Tooltip('n:Q', title='Anzahl')]
+    )
+
+    st.altair_chart(gattungen, use_container_width=True)
+
+def herstellungsorte():
+    st.subheader('Herstellungsorte der Sammlungsobjekte')
+    df_herstellungsorte = pd.read_csv(f'{path}/herstellungsorte_geo.csv', usecols=['idn', 'ort', 'lat', 'lon'], index_col='idn', sep=';')
+    df_filt = df_herstellungsorte.merge(df_herstellungsorte.ort.value_counts(), left_on='ort', right_index=True).drop(['ort_x'], axis=1).rename({'ort_y':'count'}, axis=1).drop_duplicates(subset='ort').dropna(how='any').sort_values(by='count', ascending=True)
+
+    herstellungsorte_map = pdk.Layer(
+        'ScatterplotLayer',
+        df_filt,
+        pickable=True,
+        filled=True,
+        opacity=0.8,
+        stroked=True,
+        get_position='[lon, lat]',
+        get_radius=3,
+        auto_highlight=True,
+        radius_units='pixels',
+        get_fill_color=[36, 209, 166],
+        get_line_color=[20, 117, 93],
+        line_width_min_pixels=1,
+        radius_min_pixels=3,
+        radius_max_pixels=10,
+    )
+
+    st.pydeck_chart(pdk.Deck(
+        herstellungsorte_map,
+        initial_view_state=pdk.data_utils.compute_view(df_filt[["lon", "lat"]], view_proportion=0.92),
+        map_style=pdk.map_styles.LIGHT,
+        tooltip={"html": "{count} Objekte aus {ort}"}
+    ))
+
+    st.caption('Alle Objekte mit eindeutig zuzuordnendem Entstehungsort wurden ausgewertet. Fährt man mit der Maus über den jeweiligen Punkt, sieht man, wieviele Objekte es von diesem Ort im Bestand gibt.')
+
+
+
 #main
 st.title('DBSM Dashboard')
-rundschreiben()
-zeitverteilung()
-neueste()
-inkunabeln()
+
+st.sidebar.header("Sammlungsteil wählen")
+sammlung = st.sidebar.selectbox(
+    "Über welchen Teil der DBSM-Sammlungen möchten Sie mehr erfahren?",
+    ('Sammlung allgemein', "Geschäftsrundschreiben", "Inkunabeln", "Wasserzeichen")
+)
+
+allgemein = st.beta_container()
+with allgemein:
+    
+    #allgemeine statistiken
+    if sammlung == 'Sammlung allgemein':
+        st.header('Sammlung allgemein')
+        zeitverteilung()
+        herstellungsorte()
+        neueste()
+        objektgattungen()
+    elif sammlung == 'Geschäftsrundschreiben':
+        st.header('Buchhändlerische Geschäftsrundschreiben')
+        rundschreiben()
+    elif sammlung == "Inkunabeln":
+        st.header('Inkunabeln')
+        inkunabeln()
+    elif sammlung == 'Wasserzeichen':
+        st.header('Wasserzeichen')
+        st.write('coming soon')
+
 
 streamlit_analytics.stop_tracking()
