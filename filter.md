@@ -28,3 +28,11 @@ IDN 103243757X
 044P 912270169217Tg1VgikAgnd01227016921aBerum
 
 pica filter "245Y/01.9 == '103243757X'" dbsm-titel-exemplare-2021-06.dat | pica select "003@.0, 011@.a, 044P{7 =^ 'Tg',9,a}" -H "idn, year, ort_idn, ort_name" -o rundschreiben.csv
+
+#Objektgattungen
+044P bObjektgattung
+044P 90400908097Ts1VsazAgnd04009080-2aBuntpapier
+
+pica filter "002@.0 != 'Alxo' && 044P.7 =^ 'Ts'" dbsm-titel-exemplare-2021-06.dat | pica frequency "044P.a" -o objektgattung.csv
+
+pica filter "002@.0 != 'Alxo' && 044P.7 =^ 'Ts'" dbsm-titel-exemplare-2021-06.dat | pica select "003@.0, 044P{b?,b}, 044P{7 =^ 'Ts',a}" -H "idn,verknuepfungstyp,gattung" -o objektgattung.csv
