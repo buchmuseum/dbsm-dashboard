@@ -87,10 +87,75 @@ def zeitverteilung():
     )
     return st.altair_chart(zeit, use_container_width=True)
     
+def neueste():
+    st.subheader('Neueste Datensätze')
+    st.markdown('Derzeit sind hier viele Titel mit Bezug zur Zeit des Nationalsozialismus zu sehen. Diese Titel stammen aus der Plakatsammlung des DBSM, wo in einem Projekte Plakate aus den vom nationalsozialistischen Deutschland besetzten Ländern während des 2. Weltkriegs erschlossen werden.')
+    df = pd.read_csv('erfassung.csv', index_col='idn')
+    df.erfassungsdatum = pd.to_datetime(df.erfassungsdatum.str.slice(5), dayfirst=True)
+
+    col1, col2 = st.beta_columns(2)
+    i = 1
+    for index, row in df.nlargest(21, columns='erfassungsdatum')[1:].iterrows():
+        text = f'{i}. [{row["titel"]} / {row["person"]}](https://d-nb.info/{index})'
+        if i <= 10:
+            with col1:
+                st.write(text)
+        elif i > 10:
+            with col2:
+                st.write(text)
+        i += 1
+
+def inkunabeln():
+    st.subheader('Inkunabeldruckorte im DBSM')
+    df = pd.read_csv('inkunabel_count.csv')
+    ink_all = pdk.Layer(
+        'ScatterplotLayer',
+        df.dropna(axis=1, how='any'),
+        pickable=True,
+        filled=True,
+        opacity=0.8,
+        stroked=True,
+        get_position='[lon, lat]',
+        get_radius=6,
+        auto_highlight=True,
+        radius_units='pixels',
+        get_fill_color=[33, 61, 219],
+        get_line_color=[33, 61, 219],
+        line_width_min_pixels=1,
+        radius_min_pixels=3,
+        radius_max_pixels=10,
+    )
+
+    ink_dbsm = pdk.Layer(
+        'ScatterplotLayer',
+        df[pd.notna(df['dbsm_count'])].dropna(axis=1, how='any'),
+        pickable=True,
+        filled=True,
+        opacity=0.8,
+        stroked=True,
+        get_position='[lon, lat]',
+        get_radius=3,
+        auto_highlight=True,
+        radius_units='pixels',
+        get_fill_color=[33, 219, 45],
+        get_line_color=[33, 219, 45],
+        line_width_min_pixels=1,
+        radius_min_pixels=3,
+        radius_max_pixels=10,
+    )
+    st.pydeck_chart(pdk.Deck(
+        [ink_all, ink_dbsm],
+        initial_view_state=pdk.data_utils.compute_view(df[["lon", "lat"]], view_proportion=1),
+        map_style=pdk.map_styles.LIGHT,
+        tooltip={"html": "<b>{druckort}</b>, {dbsm_count} Exemplare"}
+    ))
+    st.caption('Blau sind alle bekannten Inkunabeldruckorte dargestellt, grün die Orte, aus denen sich Exemplare im DBSM befinden.')
 
 #main
 st.title('DBSM Dashboard')
 rundschreiben()
 zeitverteilung()
+neueste()
+inkunabeln()
 
 streamlit_analytics.stop_tracking()

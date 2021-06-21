@@ -36,3 +36,14 @@ pica filter "245Y/01.9 == '103243757X'" dbsm-titel-exemplare-2021-06.dat | pica 
 pica filter "002@.0 != 'Alxo' && 044P.7 =^ 'Ts'" dbsm-titel-exemplare-2021-06.dat | pica frequency "044P.a" -o objektgattung.csv
 
 pica filter "002@.0 != 'Alxo' && 044P.7 =^ 'Ts'" dbsm-titel-exemplare-2021-06.dat | pica select "003@.0, 044P{b?,b}, 044P{7 =^ 'Ts',a}" -H "idn,verknuepfungstyp,gattung" -o objektgattung.csv
+
+#neueste datensätze
+001A
+
+pica select "003@.0, 001A.0, 021A{a,h}" dbsm-titel-exemplare-2021-06.dat -H "idn, erfassungsdatum, titel, person" -o erfassung.csv
+
+#GND-Verknüpfungen
+
+029F 99537793357Tb1Agnd05280008-8aSteirischer HeimatbundbFührungsamtn1BHerausgebendes Organ4isb
+
+pica select "003@.0, 013D{A == 'gnd', 7, 9, a}" dbsm-titel-exemplare-2021-06.dat -H "idn, inhalt_satzart, inhalt_idn, inhalt_name, 
