@@ -22,7 +22,7 @@ def rundschreiben():
     st.subheader('Buchhändlerische Geschäftsrundschreiben')
     with st.beta_expander("Informationen zum Bestand"):
         st.markdown('''
-Bli bla blubb
+Hier folgt die Bestandsbeschreibung
         ''')
     df = rundschreiben_data()
 
@@ -56,20 +56,21 @@ Bli bla blubb
     st.caption('Die Karte zeigt 92% aller Datenpunkte. Zoomen Sie weiter heraus, um alle Daten zu sehen.')
     #top diagramm
     #zeiten
-
-    rundschreiben_zeit = alt.Chart(filt_frame.reset_index()).mark_bar().encode(
-        alt.X('year:O', title='Jahr'),
+    st.subheader('Anzahl der Rundschreiben pro Jahr')
+    rundschreiben_zeit = alt.Chart(filt_frame.reset_index()).mark_bar().transform_bin("year_binned", "year", bin=alt.Bin(maxbins=48, extent=[1737,1971])).encode(
+        alt.X('year_binned:O', title='Jahr'),
         alt.Y('count(year):Q', title='Anzahl'),
-        tooltip=[alt.Tooltip('year:O', title='Jahr'), alt.Tooltip('count(year):Q', title='Anzahl')]
+        tooltip=[alt.Tooltip('year:O', title='Jahr'), alt.Tooltip('count(year):Q', title='Anzahl')],
+        color='count(year):Q'
     )
     st.altair_chart(rundschreiben_zeit, use_container_width=True)
 
-    rundschreiben_orte = alt.Chart(df.reset_index()).mark_bar().encode(
+    """ rundschreiben_orte = alt.Chart(df.reset_index()).mark_bar().encode(
         alt.X('ort_name:O', title='Ort'),
         alt.Y('count(ort_name):Q', title='Anzahl Rundschreiben'),
         color='ort_name:O'
     )
-    st.altair_chart(rundschreiben_orte, use_container_width=True)
+    st.altair_chart(rundschreiben_orte, use_container_width=True) """
 
 def zeitverteilung():
     st.subheader('Entstehungszeit der Objekte in der Sammlung')
@@ -81,7 +82,8 @@ def zeitverteilung():
     zeit = alt.Chart(count.reset_index()).mark_bar().transform_bin("year_binned", "year", bin=alt.Bin(maxbins=32, extent=[1400,2021])).encode(
         alt.X('year_binned:O', title='Entstehungsjahr', scale=alt.Scale(zero=False)),
         alt.Y('count:Q', title='Anzahl'),
-        tooltip=[alt.Tooltip('year', title='Jahr'), alt.Tooltip('count', title='Anzahl')]
+        tooltip=[alt.Tooltip('year', title='Jahr'), alt.Tooltip('count', title='Anzahl')],
+        color='count:Q'
     )
     return st.altair_chart(zeit, use_container_width=True)
     
