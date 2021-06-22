@@ -289,7 +289,8 @@ def wasserzeichen():
     ))
 
 #main
-st.title('DBSM Dashboard')
+st.title('DBSM Dashboard beta')
+st.warning('Dies ist eine Entwicklungsversion. Die Daten können noch unvollständig oder fehlerhaft sein.')
 
 st.sidebar.header("Sammlungsteil wählen")
 sammlung = st.sidebar.selectbox(
