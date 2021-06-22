@@ -1,4 +1,5 @@
 from altair.vegalite.v4.api import value
+from numpy.core.fromnumeric import sort
 import streamlit as st
 #import streamlit_analytics
 import pandas as pd
@@ -20,7 +21,7 @@ def rundschreiben():
     st.subheader('Buchhändlerische Geschäftsrundschreiben')
     with st.beta_expander("Informationen zum Bestand"):
         st.markdown('''
-Hier folgt die Bestandsbeschreibung
+Mit rund 25.000 buchhändlerischen Geschäftsrundschreiben besitzen wir die weltweit größte Sammlung dieser Textgattung. Die meist ein- oder zweiseitig gedruckten Mitteilungen (auch Zirkulare genannt) entstammen überwiegend deutschen, aber auch ausländischen Verlagen und Buchhandlungen. Zeitlich ordnen sich die Zirkulare in die Zeit von 1737 bis zur Mitte des 20. Jahrhunderts ein. Sie belegen zum Beispiel die Gründung oder das Erlöschen einer Firma, die Änderung der Inhaberschaft oder Namensänderungen. [Zur gesamten Sammlung im Katalog des DBSM](https://d-nb.info/dnbn/103243757X).
         ''')
     df = rundschreiben_data()
 
@@ -62,13 +63,6 @@ Hier folgt die Bestandsbeschreibung
         color='count(year):Q'
     )
     st.altair_chart(rundschreiben_zeit, use_container_width=True)
-
-    """ rundschreiben_orte = alt.Chart(df.reset_index()).mark_bar().encode(
-        alt.X('ort_name:O', title='Ort'),
-        alt.Y('count(ort_name):Q', title='Anzahl Rundschreiben'),
-        color='ort_name:O'
-    )
-    st.altair_chart(rundschreiben_orte, use_container_width=True) """
 
 def zeitverteilung():
     st.subheader('Entstehungszeit der Objekte in der Sammlung')
@@ -239,12 +233,13 @@ def buchbestand():
     count = pd.DataFrame(pd.value_counts(df_zeit.year))
     count = count.rename(columns={'year':'count'}).sort_index()
     count.index.rename('year', inplace=True)
+    st.dataframe(count)
     
     zeit = alt.Chart(count.reset_index()).mark_bar().transform_bin("year_binned", "year", bin=alt.Bin(maxbins=32, extent=[1400,2021])).encode(
         alt.X('year_binned:N', title='Entstehungsjahr', scale=alt.Scale(zero=False)),
         alt.Y('count:Q', title='Anzahl'),
         tooltip=[alt.Tooltip('year', title='Jahr'), alt.Tooltip('count', title='Anzahl')],
-        color='count:Q'
+        color=alt.Color('count:Q')
     )
     st.altair_chart(zeit, use_container_width=True)
 
@@ -293,13 +288,31 @@ def wasserzeichen():
 #streamlit_analytics.start_tracking()
 
 st.title('DBSM Dashboard beta')
-st.warning('Dies ist eine Entwicklungsversion. Die Daten können noch unvollständig oder fehlerhaft sein.')
+
+with st.beta_container():
+    st.warning('Verwenden Sie einen auf Chromium basierenden Browser. Dies ist eine Entwicklungsversion. Die Daten können noch unvollständig oder fehlerhaft sein.')
+    st.info('Auf diesem Dashboard werden einige Sammlungsteile des Deutschen Buch- und Schriftmuseums der Deutschen Nationalbibliothek grafisch ausgewertet und aufbereitet. Wählen Sie links den Sammlungsteil, der Sie interessiert, und Sie erhalten die verfügbaren Auswertungen und Statstiken. (Stand der Daten: Juni 2021)')
+    with st.beta_expander("Methodik und Datenherkunft"):
+        st.markdown('''
+Datengrundlage ist ein Gesamtabzug der Daten des Buch- und Objektbestands des Deutschen Buch- und Schriftmuseums (DBSM).
+
+Der Gesamtabzug liegt im OCLC-Format PICA+ vor. Die Daten werden mithilfe des Pica-Parsers [pica.rs](https://github.com/deutsche-nationalbibliothek/pica-rs) gefiltert. Dieses Tool produziert aus dem sehr großen Gesamtabzug (~ 31 GB) kleinere CSV-Dateien, die mit Python weiterverarbeitet werden.
+
+Das Dashboard ist mit dem Python-Framework [Streamlit](https://streamlit.io/) geschrieben. Die Skripte sowie die gefilterten CSV-Rohdaten sind auf [Github](https://github.com/buchmuseum/dbsm-dashboard) zu finden. Die Diagramme wurden mit [Altair](https://altair-viz.github.io/index.html) erstellt, die Karten mit [Deck GL](https://deck.gl/) (via [Pydeck](https://deckgl.readthedocs.io/en/latest/#)).
+
+Für grundlegende Zugriffsstatistik verwenden wir [streamlit-analytics](https://pypi.org/project/streamlit-analytics/). Dabei werden keine personenbezogenen Daten gespeichert.
+
+Alle Skripte und Daten stehen unter CC0 Lizenz und können frei weitergenutzt werden.
+
+Die Daten werden halbjährlich aktualisiert.
+''')
 
 st.sidebar.header("Sammlungsteil wählen")
 sammlung = st.sidebar.selectbox(
     "Über welchen Teil der DBSM-Sammlungen möchten Sie mehr erfahren?",
     ('Sammlung allgemein', 'Buchbestand', "Geschäftsrundschreiben", "Inkunabeln", "Wasserzeichen")
 )
+st.sidebar.info('Dieses Dashboard wurde erstellt von [ramonvoges](https://github.com/ramonvoges) und [a-wendler](https://github.com/a-wendler/) aus dem [Deutschen Buch- und Schriftmuseum](https://www.dnb.de/dbsm) der [Deutschen Nationalbibliothek](https://www.dnb.de).')
 
 allgemein = st.beta_container()
 with allgemein:
@@ -313,6 +326,7 @@ with allgemein:
         objektgattungen()
     
     elif sammlung == 'Buchbestand':
+        st.header('Buchbestand')
         buchbestand()
     
     elif sammlung == 'Geschäftsrundschreiben':
