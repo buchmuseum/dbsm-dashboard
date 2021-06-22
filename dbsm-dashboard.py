@@ -117,8 +117,8 @@ def inkunabeln():
         get_radius=6,
         auto_highlight=True,
         radius_units='pixels',
-        get_fill_color=[230, 171, 53],
-        get_line_color=[230, 171, 53],
+        get_fill_color=[33, 48, 209],
+        get_line_color=[16, 24, 112],
         line_width_min_pixels=1,
         radius_min_pixels=3,
         radius_max_pixels=10,
@@ -135,19 +135,21 @@ def inkunabeln():
         get_radius=3,
         auto_highlight=True,
         radius_units='pixels',
-        get_fill_color=[168, 240, 113],
-        get_line_color=[168, 240, 113],
+        get_fill_color=[62, 222, 131],
+        get_line_color=[27, 94, 46],
         line_width_min_pixels=1,
         radius_min_pixels=3,
         radius_max_pixels=10,
     )
+
     st.pydeck_chart(pdk.Deck(
         [ink_all, ink_dbsm],
         initial_view_state=pdk.data_utils.compute_view(df[["lon", "lat"]], view_proportion=1),
         map_style=pdk.map_styles.LIGHT,
         tooltip={"html": "<b>{druckort}</b>, {dbsm_count} Exemplar(e)"}
     ))
-    st.caption('Orange sind alle bekannten Inkunabeldruckorte dargestellt, grün die Orte, aus denen sich Exemplare im DBSM befinden.')
+
+    st.caption('Blau sind alle bekannten Inkunabeldruckorte dargestellt, grün die Orte, aus denen sich Exemplare im DBSM befinden.')
 
 def objektgattungen():
     st.subheader('Objektgattungen')
