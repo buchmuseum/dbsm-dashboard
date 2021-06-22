@@ -1,6 +1,6 @@
 from altair.vegalite.v4.api import value
 import streamlit as st
-import streamlit_analytics
+#import streamlit_analytics
 import pandas as pd
 import altair as alt
 import pydeck as pdk
@@ -288,7 +288,7 @@ def wasserzeichen():
 
 #main
 
-streamlit_analytics.start_tracking()
+#streamlit_analytics.start_tracking()
 
 st.title('DBSM Dashboard beta')
 st.warning('Dies ist eine Entwicklungsversion. Die Daten können noch unvollständig oder fehlerhaft sein.')
@@ -326,4 +326,4 @@ with allgemein:
         wasserzeichen()
 
 
-streamlit_analytics.stop_tracking()
+#streamlit_analytics.stop_tracking()
