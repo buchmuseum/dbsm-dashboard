@@ -149,7 +149,7 @@ def inkunabeln():
         map_style=pdk.map_styles.LIGHT,
         tooltip={"html": "<b>{druckort}</b>, {dbsm_count} Exemplar(e)"}
     ))
-    st.caption('Blau sind alle bekannten Inkunabeldruckorte dargestellt, grün die Orte, aus denen sich Exemplare im DBSM befinden.')
+    st.caption('Orange sind alle bekannten Inkunabeldruckorte dargestellt, grün die Orte, aus denen sich Exemplare im DBSM befinden.')
 
 def objektgattungen():
     st.subheader('Objektgattungen')
@@ -164,9 +164,13 @@ def objektgattungen():
 
     st.altair_chart(gattungen, use_container_width=True)
 
+@st.cache
+def herstellungsorte_data():
+    return pd.read_csv(f'{path}/herstellungsorte_geo.csv', usecols=['idn', 'ort', 'lat', 'lon'], index_col='idn', sep=';')
+
 def herstellungsorte():
     st.subheader('Herstellungsorte der Sammlungsobjekte')
-    df_herstellungsorte = pd.read_csv(f'{path}/herstellungsorte_geo.csv', usecols=['idn', 'ort', 'lat', 'lon'], index_col='idn', sep=';')
+    df_herstellungsorte = herstellungsorte_data()
     df_filt = df_herstellungsorte.merge(df_herstellungsorte.ort.value_counts(), left_on='ort', right_index=True).drop(['ort_x'], axis=1).rename({'ort_y':'count'}, axis=1).drop_duplicates(subset='ort').dropna(how='any').sort_values(by='count', ascending=True)
 
     herstellungsorte_map = pdk.Layer(
@@ -196,7 +200,93 @@ def herstellungsorte():
 
     st.caption('Alle Objekte mit eindeutig zuzuordnendem Entstehungsort wurden ausgewertet. Fährt man mit der Maus über den jeweiligen Punkt, sieht man, wieviele Objekte es von diesem Ort im Bestand gibt.')
 
+@st.cache
+def buchbestand_data():
+    return pd.read_csv(f'{path}/buchbestand_geo.csv', sep=';', usecols=['idn','year','ort','lat','lon'], index_col='idn')
 
+def buchbestand():
+    df = buchbestand_data()
+    zeitslider = st.slider('Auswertungszeitraum', min_value=df.year.min(), max_value=df.year.max(), value=(df.year.min(),df.year.max()))
+    df_zeit = df[(df.year >= zeitslider[0]) & (df.year <= zeitslider[1])]
+    df_karte = df_zeit.merge(df_zeit.ort.value_counts(), left_on='ort', right_index=True).drop(['ort_x', 'year'], axis=1).rename({'ort_y':'count'}, axis=1).drop_duplicates(subset='ort').dropna(how='any').sort_values(by='count', ascending=True)
+
+    herstellungsorte_map = pdk.Layer(
+        'ScatterplotLayer',
+        df_karte,
+        pickable=True,
+        filled=True,
+        opacity=0.8,
+        stroked=True,
+        get_position='[lon, lat]',
+        get_radius=3,
+        auto_highlight=True,
+        radius_units='pixels',
+        get_fill_color=[36, 209, 166],
+        get_line_color=[20, 117, 93],
+        line_width_min_pixels=1,
+        radius_min_pixels=3,
+        radius_max_pixels=10,
+    )
+    st.subheader('Herstellungsorte des Buchbestands')
+    st.pydeck_chart(pdk.Deck(
+        herstellungsorte_map,
+        initial_view_state=pdk.data_utils.compute_view(df_karte[["lon", "lat"]], view_proportion=0.92),
+        map_style=pdk.map_styles.LIGHT,
+        tooltip={"html": "{count} Objekte aus {ort}"}
+    ))
+
+    st.subheader('Anzahl Bücher nach Erscheinungsjahr')
+    count = pd.DataFrame(pd.value_counts(df_zeit.year))
+    count = count.rename(columns={'year':'count'}).sort_index()
+    count.index.rename('year', inplace=True)
+    
+    zeit = alt.Chart(count.reset_index()).mark_bar().transform_bin("year_binned", "year", bin=alt.Bin(maxbins=32, extent=[1400,2021])).encode(
+        alt.X('year_binned:N', title='Entstehungsjahr', scale=alt.Scale(zero=False)),
+        alt.Y('count:Q', title='Anzahl'),
+        tooltip=[alt.Tooltip('year', title='Jahr'), alt.Tooltip('count', title='Anzahl')],
+        color='count:Q'
+    )
+    st.altair_chart(zeit, use_container_width=True)
+
+@st.cache
+def wasserzeichen_data():
+    return pd.read_csv(f'{path}/wz_geo.csv', sep=';')
+
+def wasserzeichen():
+    df = wasserzeichen_data()
+    st.subheader('Verwendungszeitraum der Wasserzeichenbelege')
+    fig_von_bis = alt.Chart(df).mark_bar().encode(
+        alt.X('ab:O', axis=alt.Axis(title='Nachweiszeitraum', labelOverlap='greedy', labelAngle=-60)),
+        alt.X2('bis:O'),
+        alt.Y('Name:N', title='Herstellungsort'),
+        tooltip=['Name', 'ab', 'bis'],
+    )
+    st.altair_chart(fig_von_bis, use_container_width=True)
+
+    herstellungsorte_map = pdk.Layer(
+        'ScatterplotLayer',
+        df,
+        pickable=True,
+        filled=True,
+        opacity=0.8,
+        stroked=True,
+        get_position='[lon, lat]',
+        get_radius=3,
+        auto_highlight=True,
+        radius_units='pixels',
+        get_fill_color=[36, 209, 166],
+        get_line_color=[20, 117, 93],
+        line_width_min_pixels=1,
+        radius_min_pixels=3,
+        radius_max_pixels=10,
+    )
+    st.subheader('Herstellungsorte der Wasserzeichenbelege')
+    st.pydeck_chart(pdk.Deck(
+        herstellungsorte_map,
+        initial_view_state=pdk.data_utils.compute_view(df[["lon", "lat"]], view_proportion=1),
+        map_style=pdk.map_styles.LIGHT,
+        tooltip={"html": "{Anzahl} Wasserzeichenbelege aus {Name} zwischen {ab} und {bis}"}
+    ))
 
 #main
 st.title('DBSM Dashboard')
@@ -204,7 +294,7 @@ st.title('DBSM Dashboard')
 st.sidebar.header("Sammlungsteil wählen")
 sammlung = st.sidebar.selectbox(
     "Über welchen Teil der DBSM-Sammlungen möchten Sie mehr erfahren?",
-    ('Sammlung allgemein', "Geschäftsrundschreiben", "Inkunabeln", "Wasserzeichen")
+    ('Sammlung allgemein', 'Buchbestand', "Geschäftsrundschreiben", "Inkunabeln", "Wasserzeichen")
 )
 
 allgemein = st.beta_container()
@@ -217,15 +307,21 @@ with allgemein:
         herstellungsorte()
         neueste()
         objektgattungen()
+    
+    elif sammlung == 'Buchbestand':
+        buchbestand()
+    
     elif sammlung == 'Geschäftsrundschreiben':
         st.header('Buchhändlerische Geschäftsrundschreiben')
         rundschreiben()
+    
     elif sammlung == "Inkunabeln":
         st.header('Inkunabeln')
         inkunabeln()
+    
     elif sammlung == 'Wasserzeichen':
         st.header('Wasserzeichen')
-        st.write('coming soon')
+        wasserzeichen()
 
 
 streamlit_analytics.stop_tracking()
