@@ -47,3 +47,11 @@ pica select "003@.0, 001A.0, 021A{a,h}" dbsm-titel-exemplare-2021-06.dat -H "idn
 029F 99537793357Tb1Agnd05280008-8aSteirischer HeimatbundbFührungsamtn1BHerausgebendes Organ4isb
 
 pica select "003@.0, 013D{A == 'gnd', 7, 9, a}" dbsm-titel-exemplare-2021-06.dat -H "idn, inhalt_satzart, inhalt_idn, inhalt_name, 
+
+Buchsammlung
+002@ 0Af
+002E aBandbnc
+021A x42021 au311990174548757Tb1VkizAgnd05121692-9aAuktionshaus KieferFVerfasser4autYAuktion3Peter Kiefer, Buch- und KunstauktionenpPforzheimJKieferRXA-DES46B09gAbvzi1219047-0
+033A pBremennBBK Bremen55253492
+
+pica filter "002@.0 != 'Alxo' && 002@.0 =^ 'A' && 002E.a == 'Band'" dbsm-titel-exemplare-2021-06.dat | pica select "003@.0, 011@.a, 033A{p?,p}, 044P/*{7 =^ 'Tg',9,a}" -H "idn, year, verlag_ort, herst_ort_idn, herst_ort_name" -o buchbestand.csv
