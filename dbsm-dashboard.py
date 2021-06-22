@@ -204,7 +204,7 @@ def buchbestand_data():
 
 def buchbestand():
     df = buchbestand_data()
-    zeitslider = st.slider('Auswertungszeitraum', min_value=df.year.min(), max_value=df.year.max(), value=(df.year.min(),df.year.max()))
+    zeitslider = st.slider('Auswertungszeitraum', min_value=int(df.year.min()), max_value=int(df.year.max()), value=(int(df.year.min()),int(df.year.max())))
     df_zeit = df[(df.year >= zeitslider[0]) & (df.year <= zeitslider[1])]
     df_karte = df_zeit.merge(df_zeit.ort.value_counts(), left_on='ort', right_index=True).drop(['ort_x', 'year'], axis=1).rename({'ort_y':'count'}, axis=1).drop_duplicates(subset='ort').dropna(how='any').sort_values(by='count', ascending=True)
 
