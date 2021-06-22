@@ -8,8 +8,6 @@ import os
 
 path = os.path.dirname(__file__)
 
-streamlit_analytics.start_tracking()
-
 @st.cache
 def rundschreiben_data():
     df = pd.read_csv(f'{path}/rundschreiben_geo_neu.csv', sep=';', usecols=['idn','year', 'ort_name', 'ort_idn', 'lat', 'lon'])
@@ -289,6 +287,9 @@ def wasserzeichen():
     ))
 
 #main
+
+streamlit_analytics.start_tracking()
+
 st.title('DBSM Dashboard beta')
 st.warning('Dies ist eine Entwicklungsversion. Die Daten können noch unvollständig oder fehlerhaft sein.')
 
