@@ -99,6 +99,8 @@ def neueste():
 
 def inkunabeln():
     st.subheader('Inkunabeldruckorte im DBSM')
+    with st.beta_expander('Informationen zum Bestand'):
+        st.markdown('Handschriften, Inkunabeln, Renaissancedrucke, Künstlerbücher und wertvolle Bucheinbände – diese besonderen Bestände befinden sich in den Musealen Buchsammlungen des Deutschen Buch- und Schriftmuseums. 1886 kaufte der sächsische Staat für das gerade gegründete Museum 3.000 historische Drucke des Dresdner Schneiders, Verlegers und Büchersammlers Heinrich Klemm an. Die Klemm-Sammlung bildet den Grundstock für den umfangreichen musealen Buchbestand. [zur ausführlichen Sammlungsbeschreibung](https://www.dnb.de/DE/Sammlungen/DBSM/MusealeBuchsammlungen/musealeBuchsammlungen_node.html)')
     df = pd.read_csv(f'{path}/inkunabel_count.csv')
     ink_all = pdk.Layer(
         'ScatterplotLayer',
@@ -199,6 +201,10 @@ def buchbestand_data():
     return pd.read_csv(f'{path}/buchbestand_geo.csv', sep=';', usecols=['idn','year','ort','lat','lon'], index_col='idn')
 
 def buchbestand():
+    with st.beta_expander('Informationen zum Bestand'):
+        st.markdown('Handschriften, Inkunabeln, Renaissancedrucke, Künstlerbücher und wertvolle Bucheinbände – diese besonderen Bestände befinden sich in den Musealen Buchsammlungen des Deutschen Buch- und Schriftmuseums. 1886 kaufte der sächsische Staat für das gerade gegründete Museum 3.000 historische Drucke des Dresdner Schneiders, Verlegers und Büchersammlers Heinrich Klemm an. Die Klemm-Sammlung bildet den Grundstock für den umfangreichen musealen Buchbestand. [zur ausführlichen Sammlungsbeschreibung](https://www.dnb.de/DE/Sammlungen/DBSM/MusealeBuchsammlungen/musealeBuchsammlungen_node.html)')
+
+
     df = buchbestand_data()
     zeitslider = st.slider('Auswertungszeitraum', min_value=int(df.year.min()), max_value=int(df.year.max()), value=(int(df.year.min()),int(df.year.max())))
     df_zeit = df[(df.year >= zeitslider[0]) & (df.year <= zeitslider[1])]
@@ -249,6 +255,9 @@ def wasserzeichen_data():
 
 def wasserzeichen():
     df = wasserzeichen_data()
+    with st.beta_expander('Informationen zur Sammlunge'):
+        st.markdown('''Unsere Wasserzeichensammlung ist mit mehr als 400.000 Exemplaren die weltweit größte Sammlung dieser Art. 1897 begann Karl Theodor Weiß (1872–1945) damit, nach wissenschaftlichen Gesichtspunkten Wasserzeichen zusammenzutragen. 1957 bot sein Sohn Wisso Weiß (1904–1991) diese Sammlungen zum Kauf an. Sie kamen in den Besitz des Deutschen Papiermuseums in Greiz (Thüringen). Seit 1964 sind dessen Bestände Eigentum des Deutschen Buch- und Schriftmuseums der Deutschen Nationalbibliothek.
+Die Sammlungen enthalten sowohl originale Papiere als auch Reproduktionen von Wasserzeichen (Handpausen oder Kopien). Sie dienen als Grundlage für die Echtheitsprüfung sowie die Herkunfts- und Altersbestimmung von Papieren. [zur Sammlung im Katalog des DBSM](https://portal.dnb.de/opac.htm?method=simpleSearch&cqlMode=true&query=idn%3D1048061809)''')
     st.subheader('Verwendungszeitraum der Wasserzeichenbelege')
     fig_von_bis = alt.Chart(df).mark_bar().encode(
         alt.X('ab:O', axis=alt.Axis(title='Nachweiszeitraum', labelOverlap='greedy', labelAngle=-60)),
@@ -283,16 +292,25 @@ def wasserzeichen():
         tooltip={"html": "{Anzahl} Wasserzeichenbelege aus {Name} zwischen {ab} und {bis}"}
     ))
 
+    st.markdown('Bisher ist nur ein Teil der Wasserzeichensammlung erschlossen und im elektronischen Katalog nachgewiesen. Wie man in dieser Karte sieht, handelt es sich um die Wasserzeichen der Papiermühlen aus Thüringen.')
+
 #main
 
 #streamlit_analytics.start_tracking()
 
-st.title('DBSM Dashboard beta')
+st.title('DBSM Dashboard')
 
 with st.beta_container():
-    st.warning('Verwenden Sie einen auf Chromium basierenden Browser. Dies ist eine Entwicklungsversion. Die Daten können noch unvollständig oder fehlerhaft sein.')
-    st.info('Auf diesem Dashboard werden einige Sammlungsteile des Deutschen Buch- und Schriftmuseums der Deutschen Nationalbibliothek grafisch ausgewertet und aufbereitet. Wählen Sie links den Sammlungsteil, der Sie interessiert, und Sie erhalten die verfügbaren Auswertungen und Statstiken. (Stand der Daten: Juni 2021)')
-    with st.beta_expander("Methodik und Datenherkunft"):
+    st.warning('Verwenden Sie einen auf Chromium basierenden Browser.')
+
+st.sidebar.header("Sammlungsteil wählen")
+sammlung = st.sidebar.selectbox(
+    "Über welchen Teil der DBSM-Sammlungen möchten Sie mehr erfahren?",
+    ('Sammlung allgemein', 'Buchbestand', "Geschäftsrundschreiben", "Inkunabeln", "Wasserzeichen")
+)
+st.sidebar.info('Auf diesem Dashboard werden einige Sammlungsteile des [Deutschen Buch- und Schriftmuseums](https://www.dnb.de/dbsm) der [Deutschen Nationalbibliothek](https://www.dnb.de) grafisch ausgewertet und aufbereitet. Wählen Sie links den Sammlungsteil, der Sie interessiert, und Sie erhalten die verfügbaren Auswertungen und Statstiken. (Stand der Daten: Juni 2021). Dieses Dashboard wurde erstellt von [ramonvoges](https://github.com/ramonvoges) und [a-wendler](https://github.com/a-wendler/).')
+
+with st.sidebar.beta_expander("Methodik und Datenherkunft"):
         st.markdown('''
 Datengrundlage ist ein Gesamtabzug der Daten des Buch- und Objektbestands des Deutschen Buch- und Schriftmuseums (DBSM).
 
@@ -307,13 +325,6 @@ Alle Skripte und Daten stehen unter CC0 Lizenz und können frei weitergenutzt we
 Die Daten werden halbjährlich aktualisiert.
 ''')
 
-st.sidebar.header("Sammlungsteil wählen")
-sammlung = st.sidebar.selectbox(
-    "Über welchen Teil der DBSM-Sammlungen möchten Sie mehr erfahren?",
-    ('Sammlung allgemein', 'Buchbestand', "Geschäftsrundschreiben", "Inkunabeln", "Wasserzeichen")
-)
-st.sidebar.info('Dieses Dashboard wurde erstellt von [ramonvoges](https://github.com/ramonvoges) und [a-wendler](https://github.com/a-wendler/) aus dem [Deutschen Buch- und Schriftmuseum](https://www.dnb.de/dbsm) der [Deutschen Nationalbibliothek](https://www.dnb.de).')
-
 allgemein = st.beta_container()
 with allgemein:
     
@@ -326,7 +337,7 @@ with allgemein:
         objektgattungen()
     
     elif sammlung == 'Buchbestand':
-        st.header('Buchbestand')
+        st.header('Museale Buchbestände')
         buchbestand()
     
     elif sammlung == 'Geschäftsrundschreiben':
