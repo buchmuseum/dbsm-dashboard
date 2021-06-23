@@ -239,7 +239,6 @@ def buchbestand():
     count = pd.DataFrame(pd.value_counts(df_zeit.year))
     count = count.rename(columns={'year':'count'}).sort_index()
     count.index.rename('year', inplace=True)
-    st.dataframe(count)
     
     zeit = alt.Chart(count.reset_index()).mark_bar().transform_bin("year_binned", "year", bin=alt.Bin(maxbins=32, extent=[1400,2021])).encode(
         alt.X('year_binned:N', title='Entstehungsjahr', scale=alt.Scale(zero=False)),
