@@ -6,6 +6,8 @@ import pandas as pd
 import altair as alt
 import pydeck as pdk
 import os
+import re
+import roman
 
 path = os.path.dirname(__file__)
 
@@ -198,7 +200,10 @@ def herstellungsorte():
 
 @st.cache
 def buchbestand_data():
-    return pd.read_csv(f'{path}/buchbestand_geo.csv', sep=';', usecols=['idn','year','ort','lat','lon'], index_col='idn')
+    df = pd.read_csv(f'{path}/buchbestand_plus.csv', usecols=['idn','year','verlag_ort','herst_ort_name','seiten','groesse'])
+    orte = pd.read_csv(f'{path}/dbsm_orte.csv')
+    # zuerst werden koordinaten auf herst_ort_name gemappt, dann werden alle zeilen, in denen diese spalte NaN ist, aber verlag_ort existiert, mit verlag_ort gemappt. übrig bleibt ein df, in dem alle zeilen koordinaten haben
+    return pd.concat([df[pd.notna(df['herst_ort_name'])].merge(orte, how='left', left_on='herst_ort_name', right_on='ort'),df[pd.isna(df['herst_ort_name']) & pd.notna(df['verlag_ort'])].merge(orte, how='left', left_on='verlag_ort', right_on='ort')])
 
 def buchbestand():
     with st.beta_expander('Informationen zum Bestand'):
@@ -209,6 +214,7 @@ def buchbestand():
     zeitslider = st.slider('Auswertungszeitraum', min_value=int(df.year.min()), max_value=int(df.year.max()), value=(int(df.year.min()),int(df.year.max())))
     df_zeit = df[(df.year >= zeitslider[0]) & (df.year <= zeitslider[1])]
     df_karte = df_zeit.merge(df_zeit.ort.value_counts(), left_on='ort', right_index=True).drop(['ort_x', 'year'], axis=1).rename({'ort_y':'count'}, axis=1).drop_duplicates(subset='ort').dropna(how='any').sort_values(by='count', ascending=True)
+    df_umfang = df_zeit.seiten.value_counts()
 
     herstellungsorte_map = pdk.Layer(
         'ScatterplotLayer',
@@ -247,6 +253,24 @@ def buchbestand():
         color=alt.Color('count:Q')
     )
     st.altair_chart(zeit, use_container_width=True)
+    df['jahrzehnt'] = (10 * (df['year'] // 10)).astype(str)
+
+    st.subheader('Verteilung des Umfangs')
+    st.write('Je älter die Bücher, desto mehr Seiten haben sie? Nicht ganz: die Wahrscheinlichkeit ist nur größer, dass ein sehr dickes, schweres Buch viele Jahrhunderte überlebt. Kleine, dünne Hefte hingegen verschwinden schneller und waren auch nicht unbedingt dafür gedacht, lange in Bibliotheken aufbewart zu werden.')
+    form = alt.Chart(df.groupby('jahrzehnt').median('seiten').reset_index()).mark_line().encode(
+        alt.X('jahrzehnt:O', axis=alt.Axis(title='Erscheinungsjahr', labelOverlap='greedy')),
+        y = 'seiten:Q',
+        tooltip=[alt.Tooltip('jahrzehnt:O', title='Jahrzehnt'), alt.Tooltip('seiten:Q', title='Median d. Seitenzahl')]
+    )
+    st.altair_chart(form, use_container_width=True)
+
+    st.subheader('Verteilung der Buchgröße')
+    groesse = alt.Chart(df.groupby('jahrzehnt').median('groesse').reset_index()).mark_line().encode(
+        alt.X('jahrzehnt:O', axis=alt.Axis(title='Erscheinungsjahr', labelOverlap='greedy')),
+        y = 'groesse:Q',
+        tooltip=[alt.Tooltip('jahrzehnt:O', title='Jahrzehnt'), alt.Tooltip('groesse:Q', title='Median d. Buchgröße')]
+    )
+    st.altair_chart(groesse, use_container_width=True)
 
 @st.cache
 def wasserzeichen_data():

@@ -104,10 +104,12 @@ def groesse_ermitteln(format):
         return float("NaN")
 
 df = pd.read_csv('buchbestand.csv')
+df = df[df.year.str.len() == 4]
+df = df[~df.year.str.fullmatch('0{4}')]
+
 df['seiten'] = df.umfang.map(seiten_ermitteln, na_action='ignore')
 df['groesse'] = df.format.map(groesse_ermitteln, na_action='ignore')
+df.year = df.year.str.replace('x', '0', case=False)
+df.verlag_ort = df.verlag_ort.str.replace('\[|\]','')
 
-df_filt = df[df.year.str.len() == 4]
-df_filt.year = df_filt.year.str.replace('x', '0', case=False)
-
-df.to_csv('buchbestand_formate.csv', index=None)
+df.to_csv('buchbestand_plus.csv', index=None)
