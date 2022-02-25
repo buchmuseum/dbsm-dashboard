@@ -1,5 +1,3 @@
-from altair.vegalite.v4.api import value
-from numpy.core.fromnumeric import sort
 import streamlit as st
 #import streamlit_analytics
 import pandas as pd
@@ -21,13 +19,13 @@ def rundschreiben_data():
 
 def rundschreiben():
     st.subheader('Buchhändlerische Geschäftsrundschreiben')
-    with st.beta_expander("Informationen zum Bestand"):
+    with st.expander("Informationen zum Bestand"):
         st.markdown('''
 Mit rund 25.000 buchhändlerischen Geschäftsrundschreiben besitzen wir die weltweit größte Sammlung dieser Textgattung. Die meist ein- oder zweiseitig gedruckten Mitteilungen (auch Zirkulare genannt) entstammen überwiegend deutschen, aber auch ausländischen Verlagen und Buchhandlungen. Zeitlich ordnen sich die Zirkulare in die Zeit von 1737 bis zur Mitte des 20. Jahrhunderts ein. Sie belegen zum Beispiel die Gründung oder das Erlöschen einer Firma, die Änderung der Inhaberschaft oder Namensänderungen. [Zur gesamten Sammlung im Katalog des DBSM](https://d-nb.info/dnbn/103243757X).
         ''')
     df = rundschreiben_data()
 
-    filter = st.slider('Zeitraum', min_value=df.index.min()[0], max_value=df.index.max()[0], value=(1850,1900))
+    filter = st.slider('Zeitraum', min_value=int(df.index.min()[0]), max_value=int(df.index.max()[0]), value=(1850,1900))
     
     filt_frame = df.loc[filter[0]:filter[1]].drop_duplicates(subset=['ort_idn']).dropna(how='any').reset_index()
     scatter_layer = pdk.Layer(
@@ -87,7 +85,7 @@ def neueste():
     df = pd.read_csv(f'{path}/erfassung.csv', index_col='idn')
     df.erfassungsdatum = pd.to_datetime(df.erfassungsdatum.str.slice(5), dayfirst=True)
 
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     i = 1
     for index, row in df.nlargest(21, columns='erfassungsdatum')[1:].iterrows():
         text = f'{i}. [{row["titel"]} / {row["person"]}](https://d-nb.info/{index})'
@@ -101,7 +99,7 @@ def neueste():
 
 def inkunabeln():
     st.subheader('Inkunabeldruckorte im DBSM')
-    with st.beta_expander('Informationen zum Bestand'):
+    with st.expander('Informationen zum Bestand'):
         st.markdown('Handschriften, Inkunabeln, Renaissancedrucke, Künstlerbücher und wertvolle Bucheinbände – diese besonderen Bestände befinden sich in den Musealen Buchsammlungen des Deutschen Buch- und Schriftmuseums. 1886 kaufte der sächsische Staat für das gerade gegründete Museum 3.000 historische Drucke des Dresdner Schneiders, Verlegers und Büchersammlers Heinrich Klemm an. Die Klemm-Sammlung bildet den Grundstock für den umfangreichen musealen Buchbestand. [zur ausführlichen Sammlungsbeschreibung](https://www.dnb.de/DE/Sammlungen/DBSM/MusealeBuchsammlungen/musealeBuchsammlungen_node.html)')
     df = pd.read_csv(f'{path}/inkunabel_count.csv')
     ink_all = pdk.Layer(
@@ -206,7 +204,7 @@ def buchbestand_data():
     return pd.concat([df[pd.notna(df['herst_ort_name'])].merge(orte, how='left', left_on='herst_ort_name', right_on='ort'),df[pd.isna(df['herst_ort_name']) & pd.notna(df['verlag_ort'])].merge(orte, how='left', left_on='verlag_ort', right_on='ort')])
 
 def buchbestand():
-    with st.beta_expander('Informationen zum Bestand'):
+    with st.expander('Informationen zum Bestand'):
         st.markdown('Handschriften, Inkunabeln, Renaissancedrucke, Künstlerbücher und wertvolle Bucheinbände – diese besonderen Bestände befinden sich in den Musealen Buchsammlungen des Deutschen Buch- und Schriftmuseums. 1886 kaufte der sächsische Staat für das gerade gegründete Museum 3.000 historische Drucke des Dresdner Schneiders, Verlegers und Büchersammlers Heinrich Klemm an. Die Klemm-Sammlung bildet den Grundstock für den umfangreichen musealen Buchbestand. [zur ausführlichen Sammlungsbeschreibung](https://www.dnb.de/DE/Sammlungen/DBSM/MusealeBuchsammlungen/musealeBuchsammlungen_node.html)')
 
 
@@ -278,7 +276,7 @@ def wasserzeichen_data():
 
 def wasserzeichen():
     df = wasserzeichen_data()
-    with st.beta_expander('Informationen zur Sammlunge'):
+    with st.expander('Informationen zur Sammlunge'):
         st.markdown('''Unsere Wasserzeichensammlung ist mit mehr als 400.000 Exemplaren die weltweit größte Sammlung dieser Art. 1897 begann Karl Theodor Weiß (1872–1945) damit, nach wissenschaftlichen Gesichtspunkten Wasserzeichen zusammenzutragen. 1957 bot sein Sohn Wisso Weiß (1904–1991) diese Sammlungen zum Kauf an. Sie kamen in den Besitz des Deutschen Papiermuseums in Greiz (Thüringen). Seit 1964 sind dessen Bestände Eigentum des Deutschen Buch- und Schriftmuseums der Deutschen Nationalbibliothek.
 Die Sammlungen enthalten sowohl originale Papiere als auch Reproduktionen von Wasserzeichen (Handpausen oder Kopien). Sie dienen als Grundlage für die Echtheitsprüfung sowie die Herkunfts- und Altersbestimmung von Papieren. [zur Sammlung im Katalog des DBSM](https://portal.dnb.de/opac.htm?method=simpleSearch&cqlMode=true&query=idn%3D1048061809)''')
     st.subheader('Verwendungszeitraum der Wasserzeichenbelege')
@@ -323,7 +321,7 @@ Die Sammlungen enthalten sowohl originale Papiere als auch Reproduktionen von Wa
 
 st.title('DBSM Dashboard')
 
-with st.beta_container():
+with st.container():
     st.warning('Verwenden Sie einen auf Chromium basierenden Browser.')
 
 st.sidebar.header("Sammlungsteil wählen")
@@ -333,7 +331,7 @@ sammlung = st.sidebar.selectbox(
 )
 st.sidebar.info('Auf diesem Dashboard werden einige Sammlungsteile des [Deutschen Buch- und Schriftmuseums](https://www.dnb.de/dbsm) der [Deutschen Nationalbibliothek](https://www.dnb.de) grafisch ausgewertet und aufbereitet. Wählen Sie links den Sammlungsteil, der Sie interessiert, und Sie erhalten die verfügbaren Auswertungen und Statstiken. (Stand der Daten: Juni 2021). Dieses Dashboard wurde erstellt von [ramonvoges](https://github.com/ramonvoges) und [a-wendler](https://github.com/a-wendler/).')
 
-with st.sidebar.beta_expander("Methodik und Datenherkunft"):
+with st.sidebar.expander("Methodik und Datenherkunft"):
         st.markdown('''
 Datengrundlage ist ein Gesamtabzug der Daten des Buch- und Objektbestands des Deutschen Buch- und Schriftmuseums (DBSM).
 
@@ -348,7 +346,7 @@ Alle Skripte und Daten stehen unter CC0 Lizenz und können frei weitergenutzt we
 Die Daten werden halbjährlich aktualisiert.
 ''')
 
-allgemein = st.beta_container()
+allgemein = st.container()
 with allgemein:
     
     #allgemeine statistiken

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dbsm-dashboard"
+version = "0.1.0"
+description = ""
+authors = ["André Wendler <andre.wendler@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+altair = "^4.2.0"
+pydeck = "^0.7.1"
+pandas = "^1.4.1"
+roman = "^3.3"
+streamlit = "^1.6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
